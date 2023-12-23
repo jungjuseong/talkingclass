@@ -119,7 +119,7 @@ class UserApiControllerTest {
                 .userName("사용자")
                 .email(TEST_EMAIL)
                 .password(TEST_PASSWORD)
-                .roleId(Role.USER.getKey())
+                .roleId(Role.TEACHER.getKey())
                 .userStateCode("01")
                 .build();
         userService.save(userSaveRequestDto);
@@ -139,7 +139,7 @@ class UserApiControllerTest {
         UserUpdateRequestDto userUpdateRequestDto = UserUpdateRequestDto.builder()
                 .userName("사용자수정")
                 .email(TEST_EMAIL)
-                .roleId(Role.USER.getKey())
+                .roleId(Role.TEACHER.getKey())
                 .userStateCode("01")
                 .build();
 
@@ -604,7 +604,7 @@ class UserApiControllerTest {
                     .encryptedPassword(ENCRYPTED_PASSWORD)
                     .userName(USER_NAME_PREFIX + i)
                     .email(i + TEST_COM)
-                    .role(Role.USER)
+                    .role(Role.TEACHER)
                     .userStateCode(UserStateCode.NORMAL.getKey())
                     .build()));
         }
@@ -638,7 +638,7 @@ class UserApiControllerTest {
                 .encryptedPassword(ENCRYPTED_PASSWORD)
                 .userName(USER_NAME_PREFIX + "1")
                 .email(userData.get("email") != null ? (String) userData.get("email") : "1" + TEST_COM)
-                .role(Role.USER)
+                .role(Role.TEACHER)
                 .userStateCode(UserStateCode.NORMAL.getKey())
                 .build());
     }
