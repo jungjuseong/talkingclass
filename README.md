@@ -1,18 +1,18 @@
 # 서울시교육청 talkingclass
 
 ## 폴더 명
-
+```
 ${HOME}/workspace/talkingclass
-
+```
 ## 실행 방법
-
+```
 ./run-docker.sh
 ./backend/run-service.sh
 
 cd ./frontend/admin
 npm i
 npm run dev
-
+```
 
 
 
