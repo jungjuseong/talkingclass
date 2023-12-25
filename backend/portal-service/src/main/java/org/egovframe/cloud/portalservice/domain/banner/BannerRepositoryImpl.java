@@ -26,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * org.egovframe.cloud.portalservice.domain.banner.BannerRepositoryImpl
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/08/18
  *
@@ -35,7 +35,7 @@ import lombok.RequiredArgsConstructor;
  *
  *    수정일       수정자              수정내용
  *  ----------    --------    ---------------------------
- *  2021/08/18    jooho       최초 생성
+ *  2021/08/18    seohan       최초 생성
  * </pre>
  */
 @RequiredArgsConstructor

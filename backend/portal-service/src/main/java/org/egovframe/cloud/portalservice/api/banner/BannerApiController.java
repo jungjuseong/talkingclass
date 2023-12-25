@@ -19,7 +19,7 @@ import java.util.Map;
  * <p>
  * 배너 Rest API 컨트롤러 클래스
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/08/18
  *
@@ -28,7 +28,7 @@ import java.util.Map;
  *
  *    수정일       수정자              수정내용
  *  ----------    --------    ---------------------------
- *  2021/08/18    jooho       최초 생성
+ *  2021/08/18    seohan       최초 생성
  * </pre>
  */
 @RequiredArgsConstructor

@@ -10,7 +10,7 @@ import org.egovframe.cloud.portalservice.domain.privacy.Privacy;
  * <p>
  * 개인정보처리방침 상세 응답 DTO 클래스
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/07/23
  *
@@ -19,7 +19,7 @@ import org.egovframe.cloud.portalservice.domain.privacy.Privacy;
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/23    jooho       최초 생성
+ *  2021/07/23    seohan       최초 생성
  * </pre>
  */
 @Getter

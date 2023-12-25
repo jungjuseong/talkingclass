@@ -11,7 +11,7 @@ import java.io.Serializable;
  * <p>
  * 배너 이미지 응답 DTO 클래스
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/09/03
  *
@@ -20,7 +20,7 @@ import java.io.Serializable;
  *
  *    수정일       수정자              수정내용
  *  ----------    --------    ---------------------------
- *  2021/09/03    jooho       최초 생성
+ *  2021/09/03    seohan       최초 생성
  * </pre>
  */
 @Getter

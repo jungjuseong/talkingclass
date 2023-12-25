@@ -24,7 +24,7 @@ import java.util.List;
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/08    jooho       최초 생성
+ *  2023/12/24   jooho       최초 생성
  * </pre>
  */
 public class RestResponsePage<T> extends PageImpl<T> {

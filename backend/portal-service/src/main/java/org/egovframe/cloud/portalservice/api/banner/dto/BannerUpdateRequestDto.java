@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
  * <p>
  * 배너 수정 요청 DTO 클래스
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/07/08
  *
@@ -18,7 +18,7 @@ import javax.validation.constraints.NotBlank;
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/08    jooho       최초 생성
+ *  2023/12/24   seohan       최초 생성
  * </pre>
  */
 @Getter

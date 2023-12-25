@@ -62,7 +62,7 @@ class ContentApiControllerTest {
 	 * 컨텐츠 레파지토리 인터페이스
 	 */
 	@Autowired
-	ContentRepository contentRepository;
+	LessonDialogRepository contentRepository;
 
 	/**
 	 * 컨텐츠 API 경로

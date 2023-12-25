@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * <p>
  * 개인정보처리방침 레파지토리 인터페이스
  *
- * @author 표준프레임워크센터 jooho
+ * @author 정서한
  * @version 1.0
  * @since 2021/07/23
  *
@@ -16,7 +16,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/23    jooho       최초 생성
+ *  2021/07/23    seohan       최초 생성
  * </pre>
  */
 public interface PrivacyRepository extends JpaRepository<Privacy, Integer>, PrivacyRepositoryCustom {

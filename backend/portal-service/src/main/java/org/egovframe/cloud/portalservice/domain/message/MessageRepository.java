@@ -9,14 +9,14 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author 표준프레임워크센터 jaeyeolkim
  * @version 1.0
- * @since 2021/07/22
+ * @since 2023/12/24
  *
  * <pre>
  * << 개정이력(Modification Information) >>
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/22    jaeyeolkim  최초 생성
+ *  2023/12/24    jaeyeolkim  최초 생성
  * </pre>
  */
 public interface MessageRepository extends JpaRepository<Message, String>, MessageRepositoryCustom {

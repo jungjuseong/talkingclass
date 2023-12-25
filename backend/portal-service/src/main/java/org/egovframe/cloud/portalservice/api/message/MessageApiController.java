@@ -20,14 +20,14 @@ import java.util.Map;
  *
  * @author 표준프레임워크센터 jaeyeolkim
  * @version 1.0
- * @since 2021/07/22
+ * @since 2023/12/24
  *
  * <pre>
  * << 개정이력(Modification Information) >>
  *
  *     수정일        수정자           수정내용
  *  ----------    --------    ---------------------------
- *  2021/07/22    jaeyeolkim  최초 생성
+ *  2023/12/24    jaeyeolkim  최초 생성
  * </pre>
  */
 @RequiredArgsConstructor // final이 선언된 모든 필드를 인자값으로 하는 생성자를 대신 생성하여, 빈을 생성자로 주입받게 한다.
