@@ -1,0 +1,601 @@
+의소코드	2단계 지시문 및 대화
+step2-1-D1;자라나에게 내일 영화를 보러 가자고 물어보세요.
+step2-1-1;Why don’t we [go to the movies] tomorrow?
+step2-1-2;I’d love to. How about 3 o’clock?
+step2-1-D2;자라나의 제안에 좋다고 하고 3시에 만나는 게 어떤지 제안하세요.
+step2-1-3;Why don’t we go to the movies tomorrow?
+step2-1-4;I’d love to. How about [3 o’clock]?
+step2-2-D1;자라나에게 가장 좋아하는 과목을 물어 보세요.
+step2-2-1;What’s your [favorite subject]?
+step2-2-2;My favorite subject is English.
+step2-2-D2;자라나에게 가장 좋아하는 과목이 영어라고 말해보세요.
+step2-2-3;What’s your favorite subject?
+step2-2-4;My favorite subject is [English].
+step2-3-D1;자라나에게 관심사에 대해 물어보세요.
+step2-3-1;What are you [interested in]?
+step2-3-2;I’m interested in basketball.
+step2-3-D2;자라나에게 농구에 흥미가 있다고 답해보세요.
+step2-3-3;What are you interested in?
+step2-3-4;I’m interested in [basketball].
+step2-4-D1;자라나에게 SNS에 대한 의견을 물어보세요.
+step2-4-1;What is your opinion about [social media]?
+step2-4-2;It’s good for relationships.
+step2-4-D2;자라나의 질문에 관계를 위해 좋다고 답해보세요.
+step2-4-3;What is your opinion about social media?
+step2-4-4;It’s good for [relationships].
+step2-5-D1;자라나에게 그녀가 스카프를 좋아할지 궁금하다고 물어 보세요.
+step2-5-1;I wonder if she likes [the scarf].
+step2-5-2;I think she will.
+step2-5-D2;자라나에게 좋아할 것 같다고 답해보세요.
+step2-5-3;I wonder if she likes the scarf.
+step2-5-4;I think she will.
+step2-6-D1;자라나에게 K-pop이 무엇인지 물어보세요.
+step2-6-1;[What is] K-pop?
+step2-6-2;It is short for Korean pop music.
+step2-6-D2;자라나에게 한복은 한국의 전통 의상이라고 설명해보세요.
+step2-6-3;What is Hanbok?
+step2-6-4;It is a Korean [traditional clothing].
+step2-7-D1;자라나에게 자판기 사용법을 알고 있는지 물어보세요.
+step2-7-1;[Do you know] how to use a [vending machine]?
+step2-7-2;I don’t know how to use it. I’m sorry.
+step2-7-D2;자라나에게 바이올린을 켤 줄 안다고 답해보세요.
+step2-7-3;Do you know how to play the violin?
+step2-7-4;Yes, [I do.]
+step2-8-D1;자라나에게 내 목이 아프다고 이야기 해보세요.
+step2-8-1;My [neck hurts.]
+step2-8-2;Really? I think you should go see a doctor.
+step2-8-D2;자라나에게 영어를 매일 연습하라고 충고해보세요.
+step2-8-3;I’m not good at English. What should I do?
+step2-8-4;I think [you should practice English every day.]
+step2-9-D1;자라나에게 나의 영어 숙제를 도와줄 수 있는지 물어보세요.
+step2-9-1;Can you [help m|with my English homework]?
+step2-9-2;Sure, I can.
+step2-9-D2;자라나를 위해 우편을 보낼 수 있다고 답해보세요.
+step2-9-3;Can you mail this letter for me?
+step2-9-4;<Sure|No problem|Yes, I can>.
+step2-10-D1;자라나에게 한국어를 할 수 있는지 물어보세요.
+step2-10-1;Can you [speak][Korean]?
+step2-10-2;Yes, I can. “한국말 할 수 있어요.”
+step2-10-D2;자라나에게 영어로 말할 수 있다고 답해보세요.
+step2-10-3;Can you speak English?
+step2-10-4;Yes, I can|No, I can’t.
+step2-11-D1;자라나에게 소고기와 돼지고기중 무엇을 선호하는지 물어보세요.
+step2-11-1;Which do you prefer, [beef] or [pork]?
+step2-11-2;I prefer pork.
+step2-11-D2;자라나에게 소고기를 선호한다고 말해 보세요.
+step2-11-3;Which do you prefer, beef or pork?
+step2-11-4;I prefer [beef].
+step2-12-D1;자라나에게 영어를 배우는 이유를 물어보세요.
+step2-12-1;[Why do you] learn English?
+step2-12-2;Because I can communicate with people from other countries.
+step2-12-D2;자라나에게 전화를 잃어버렸기 때문이라는 이유를 말해 보세요.
+step2-12-3;Why do you look so sad?
+step2-12-4;Because [I lost my phone.]
+step2-13-D1;자라나에게 제주도로 여행을 갈 계획인지 물어보세요.
+step2-13-1;Are you going to [travel to Jeju]?
+step2-13-2;Yes, I am looking forward to it.
+step2-13-D2;자라나에게 소풍을 기대한다고 말해 보세요.
+step2-13-3;Are you going to go on a picnic?
+step2-13-4;Yes, I [am looking forward to] it.
+step2-14-D1;자라나에게 주말 계획을 물어보세요.
+step2-14-1;[What are you going to do] this weekend?
+step2-14-2;I am going to go shopping.
+step2-14-D2;자라나에게 운동을 할 계획이라고 말해 보세요.
+step2-14-3;What are you going to do this weekend?
+step2-14-4;I am going to [play sports].
+step2-15-D1;자라나에게 빵집에 가는 길을 물어보세요.
+step2-15-1;[How can I get to] the bakery?
+step2-15-2;Go straight three blocks and turn left.
+step2-15-D2;자라나에게 한 블럭을 직진한 후 좌회전하라고 말해 보세요.
+step2-15-3;How can I get to the police station?
+step2-15-4;[Go straight one block] and [turn left].
+step2-16-D1;자라나에게 불고기를 권해보세요.
+step2-16-1;[Would you like some] bulgogi?
+step2-16-2;Yes, please.
+step2-16-D2;자라나가 권해주는 음식을 거절해보세요.
+step2-16-3;Would you like some french fries?
+step2-16-4;[No, thanks].
+step2-17-D1;자라나의 내일 계획을 물어보세요.
+step2-17-1;Do you [have any plans] for tomorrow?
+step2-17-2;I will go to my friend’s house. I’m looking forward to it.
+step2-17-D2;자라나에게 친구들과 축구를 할 것이고, 그것을 기대중이라고 답해보세요.
+step2-17-3;Do you have any plans for tomorrow?
+step2-17-4;I will [play soccer with my friends]. [I’m looking forward to it].
+step2-18-D1;자라나에게 안부를 물어보세요.
+step2-18-1;How [are you doing]?
+step2-18-2;I’m great. Thanks!
+step2-18-D2;자라나의 안부 묻기에 “좋지 않아”라고 답해보세요.
+step2-18-3;How are you doing?
+step2-18-4;Not good.
+step2-20-D1;자라나에게 문을 닫아도 되냐고 허락을 구해보세요.
+step2-20-1;Do you mind if I [close the door]?
+step2-20-2;Sure, go ahead.
+step2-20-D2;자라나의 허락 요청에 괜찮다고 대답해보세요.
+step2-20-3;Do you mind if I use this pen?
+step2-20-4;<Not at all|Sure, go ahead>.
+step2-21-D1;자라나에게 부산에 가본 적이 있는지 물어 보세요.
+step2-21-1;Have you ever been to [Busan]?
+step2-21-2;No, I haven’t.
+step2-21-D2;자라나에게 부산에 가본 적이 없다고 답해보세요.
+step2-21-3;Have you ever been to Busan?
+step2-21-4;No, I [haven’t].
+step2-22-D1;자라나에게 박물관에서 사진을 찍어도 되는지 물어 보세요.
+step2-22-1;May I take pictures in the [museum]?
+step2-22-2;You must not take pictures here.
+step2-22-D2;자라나에게 박물관에서 사진을 찍을 수 없다고 답해 주세요.
+step2-22-3;May I take pictures in the museum?
+step2-22-4;You must not [take pictures] here.
+step2-23-D1;자라나에게 여행에서 무엇이 놀라웠는지 물어 보세요.
+step2-23-1;What surprised you at the [trip]?
+step2-23-2;I was surprised by nature.
+step2-23-D2;자라나에게 자연이 놀라웠다고 답해보세요.
+step2-23-3;What surprised you at the trip?
+step2-23-4;I was surprised by [nature].
+step2-24-D1;자라나에게 내가 스포츠 데이에 가지고 와야 할 것을 물어 보세요.
+step2-24-1;What should I bring on a [sports] day?
+step2-24-2;Don’t forget to bring water.
+step2-24-D2;자라나에게 물을 가지고 오는 걸 잊지 말라고 상기시켜주세요.
+step2-24-3;What should I bring on a sports day?
+step2-24-4;Don’t forget to bring [water].
+step2-25-D1;자라나에게 십분후에 전화를 해달라고 부탁하세요.
+step2-25-1;Can I ask you to call me back [in 10 minutes]?
+step2-25-2;Okay. I’ll call you back later.
+step2-25-D2;자라나에게 나중에 다시 전화하겠다고 답하세요.
+step2-25-3;Can I ask you to call me back in 10 minutes?
+step2-25-4;Okay. I’ll call you back [later].
+step2-26-D1;자라나에게 내일 엄마 생신을 위한 조언을 구해보세요.
+step2-26-1;Tomorrow is my mom’s birthday. What [should I do]?
+step2-26-2;Why don’t you buy flowers?
+step2-26-D2;자라나에게 야채를 더 넣으라고 조언을 해보세요.
+step2-26-3;I want to make a healthy sandwich. What should I do?
+step2-26-4;Why don’t you [pu|more vegetables]?
+step2-27-D1;자라나에게 이 그림에 대해서 어떻게 생각하는지 물어보세요.
+step2-27-1;What do you [think abou|this painting]?
+step2-27-2;I think the sunflowers are beautiful.
+step2-27-D2;자라나에게 오늘 학교 급식이 맛있다고 의견을 표현해보세요.
+step2-27-3;What do you think about today’s school lunch?
+step2-27-4;I think it is [delicious].
+step2-28-D1;자라나에게 내 생일파티에 참석할 수 있는지 물어보세요.
+step2-28-1;Can you [come to my birthday party]?
+step2-28-2;Yes, I can.
+step2-28-D2;자라나에게 사진을 찍을 수 없다고 답해보세요.
+step2-28-3;Can I take a picture there?
+step2-28-4;No, you [can’t].
+step2-29-D1;자라나에게 기대할 만한 무슨 일이 있는지 물어보세요.
+step2-29-1;What’s going on?
+step2-29-2;I’m looking forward to the summer vacation.
+step2-29-D2;자라나에게 이번 주말이 기대된다고 표현해보세요.
+step2-29-3;It is Friday today!
+step2-29-4;I’m [looking forward t|this weekend].
+step2-30-D1;자라나에게 목이 마르다고 말해보세요.
+step2-30-1;I am [thirsty].
+step2-30-2;Make sure you drink enough water.
+step2-30-D2;자라나에게 약을 먹으라고 당부해보세요.
+step2-30-3;I feel sick.
+step2-30-4;[Make sure] you [tak|some medicine].
+step2-31-D1;자라나에게 드레스에 대한 만족도를 물어 보세요.
+step2-31-1;[How do you like] this dress?
+step2-31-2;I like it. I like its color and design.
+step2-31-D2;자라나에게 만족감을 표현한 후, ‘모양’이 만족스럽다는 것을 말해보세요.
+step2-31-3;How do you like this hat?
+step2-31-4;I [like it]. I like [its shape].
+step2-32-D1;자라나에게 무슨일이 있는지 물어 보세요.
+step2-32-1;What’s [the matter]?
+step2-32-2;I am worried about my sister.
+step2-32-D2;자라나에게 수학 시험이 걱정된다고 말해 보세요.
+step2-32-3;What’s the matter?
+step2-32-4;I am worried about the [math exam].
+step2-33-D1;자라나에게 지난 주말에 한 일을 물어보세요.
+step2-33-1;[What did you do] last weekend?
+step2-33-2;I went swimming.
+step2-33-D2;자라나에게 친구들과 농구를 했었다고 말해 보세요.
+step2-33-3;What did you do last weekend?
+step2-33-4;I [played basketball] with my friends.
+step2-34-D1;자라나에게 축구 시합에 참가할 것이라고 말해 보세요.
+step2-34-1;I am going to [enter a soccer match].
+step2-34-2;I will keep my fingers crossed for you.
+step2-34-D2;자라나에게 행운을 비는 말을 해 주세요.
+step2-34-3;I have a math test tomorrow.
+step2-34-4;I will [keep my fingers crossed for you].
+step2-35-D1;자라나에게 피자는 맛있다는 의견을 말해 보세요.
+step2-35-1;[I think] pizza is delicious.
+step2-35-2;Well, I don’t think so. It is too salty.
+step2-35-D2;자라나에게 반대한다고 말한 다음, 쉽기 때문이라는 이유도 말해 보세요.
+step2-35-3;I think math is hard.
+step2-35-4;[Well, I don’t think so]. It is [easy].
+step2-36-D1;자라나에게 영어가 최고의 과목이라는 의견을 말해보세요.
+step2-36-1;In my opinion, English is the best [subject].
+step2-36-2;I agree with you.
+step2-36-D2;자라나의 의견에 동의하거나 반대해보세요.
+step2-36-3;In my opinion, basketball is the best sport.
+step2-36-4;<I [agree with] you|I don’t agree with you>.
+step2-38-D1;자라나에게 본인의 이름을 말해주고, 나는 1학년이라고 말해보세요.
+step2-38-1;Hi, [I’m] <John|Park|Minho> I’m in <first|second|third> [grade].
+step2-38-2;Nice to meet you.
+step2-38-D2;자라나의 자기소개에 만나서 반갑다고 대답해보세요.
+step2-38-3;Hi, I’m Jarana. I’m in first grade.
+step2-38-4;<Nice to mee|Glad to meet> you.
+step2-40-D1;자라나에게 오늘 무엇에 대해 이야기할 것인지 주제에 대해 물어보세요.
+step2-40-1;What [are you going to] talk about?
+step2-40-2;I’d like to tell you about my dog.
+step2-40-D2;자라나에게 나의 가족에 대해 말해보고 싶다고 주제를 소개해보세요.
+step2-40-3;What are you going to talk about?
+step2-40-4;[I’d like to] tell you about my family.
+step2-41-D1;자라나에게 메뉴에서 음식을 추천해달라고 하세요. .
+step2-41-1;Can you recommend something from the menu?
+step2-41-2;I recommend that you try tomato pasta.
+step2-41-D2;자라나에게 토마토 파스타를 추천해주세요.
+step2-41-3;Can you recommend something from the menu?
+step2-41-4;I recommend that you try tomato pasta.
+step2-42-D1;자라나에게 비가 올 것인지 물어 보세요.
+step2-42-1;Is it going to [rain]?
+step2-42-2;Yes. I’m sure it’s going to rain soon.
+step2-42-D2;자라나에게 비가 확실히 올 것이라고 말해보세요.
+step2-42-3;Is it going to rain?
+step2-42-4;Yes. I’m [sure] it’s going to rain soon.
+step2-43-D1;자라나에게 청소를 도와줄 수 있다고 말해 보세요.
+step2-43-1;Can I help you with [cleaning]?
+step2-43-2;I appreciate your help.
+step2-43-D2;자라나에게 도와 주어 고맙다고 답해보세요.
+step2-43-3;Can I help you with cleaning?
+step2-43-4;I [appreciate] your help.
+step2-45-D1;자라나에게 라면 끓이는 방법을 물어 보세요.
+step2-45-1;Can you tell me how to cook ramyeon?
+step2-45-2;First, boil the water.
+step2-45-D2;자라나에게 처음으로 물을 끓이라고 답해보세요.
+step2-45-3;Can you tell me how to cook ramyeon?
+step2-45-4;First, boil the water.
+step2-46-D1;자라나에게 음식이 너무 짜 마음에 들지 않는다고 말해보세요.
+step2-46-1;How do you like your food?
+step2-46-2;I’m [not reall|happy wit|food]. It’s [too salty].
+step2-46-D2;자라나에게 파티가 어땠는지 물어보세요.
+step2-46-3;How do you like [the party]?
+step2-46-4;I’m not really happy with it. I didn’t know anyone.
+step2-47-D1;자라나에게 언제, 어디서 만날지 물어보세요.
+step2-47-1;[What time] and [wher|should] we [meet]?
+step2-47-2;Let’s meet at 8 A.M. in front of the school.
+step2-47-D2;자라나에게 그 카페 앞에서 오후 3시에 만나자고 약속해보세요.
+step2-47-3;What time and where should we meet?
+step2-47-4;Let’s meet [at 3 P.M./in front o|the cafe].
+step2-48-D1;자라나에게 가장 친한 친구가 어떻게 생겼는지 물어보세요.
+step2-48-1;What does [your best frien|look like]?
+step2-48-2;He has brown hair and wears glasses.
+step2-48-D2;자라나에게 내 고양이는 작고 검은색이라고 묘사해보세요.
+step2-48-3;What does your cat look like?
+step2-48-4;It is [small] and [has black hair].
+step2-49-D1;자라나에게 물을 아껴야 한다고 도덕적 의무를 표현해보세요.
+step2-49-1;You [have to|save water].
+step2-49-2;Okay, I will.
+step2-49-D2;자라나에게 매일 한 시간씩 운동을 해야한다고 표현해보세요.
+step2-49-3;You [have t|exercise for one hour] every day.
+step2-49-4;I will try to do that.
+step2-50-D1;자라나에게 무슨 일이냐고 물어보세요.
+step2-50-1;You [look upset]. [What|happened]?
+step2-50-2;I’m upset with my dog. He ate my homework!
+step2-50-D2;자라나에게 오빠가 내 휴대전화를 떨어뜨려서 화가난 감정을 표현해보세요.
+step2-50-3;You look upset. What happened?
+step2-50-4;My brother [droppe|my phone]. I’m upset [with him]
+step2-51-D1;자라나에게 가수가 되려면 무엇을 해야하는지 물어 보세요.
+step2-51-1;[What should I do to] be good at English?
+step2-51-2;It is important to learn new words.
+step2-51-D2;자라나에게 열심히 연습하는 것이 중요하다고 말해 주세요.
+step2-51-3;What should I do to be good at soccer?
+step2-51-4;It is important to [practice hard].
+step2-53-D1;자라나에게 숙제를 도와줘서 고맙다고 말해 보세요.
+step2-53-1;Thanks for [helping me with my homework].
+step2-53-2;You’re welcome.
+step2-53-D2;자라나의 감사에 적절히 답해 보세요.
+step2-53-3;Thanks for being a great friend.
+step2-53-4;[You’re welcome].
+step2-54-D1;자라나에게 기분을 물어보세요.
+step2-54-1;How are you feeling?
+step2-54-2;I feel great.
+step2-54-D2;자라나에게 슬프다고 말해 보세요.
+step2-54-3;How are you feeling?
+step2-54-4;I feel [sad].
+step2-55-D1;자라나에게 부산의 날씨에 대해 물어보세요.
+step2-55-1;[How’s the weather] in Busan?
+step2-55-2;It is cloudy.
+step2-55-D2;자라나에게 날씨가 따뜻하다고 말해주세요.
+step2-55-3;How’s the weather in Jejudo?
+step2-55-4;It is [warm].
+step2-56-D1;자라나에게 ‘그’가 누군지 물어보세요.
+step2-56-1;[Who is] he?
+step2-56-2;He is my friend, Jinho.
+step2-56-D2;자라나의 질문에 그녀는 나의 이모라고 답해보세요.
+step2-56-3;Who is she?
+step2-56-4;She is my [aunt].
+step2-57-D1;자라나에게 수업중엔 조용히 해야 한다고 의무를 말해주세요.
+step2-57-1;You should be [quiet during the class].
+step2-57-2;Okay, I will.
+step2-57-D2;자라나가 의무를 알려주면, 알겠다고 대답해보세요.
+step2-57-3;You should pay attention to the class.
+step2-57-4;Okay, I will|I’m sorry. I see it now.
+step2-59-D1;자라나에게 내일 점심 메뉴는 스파게티라고 말해주세요.
+step2-59-1;I heard that [tomorrow’s lunch menu] is spaghetti.
+step2-59-2;Then, I should eat a lot tomorrow.
+step2-59-D2;자라나가 들려주는 소식에 시합을 놓치지 말아야겠다고 응답해보세요.
+step2-59-3;I heard that the Korean soccer team is playing against Japan tomorrow.
+step2-59-4;Then, I should [not miss it].
+step2-60-D1;자라나에게 컴퓨터를 어떻게 사용하는지 물어보세요.
+step2-60-1;How do I use this [computer]?
+step2-60-2;First, turn it on. Second, click on what you want. Third, use the keyboard to type.
+step2-60-D2;자라나에게 씨앗을 심는 법을 단계별로 알려주세요. (힌트를 참고하세요!)
+step2-60-3;How do I plant a seed?
+step2-60-4;First, [dig a hole in the ground]. Second, [put the seed in]. Third, [cover it with soil].
+step2-61-D1;자라나에게 도서관이 어디에 있는지 물어 보세요.
+step2-61-1;Where can I find the library?
+step2-61-2;You can find it on the first floor.
+step2-61-D2;자라나에게 1층에 있다고 답해보세요.
+step2-61-3;Where can I find the library?
+step2-61-4;You can find it on the first floor.
+step2-62-D1;자라나에게 지구를 위해 무엇을 할 것인지 물어 보세요.
+step2-62-1;What will you do for the earth?
+step2-62-2;I will reduce trash.
+step2-62-D2;자라나에게 쓰레기를 줄일 것이라고 답해보세요.
+step2-62-3;What will you do for the earth?
+step2-62-4;I will reduce trash.
+63	"자라나에게 어떤 종류의 음악을 듣는지 물어 보세요..
+S: What kind of music do you listen to?
+AI: I listen to K-pop. 
+자라나에게 K-pop을 듣는다고 말해보세요.
+AI: What kind of music do you listen to?
+S: I listen to K-pop."
+step2-64-D1;자라나에게 내 폰이 어디있는지 물어 보세요.
+step2-64-1;Where is my phone?
+step2-64-2;There is a phone on the desk.
+step2-64-D2;자라나에게 책상에 폰이 하나 있다고 말해 보세요.
+step2-64-3;Where is my phone?
+step2-64-4;There is a phone on the desk.
+step2-65-D1;자라나에게 생일을 축하한다고 말해보세요.
+step2-65-1;Congratulations on your birthday.
+step2-65-2;Thanks a lot.
+step2-65-D2;자라나에게 정말 고맙다고 말해보세요.
+step2-65-3;Congratulations on your birthday.
+step2-65-4;Thanks a lot.
+step2-66-D1;자라나에게 무엇을 하고 있는지 물어보세요.
+step2-66-1;What are you [doing]?
+step2-66-2;I’m taking pictures now.
+step2-66-D2;자라나에게 지금 방 청소를 하고 있다고 말해보세요.
+step2-66-3;What are you doing?
+step2-66-4;I’m [cleaning my room].
+step2-67-D1;자라나에게 자리를 옮길 수 없다고 말해보세요.
+step2-67-1;May I move my seat?
+step2-67-2;No, you [may not].
+step2-67-D2;자라나에게 사진을 찍어도 되는지 물어보세요.
+step2-67-3;[May] I [take a picture]?
+step2-67-4;You may take pictures at the end.
+step2-68-D1;자라나에게 과학을 좋아하지 않는지 확인해보세요.
+step2-68-1;You like science, don’t you?
+step2-68-2;No, I don’t. I like English!
+step2-68-D2;자라나의 확인 요청에 답해보세요.
+step2-68-3;You look different. You got a haircut, right?
+step2-68-4;<No, I didn’t|Yes, I did>.
+step2-69-D1;자라나에게 어제 공부를 더 열심히 했어야 한다고 말해보세요.
+step2-69-1;You got C on your test?
+step2-69-2;I [should have studied harder] yesterday.
+step2-69-D2;자라나에게 편지를 썼어야 한다고 말해보세요.
+step2-69-3;I heard that Sion left Korea yesterday.
+step2-69-4;I [should have written a letter].
+step2-70-D1;자라나에게 자라나의 모자가 얼마인지 물어보세요.
+step2-70-1;[How much] is [your hat]?
+step2-70-2;It’s 20,000 won.
+step2-70-D2;자라나에게 필통이 7천원이라고 말해보세요.
+step2-70-3;How much is this pencil case?
+step2-70-4;It’s [7,000 won].
+step2-72-D1;자라나에게 요리를 잘하고 싶지만 너무 어렵다고 말해 보세요.
+step2-72-1;I want to [cook well], but it’s so hard.
+step2-72-2;Don’t give up. You can do it!
+step2-72-D2;자라나에게 포기하지말고 계속 시도해 보라는 격려의 말을 해주세요.
+step2-72-3;I want to be good at math, but it’s so hard.
+step2-72-4;Don’t [give up]. [Keep trying].
+step2-76-D1;자라나에게 이 펜이 얼마인지 물어보세요.
+step2-76-1;How much is this [pen]?
+step2-76-2;It’s 2 dollars.
+step2-76-D2;자라나에게 과자의 가격이 3달러라고 답해보세요.
+step2-76-3;How much is this [cracker]?
+step2-76-4;It’s 3 dollars.
+step2-77-D1;자라나에게 Mr. Smith가 뭐라고 했는지 물어보세요.
+step2-77-1;What did [Mr. Smith] say?
+step2-77-2;He said we are going to have snacks for lunch tomorrow.
+step2-77-D2;자라나에게 Minho가 내일 학교에 나오지 못한다고 했다고 전해보세요.
+step2-77-3;What did Minho say?
+step2-77-4;He said he [can’t come to school] tomorrow.
+step2-78-D1;자라나에게 서울과 대구 중 어느 곳이 더 더운지 물어보세요.
+step2-78-1;Which is hotter, Seoul or Daegu?
+step2-78-2;Daegu is hotter than Seoul.
+step2-78-D2;자라나에게 치타가 코끼리보다 빠르다고 답해보세요.
+step2-78-3;Which is faster, a cheetah or an elephant?
+step2-78-4;A cheetah is [faster than] an elephant.
+step2-79-D1;자라나에게 얼마나 자주 방 청소를 하냐고 물어보세요.
+step2-79-1;How often do you [clean your room]?
+step2-79-2;I clean my room twice a week.
+step2-79-D2;자라나에게 1년에 두 번 여행을 간다고 말해보세요.
+step2-79-3;How often do you go on a trip?
+step2-79-4;I go on a trip [twice a year].
+step2-80-D1;자라나에게 아침 조깅이 도움이 된다고 생각하는지 물어보세요.
+step2-80-1;Do you find it helpful to [jog in the morning]?
+step2-80-2;Yes, it helps me concentrate.
+step2-80-D2;자라나에게 다리 스트레칭이 수영을 더 잘 하는 데 도움이 된다고 답해보세요.
+step2-80-3;Do you find it helpful to stretch your legs before you swim?
+step2-80-4;Yes, it helps me [swim better].
+step2-81-D1;자라나에게 학교까지 오는데 걸리는 시간을 물어 보세요.
+step2-81-1;How long doesl it take to go to school?
+step2-81-2;It takes about ten minutes.
+step2-81-D2;자라나에게 10분이 걸린다고 말해 보세요.
+step2-81-3;How long does it take to go to school?
+step2-81-4;It takes about ten minutes.
+step2-84-D1;자라나에게 방학 때 무엇을 할 계획인지 물어 보세요.
+step2-84-1;What are you planning to do on vacation?
+step2-84-2;I’m planning to study math.
+step2-84-D2;자라나에게 수학공부를 할 계획이라고 답해보세요.
+step2-84-3;What are you planning to do on vacation?
+step2-84-4;I’m planning to study math.
+step2-85-D1;자라나에게 자유 시간에 무엇을 하는지 물어 보세요.
+step2-85-1;What do you usually do in your free time?
+step2-85-2;I usually play games
+step2-85-D2;자라나에게 보통 게임을 한다고 답해보세요.
+step2-85-3;What do you usually do in your free time?
+step2-85-4;I usually play games
+step2-86-D1;자라나에게 그것이 오해라고 말해보세요.
+step2-86-1;It takes about 4 hours to go to Hawaii, right?
+step2-86-2;I’m [afraid that’s not right.]
+step2-86-D2;자라나에게 그 점을 몰라서 오해했다고 말해보세요.
+step2-86-3;I’m afraid what you said is not right.
+step2-86-4;I [didn’t know] that.
+step2-87-D1;자라나에게 주말에 무엇을 하고 싶은지 물어보세요.
+step2-87-1;What do you [want to do this weekend]?
+step2-87-2;I want to go camping with my family.
+step2-87-D2;자라나에게 시험 끝나고 친구들과 마라탕을 먹고 싶다고 말해보세요.
+step2-87-3;What do you want to do after the test?
+step2-87-4;I [want to eat] Maratang [with my friends].
+step2-88-D1;자라나에게 무엇을 해주길 원하는지 물어보세요.
+step2-88-1;What [do you want me to do]?
+step2-88-2;Please water the plants in our class.
+step2-88-D2;자라나에게 아이들에게 책을 읽어달라고 말해보세요.
+step2-88-3;What do you want to do now?
+step2-88-4;Please [read books for children].
+step2-89-D1;자라나에게 무슨 음식을 주문하고 싶은지 물어보세요.
+step2-89-1;What [would you like to order]?
+step2-89-2;I’d like to order a taco.
+step2-89-D2;자라나에게 버블티를 주문하고 싶다고 말해보세요.
+step2-89-3;What would you like to drink?
+step2-89-4;[I’d like to order one bubble tea].
+step2-90-D1;자라나에게 내일 무엇을 할 의향인지 물어보세요.
+step2-90-1;[What’s your plan for tomorrow]?
+step2-90-2;I’m thinking of going hiking with my dad.
+step2-90-D2;자라나에게 야구 경기에 갈 의향이 있다고 말해보세요.
+step2-90-3;What’s your plan for this Saturday?
+step2-90-4;[I’m thinking of going to a baseball game].
+step2-91-D1;자라나에게 불국사가 어디에 있는지 물어보세요.
+step2-91-1;[Where is] Bulguksa?
+step2-91-2;It is in Gyeongju.
+step2-91-D2;자라나에게 해당장소가 안동에 있다고 말해 주세요.
+step2-91-3;Where is the Hahoe Village?
+step2-91-4;[It is in] Andong.
+step2-92-D1;자라나에게 그 표지판이 무슨 의미를 지니는지 물어 보세요.
+step2-92-1;What does the sign mean?
+step2-92-2;It means ‘stop the car’.
+step2-92-D2;자라나에게 평화를 의미한다는 것을 말해보세요
+step2-92-3;What does the symbol mean?
+step2-92-4;It means [peace].
+step2-94-D1;자라나에게 장래에 무엇이 되고 싶은지 무엇인지 물어보세요.
+step2-94-1;[What do you want to be] in the future?
+step2-94-2;I want to be a basketball player.
+step2-94-D2;자라나에게 가수가 되고 싶다고 말해 보세요.
+step2-94-3;What do you want to be in the future?
+step2-94-4;I want to be a [singer].
+step2-96-D1;상대방에게 자라나가 있는지 전화상으로 물어보세요.
+step2-96-1;This is <John/Hanna>. [Is Jarana there]?
+step2-96-2;He’s not here.
+step2-96-D2;자라나에게 내가 지금 전화상에 이야기하고 있다고 답해주세요.
+step2-96-3;Hello. Is <John/Hanna> there?
+step2-96-4;This is <John/Hanna> [speaking].
+step2-97-D1;자라나에게 동물들에게 먹이를 줘도 되냐고 요청하세요.
+step2-97-1;Can I [feed the animals]?
+step2-97-2;I’m afraid you can’t. It’s against the rule.
+step2-97-D2;자라나의 요청에 긍정 혹은 부정으로 응답해보세요.
+step2-97-3;Can I read this book?
+step2-97-4;<Sure. Go ahead|I’m afraid you can’t>.
+step2-98-D1;자라나가 가장 좋아하는 스포츠를 물어보세요.
+step2-98-1; What [sport] do you like [the most]?
+step2-98-2; I like baseball the most.
+step2-98-D2;자라나에게 내가 가장 좋아하는 과목은 수학이라고 답해보세요.
+step2-98-3; What subject do you like the most?
+step2-98-4; I like math the most.
+step2-99-D1;자라나에게 도움에 감사해보세요.
+step2-99-1;Thank you for the help.
+step2-99-2;No worries.
+step2-99-D2;자라나의 감사 인사에 괜찮다고 대답해보세요.
+step2-99-3;Thank you so much for the help.
+step2-99-4;<Don’t mention i|No worrie|It’s nothing>.
+step2-100-D1;자라나에게 방과후에 함께 자전거를 타자고 제안해보세요.
+step2-100-1;Do you want to ride a bike with me after school?
+step2-100-2;I’d love to, but I can’t.
+step2-100-D2;자라나의 제안을 정중히 거절해보세요.
+step2-100-3;Do you want to play catch with me tomorrow?
+step2-100-4;I’d love to, but I can’t.
+step2-109-D1;자라나에게 이 펜을 교환하고 싶다고 요청해보세요.
+step2-109-1;I’d like to [exchange this pen].
+step2-109-2;Sure. What do you want to exchange it for?
+step2-109-D2;자라나에게 빨간 펜으로 교환하고 싶다고 답해보세요.
+step2-109-3;What do you want to exchange it for?
+step2-109-4;I want to exchange it for [a red one].
+step2-114-D1;자라나에게 영화가 어땠는지 물어보세요.
+step2-114-1;How was [the movie]?
+step2-114-2;It was boring.
+step2-114-D2;자라나에게 영화가 재밌었다고 말해보세요.
+step2-114-3;How was the movie?
+step2-114-4;It was [fun].
+step2-117-D1;자라나에게 다른 펜이 있는지 물어보세요.
+step2-117-1;Are there [any other pens]?
+step2-117-2;Yes. We have blue and yellow ones, too.
+step2-117-D2;자라나에게 그것들이 유일한 선택지라고 말해보세요.
+step2-117-3;I don’t like this one. Are there any other choices?
+step2-117-4;Sorry. These are [the only ones we have].
+step2-119-D1;자라나에게 새로 온 학생에 대해 들어봤는지 물어보세요.
+step2-119-1;[Have you heard about] the new student?
+step2-119-2;No, I haven’t.
+step2-119-D2;자라나에게 들어본적이 없다고 말해 보세요.
+step2-119-3;Have you heard about the new movie that just came out?
+step2-119-4;No, I [haven’t].
+step2-127-D1;자라나에게 카페에서 종이컵을 사용할 수 있는지 물어보세요.
+step2-127-1;Is it possible to use paper cups in the cafe?
+step2-127-2;You’re not supposed to use paper cups.
+step2-127-D2;자라나에게 종이컵을 사용할 수 없다고 답하세요.
+step2-127-3;Is it possible to use paper cups in the cafe?
+step2-127-4;You’re not supposed to use paper cups.
+step2-130-D1;자라나에게 소년이 누구인지 물어 보세요.
+step2-130-1;[Who is] the girl?
+step2-130-2;She is my best friend, Jihoon.
+step2-130-D2;자라나에게 그녀는 수학 선생님이라고 말해 보세요.
+step2-130-3;Who is the woman over there?
+step2-130-4;She is [my math teacher].
+step2-141-D1;자라나에게 Minsu의 성격을 물어보세요.
+step2-141-1;[What is] Minsu [like]?
+step2-141-2;He is creative and patient.
+step2-141-D2;자라나가 말한 사람은 친절하다고 말해 주세요.
+step2-141-3;What is Ms. Lee like?
+step2-141-4;She is [kind].
+step2-146-D1;자라나에게 태어난 해를 물어 보세요.
+step2-146-1;When were you born?
+step2-146-2;I was born in 2010.
+step2-146-D2;자라나에게 태어난 해를 말해 주세요.
+step2-146-3;When were you born?
+step2-146-4;I was born in 2010.
+step2-159-D1;자라나가 설명하고자 하는 대상의 용도가 무엇인지 물어 보세요.
+step2-159-1;[What is it for]?
+step2-159-2;It is for telling time.
+step2-159-D2;설명하고자 하는 대상의 용도가 ‘사람들과 이야기를 나누는 것’임을 말해 보세요.
+step2-159-3;What is it for?
+step2-159-4;It is for talking with [people]
+step2-171-D1;자라나에게 매일 늦잠을 잘 수 있었으면 좋겠다고 말해보세요.
+step2-171-1;I wish I could [sleep in] every morning.
+step2-171-2;Me, too. It will be so comfortable.
+step2-171-D2;자라나의 소망에 공감해보세요.
+step2-171-3;I wish I could eat steaks every day.
+step2-171-4;Me, too. It will be so [good].
+step2-176-D1;자라나에게 무엇을 잘 하는지 물어보세요.
+step2-176-1;[What are you good at]?
+step2-176-2;I am good at English.
+step2-176-D2;자라나에게 수학을 잘 한다고 말해 보세요.
+step2-176-3;What are you good at?
+step2-176-4;I am good at [math].
+step2-181-D1;건강이 안 좋아 보이는 자라나에게 무슨일이 있는지 물어보세요.
+step2-181-1;[What’s wrong]?
+step2-181-2;I have a toothache.
+step2-181-D2;자라나에게 열이 난다고 말해 보세요.
+step2-181-3;What’s wrong?
+step2-181-4;I have [a fever].
+step2-185-D1;자라나에게 도움이 필요한지 물어 보세요.
+step2-185-1;[Can I help you]?
+step2-185-2;Yes, I am looking for a baseball cap.
+step2-185-D2;자라나에게 스카프를 찾고 있다고 말해 보세요.
+step2-185-3;Can I help you?
+step2-185-4;Yes, I [am looking for] a scarf.
+188	"Direction:자라나에게 네가 나라면 어떻게 할지 물어 보세요.
+S:What would you do if you were me?
+AI:If I were you, I would be nicer to my family.
+Direction:자라나에게 내가 너라면 가족에게 더 잘 대해줄 것 같다고 답해보세요.
+AI:What would you do if you were me?
+S:If I were you, I would be nicer to my family."

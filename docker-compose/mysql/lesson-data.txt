@@ -1,94 +1,2102 @@
-006;설명 요청하기;<br>A:What are you eating, Jina?	지나 씨, 뭐 먹고 있어요?<br>B:It’s Gimbap!	김밥이에요!<br>A:What is Kimbap?	김밥이 뭐예요?<br>B:It is Korea’s most popular on-the-go meal!	한국에서 가장 인기 있는 간편식이에요!<br>1단계<br>A:What is Kimbap?	김밥이 뭐예요?<br>B:It is Korea’s most popular on-the-go meal.	한국에서 가장 인기 있는 간편식이에요.<br>2단계<br>Direction:자라나에게 K-pop이 무엇인지 물어보세요.S:[What is] K-pop?	S:[K-팝이 뭐예요?]<br>AI:It is short for Korean pop music.	한국 대중음악의 줄임말이에요.<br>Direction:자라나에게 한복은 한국의 전통의상이라고 설명해보세요.AI:What is Hanbok?	한복이란 무엇입니까?<br>S:It is a Korean [traditional] [clothing].	한국의 [전통] [의상]입니다.<br>3단계<br>Direction:자라나와 여러 나라의 전통 모자에 대해서 묻고 답해보세요.S:What is <traditional-hat>?	<전통모자>란 무엇인가요?<br>AI:It is a <country name> hat. What is a gat?	 <국가명> 모자예요. 가트란 무엇인가요?<br>S:It is a Korean [traditional][hat].	한국의 [전통][모자]입니다.<br><br>
-007;알고 있는지 묻고 답하기;<br>A:Do you know how to use this kiosk?	이 키오스크 사용법을 아시나요?<br>B:Yes, I do. You need to first press the ‘start’ button.	네, 그렇죠. 먼저 ’시작’ 버튼을 눌러야 합니다.<br>A:Okay. Do you know how to order some donuts?	알겠습니다. 도넛 주문하는 방법을 아시나요?<br>B:Yes, press this button and insert your card here.	네, 이 버튼을 누르고 여기에 카드를 넣으세요.<br>1단계<br>A:Do you know how to use this kiosk?	이 키오스크 사용법을 아시나요?<br>B:Yes, I do.	네, 그렇죠.<br>2단계<br>Direction:자라나에게 자판기 사용법을 알고 있는지 물어보세요.S:[Do you know] how to use a [vending machine]?	[당신은] [자판기] 사용법을 알고 있나요?<br>AI:I don’t know how to use it. I’m sorry.	 어떻게 사용하는지 모르겠어요. 죄송합니다.<br>Direction:자라나에게 바이올린을 켤 줄 안다고 답해보세요.AI:Do you know how to play the violin?	바이올린 연주할 줄 아세요?<br>S:Yes, [I do.]	네, [그렇습니다.]<br>3단계<br>Direction:자라나와 여러 나라의 전통 모자에 대해서 묻고 답해보세요.S: Do you know how to play <traditional-game>?	 <전통 게임> 할 줄 아세요?<br>AI: Yes, I do. I sometimes play it with my friends. Do you know how to play Monopoly?	 네, 그렇습니다. 가끔 친구들이랑 놀아요. 모노폴리(Monopoly) 게임 방법을 아시나요?<br>S: <Yes, [I do.]|No, [I don’t.]>	 <예, [그렇습니다.]|아니요, [그렇지 않습니다.]><br>S:Do you know how to play <traditional-game>?	 <전통 게임> 할 줄 아세요?<br>AI:Yes, I do. I sometimes play it with my friends. Do you know how to play Yutnori?	네, 그렇습니다. 가끔 친구들이랑 놀아요. 윷놀이 하는 법을 아시나요?<br>S:<Yes, [I do.]|No, [I don’t.]>	<예, [그렇습니다.]|아니요, [그렇지 않습니다.]><br><br>
-028;가능 여부 묻고 답하기;<br>A:I have questions about our school rules. Can I ride a bike to school?	학교 규칙에 관해 질문이 있습니다. 자전거를 타고 학교에 갈 수 있나요?<br>B:No, you can’t. It can be dangerous.	아니요, 그럴 수 없어요. 위험할 수 있습니다.<br>A:I see. Can I bring my smartphone to school?	답: 그렇군요. 스마트폰을 학교에 가져갈 수 있나요?<br>B:Yes, you can. But you can’t use it during classes.	네, 그럴 수 있어요. 하지만 수업 중에는 사용할 수 없습니다.<br>1단계<br>A:Can I ride a bike to school?	자전거를 타고 학교에 갈 수 있나요?<br>B:No, you can’t.	아니요, 그럴 수 없어요.<br>2단계<br>Direction:자라나에게 내 생일파티에 참석할 수 있는지 물어보세요.S:Can you [come to my birthday party]?	내 생일 파티에 올 수 있나요?<br>AI:Yes, I can.	네, 그럴 수 있어요.<br>Direction:자라나에게 사진을 찍을 수 없다고 답해보세요.AI:Can I take a picture there?	거기서 사진을 찍어도 될까요?<br>S:No, you [can’t].	아니요, 당신은 할 수 없습니다.<br>3단계<br>Direction:자라나와 능력여부에 대해 묻고 답해보세요.AI:Let’s make our library rules.	도서관 규칙을 만들자.<br>S:Can I <eat in the library|run in the library|write in the books>?	<도서관에서 식사를 하고|도서관에서 뛰고|책에 글을 쓸> 수 있나요?<br>AI:No, you can’t. Can I read comic books?	아니요, 그럴 수 없습니다. 만화책을 읽을 수 있나요?<br>S:<Yes, you can|No, you can’t>	<예, 할 수 있습니다|아니요, 할 수 없습니다><br><br>
-029;기대 표현하기;<br>A:You look happy today!	오늘 기분 좋아 보여요!<br>B:Yes, I feel happy today.	네, 오늘은 기분이 좋아요.<br>A:What is going on?	무슨 일이에요?<br>B:I’m looking forward to going camping.	캠핑 가는 걸 기대하고 있어요.<br>1단계<br>A:What’s going on?	무슨 일이에요?<br>B:I’m looking forward to going camping.	캠핑 가는 걸 기대하고 있어요.<br>2단계<br>Direction:자라나에게 기대할 만한 무슨 일이 있는지 물어보세요.S:What’s going on?	남: 무슨 일이에요?<br>AI:I’m looking forward to the summer vacation.	여름방학을 기대하고 있어요.<br>Direction:자라나에게 이번 주말이 기대된다고 표현해보세요.	Direction:자라나에게 이번 주말을 기대해 보세요.<br>AI:It is Friday today!	 오늘은 금요일이에요!<br>S:I’m [looking forward to|this weekend].	저는 [이번 주말이 기대됩니다|].<br>3단계<br>Direction:자라나와 기대할 만한 일에 대해서 묻고 기대를 표현해보세요. (그림 제공:학교 축제 팜플렛(마술쇼, 밴드공연, 포토전시, 페이스페인팅)AI:Our school festival is coming up. What are you looking forward to the most?	우리 학교 축제가 다가오고 있어요. 당신은 무엇을 가장 기대하고 있나요?<br>S:I’m looking forward to <magic show|band performance|photo exhibition|face painting>.	<마술쇼|밴드공연|사진전|페이스페인팅>을 기대하고 있어요.<br>AI:Really? I’m looking forward to it, too.	정말요? 나도 기대하고 있어요.<br><br>
-030;당부하기;<br>A:How’s the weather today?	가:오늘 날씨는 어때요?<br>B:It is sunny but cloudy.	맑기는 하지만 흐려요.<br>A:The weather forecast says it will rain soon.	일기예보에서는 곧 비가 올 거라고 하더군요.<br>B:Really? Make sure you take an umbrella.	정말요? 우산을 꼭 챙기세요.<br>1단계<br>A:It will rain soon.	곧 비가 올 거예요.<br>B:Make sure you take an umbrella.	우산을 꼭 챙기세요.<br>2단계<br>Direction:자라나에게 목이 마르다고 말해보세요.S:I am [thirsty].	저는 [목마르다].<br>AI:Make sure you drink enough water.	 물을 충분히 마셔주세요.<br>Direction:자라나에게 약을 먹으라고 당부해보세요.AI:I feel sick.	아프네요.<br>S:[Make sure] you [take|some medicine].	[꼭] 약을 복용하세요.<br>3단계<br>Direction:자라나와 해외 여행을 전 해야할 내용을 당부해보세요.AI:What else should I pack?	무엇을 더 챙겨야 하나요?<br>AI:I’m packing my luggage for tomorrow’s trip.	내일 여행을 위해 짐을 싸고 있어요.<br>S:Make sure you pack <passport|hat|ticket|an umbrella>	 <여권|모자|티켓|우산>을 꼭 챙기세요.<br><br>
-046;불만 표현하기;<br>A:How can I help you?	무엇을 도와드릴까요?<br>B:I want to buy a hat. Can I try this on?	모자를 사고 싶어요. 이걸 입어봐도 될까요?<br>A:Sure. How do you like the hat?	물론이죠. 모자는 어때요?<br>B:I’m not really happy with it. It’s too small for me.	 별로 마음에 안 들어요. 나에게는 너무 작습니다.<br>1단계<br>A:How do you like the shirt?	셔츠는 어때요?<br>B:I’m not really happy with it. It’s too small for me.	 별로 마음에 안 들어요. 나에게는 너무 작습니다.<br>2단계<br>Direction:자라나에게 음식이 너무 짜 마음에 들지 않는다고 말해보세요.AI:How do you like your food?	 음식은 어때요?<br>S:I’m [not really] [happy with food]. It’s [too salty].	저는 [별로] [음식에 만족하지 않습니다]. [너무 짜다].<br>Direction:자라나에게 파티가 어땠는지 물어보세요.S:How do you like [the party]?	[파티]는 어때요?<br>AI:I’m not really happy with it. I didn’t know anyone.	 별로 만족스럽지 않아요. 나는 아무도 몰랐습니다.<br>3단계<br>Direction:자라나와 영화에 대해 묻고 불만족함을 표현해보세요.S:How do you like the movie?	영화는 어때요?<br>AI:I didn’t like it. I could guess its ending.	 마음에 들지 않았습니다. 결말을 짐작할 수 있었습니다.<br>S:I didn’t like it, either. <It was boring|The story wasn’t funny|The plot was hard to understand>.	나도 마음에 안 들었어. <지루했어요|이야기가 재미없었어요|줄거리가 이해하기 어려웠어요>.<br>AI:I feel the same.	나도 같은 생각이다.<br><br>
-047;약속정하기;<br>A:What time should we meet tomorrow?	내일 몇 시에 만날까요?<br>B:How about 10 o’clock?	B:10시는 어때요?<br>A:Sounds good. Where should we meet?	좋은 것 같아요. 우리 어디서 만날까?<br>B:Let’s meet in front of the movie theater.	영화관 앞에서 만나자.<br>1단계<br>A:What time and where should we meet?	몇 시에 어디서 만나면 될까요?<br>B:Let’s meet in front of the movie theater at 10 o’clock.	B:10시에 영화관 앞에서 만나자.<br>2단계<br>Direction:자라나에게 언제, 어디서 만날지 물어보세요.S:[What time] and [where should] we [meet]?	[몇시에] 그리고 [어디에서] 우리 [만나요]?<br>AI:Let’s meet at 8 A.M. in front of the school.	아침 8시에 만나요. 학교 앞.<br>Direction:자라나에게 그 카페 앞에서 오후 3시에 만나자고 약속해보세요.	Direction:자라나에게 그 카페 앞에서 오후 3시에 만나자고 행사를 진행합니다.<br>AI:What time and where should we meet?	몇 시에 어디서 만나면 될까요?<br>S:Let’s meet [at 3 P.M.] in front of [the cafe].	[오후 3시에] [카페] 앞에서 만나자.<br>3단계<br>Direction:자라나와 주말에 만날 약속을 정해보세요.AI:We should finish the team project. Let’s meet at the library on Saturday.	팀 프로젝트를 끝내야 해요. 토요일에 도서관에서 만나자.<br>S:Sure. [What time] should we [meet]?	남: 물론이죠. [몇 시에] 우리 [만날]까요?<br>AI:Hmm, I’m free all day.	흠, 하루 종일 한가해요.<br>S:Then, how about <Time>?	그럼 <시간>은 어때요?<br><br>
-048;외모 묘사하기;<br>A:Did you see our new English teacher?	새 영어 선생님 보셨나요?<br>B:Not yet. What does he look like?	아직은 아니에요. 그는 어떻게 생겼 니?<br>A:He is tall and has short hair.	그는 키가 크고 머리가 짧습니다.<br>B:I’m looking forward to our English class.	나는 우리 영어 수업을 기대하고 있어요.<br>1단계<br>A:What does she look like?	그 사람은 어떻게 생겼나요?<br>B:She is tall and has short hair.	그 사람은 키가 크고 머리가 짧습니다.<br>2단계<br>Direction:자라나에게 가장 친한 친구가 어떻게 생겼는지 물어보세요.S:What does [your best friend] [look like]?	[가장 친한 친구]는 어떤 모습인가요?<br>AI:He has brown hair and wears glasses.	 그는 갈색 머리에 안경을 쓰고 있습니다.<br>Direction:자라나에게 내 고양이는 작고 검은색이라고 묘사해보세요.AI:What does your cat look like?	당신의 고양이는 어떻게 생겼나요?<br>S:It is [small] and [has black hair].	[작고][검은 머리]입니다.<br>3단계<br>Direction:자라나와 ‘나의 최애’를 서로 묻고 묘사해보세요.S:What does [your favorite person] look like?	[가장 좋아하는 사람]은 어떤 모습인가요?<br>AI:My dad has blue eyes and usually wears jeans. What does your favorite person look like?	저희 아버지는 파란 눈을 갖고 있으며 평소에는 청바지를 입습니다. 당신이 좋아하는 사람은 어떤 모습인가요?<br>S:<He|She> <has beautiful smile|has bright skin|has beautiful smile|wears glasses>.	<그|그녀> <미소가 아름답습니다|피부가 밝습니다|미소가 아름답습니다|안경을 씁니다>.<br>AI:Oh, I see.	아, 알겠습니다.<br><br>
-049;의무 표현하기;<br>A:You can’t go outside without a hat.	모자 없이는 밖에 나갈 수 없습니다.<br>B:Why not?	왜 안돼?<br>A:You have to follow our school rule: No hat, no play.	우리 학교 규칙을 따라야 합니다: 모자를 쓰지 말고 놀아서도 안 됩니다.<br>B:Oh, I see. I will wear my hat.	아, 알겠습니다. 나는 모자를 쓸 것이다.<br>1단계<br>A:You have to follow our school rules.	학교 규칙을 따라야 합니다.<br>B:Okay, I will.	알겠습니다. 그럴게요.<br>2단계<br>Direction:자라나에게 물을 아껴야 한다고 도덕적 의무를 표현해보세요.S:You [have to] [save water].	당신은 [해야 합니다] [물을 절약해야 합니다].<br>AI:Okay, I will.	알겠습니다. 그럴게요.<br>Direction:자라나에게 매일 한 시간씩 운동을 해야한다고 표현해보세요.S:You [have to] [exercise for one hour] every day.	매일 [한 시간 동안] [운동해야 합니다].<br>AI:I will try to do that.	 그렇게 하도록 노력하겠습니다.<br>3단계<br>Direction:자라나와 현장체험학습에서의 지켜야 하는 것을 표현해보세요.(그림이나 표 제공:be on time, bring your own lunch, let your teacher know when you’re sick)AI:Let’s talk about things we have to follow.	우리가 따라야 할 것들에 대해 이야기합시다.<br>S:We have to <be on time|bring your own lunch|let your teacher know when you’re sick>.	우리는 <시간을 엄수하고|점심을 직접 가져오고|아프면 선생님께 알려야 합니다>.<br>AI:What else do we have to do?	 또 무엇을 해야 하나요?<br>S:We have to <be on time|bring your own lunch|let your teacher know when you’re sick>.	우리는 <시간을 엄수하고|점심을 직접 가져오고|아프면 선생님께 알려야 합니다>.<br><br>
-050;화가 난 감정 표현하기;<br>A:You look upset.	너 화난 것 같아.<br>B:I’m upset with my best friend.	가장 친한 친구 때문에 속상해요.<br>A:What happened?	무슨 일이 있었나요?<br>B:She didn’t come to my birthday party.	그 사람은 내 생일 파티에 안 왔어요.<br>1단계<br>A:You look upset. What happened?	너 화난 것 같아. 무슨 일이에요?<br>B:I’m upset with my friend. She broke her promise.	친구 때문에 속상해요. 그녀는 약속을 어겼습니다.<br>2단계<br>Direction:자라나에게 무슨 일이냐고 물어보세요.S:You [look upset]. [What happened]?	당신은 [화가 난 것 같습니다]. [무슨 일이에요]?<br>AI:I’m upset with my dog. He ate my homework!	나는 내 강아지 때문에 화가 났습니다. 그 사람이 내 숙제를 먹어버렸어요!<br>Direction:자라나에게 오빠가 내 휴대전화를 떨어뜨려서 화가난 감정을 표현해보세요.AI:You look upset. What happened?	너 화난 것 같아. 무슨 일이에요?<br>S:My brother [dropped] [my phone]. I’m upset [with him]	내 동생이 [전화를 끊었어요] [내 전화기]. 나는 [그 사람 때문에] 화가 난다<br>3단계<br>Direction:자라나와 스포츠 데이 후 화가 난 감정을 표현해보세요.AI:You look upset. What happened at Sports Day?	너 화난 것 같아. 운동회에 무슨 일이 있었나요?<br>S:[Our team lost/The game wasn’t fair/The other team laughed at us].	[우리 팀이 졌어요/게임이 공정하지 않았어요/상대 팀이 우리를 비웃었어요].<br>AI:That is rude!	그건 무례해요!<br>S:I’m upset with [myself][the other team]	[나 자신][상대 팀]이 화가 나요.<br><br>
-066;행동묘사하기;<br>A:Did you see Jiho?	지호 봤어?<br>B:Oh, she is at the park.	아, 공원에 있어요.<br>A:What is she doing there?	그 사람 거기서 뭐 해요?<br>B:She is walking the dog.	그녀는 개를 산책시키고 있어요.<br>1단계<br>A:What is she doing?	그 사람 뭐 해요?<br>B:She is walking the dog.	그녀는 개를 산책시키고 있어요.<br>2단계<br>Direction:자라나에게 무엇을 하고 있는지 물어보세요.S:What are you [doing]?	뭐하고 있어요?<br>AI:I’m taking pictures now.	지금 사진을 찍고 있어요.<br>Direction:자라나에게 지금 방 청소를 하고 있다고 말해보세요.AI:What are you doing?	뭐하고 있어요?<br>S:I’m [cleaning my room].	나는 [방을 청소하고] 있어요.<br>3단계<br>Direction:자라나와 묻고 답하며 그림 속 친구들의 행동을 묘사해보세요.<br>S:What is <Mia|Jay|Tom|Jisu> doing?	 <미아|제이|톰|지수>는 뭐하고 있어요?<br>AI:<Mia|Jay|Tom|Jisu> is <singing a song|playing the piano|eating a cake|reading a book>. What is <Mi|Ja|To|Jisu> doing?	<미아|제이|톰|지수>는 <노래 부르기|피아노 연주하기|케이크 먹기|책 읽기> 중이에요. <미|자|토|지수>는 무엇을 하고 있나요?<br>S:<Mia|Jay|Tom|Jisu> is <singing a song|playing the piano|eating a cake|reading a book>.	<미아|제이|톰|지수>는 <노래 부르기|피아노 연주하기|케이크 먹기|책 읽기> 중입니다.<br><br>
-067;허가 여부 묻기;<br>A:May I bring my dog on the bus?	버스에 개를 데리고 탈 수 있나요?<br>B:Do you have a pet carrier?	애완동물 캐리어가 있나요?<br>A:Yes, I do. It’s in the carrier.	네, 그렇습니다. 캐리어 안에 있어요.<br>B:Then yes, you may.	그렇다면 그럴 수도 있겠네요.<br>1단계<br>A:May I bring my dog on the bus?	버스에 개를 데리고 탈 수 있나요?<br>B:<Yes, you may|No, you may not>.	<예, 그럴 수도 있습니다|아니요, 그렇지 않을 수도 있습니다>.<br>2단계<br>Direction:자라나에게 자리를 옮길 수 없다고 말해보세요.AI:May I move my seat?	자리를 옮겨도 될까요?<br>S:No, you [may not].	아니요, 당신은 [그렇지 않을 수도 있습니다].<br>Direction:자라나에게 사진을 찍어도 되는지 물어보세요.S:[May] I [take a picture]?	[메이] 내가 [사진을 찍는다]?<br>AI:You may take pictures at the end.	마지막에 사진을 찍어도 됩니다.<br>3단계<br>Direction:자라나와 도서관에서 허가 여부를 묻고 답해보세요.AI:Welcome to Janara library.	자나라 도서관에 오신 것을 환영합니다.<br>S:May I <library rules>?	<도서관 규칙>을 해도 될까요?<br>AI:Yes, you may.	 네, 그럴 수도 있어요.<br>S:Then may I <library rules>?	그럼 <도서관 규칙>을 해도 될까요?<br>AI:No, you may not. I’m sorry.	아니요, 그렇지 않을 수도 있습니다. 죄송합니다.<br><br>
-068;확인 요청하기;<br>A:Let’s talk about our favorite sport!	우리가 가장 좋아하는 스포츠에 대해 이야기해보자!<br>B:Sure, you like playing soccer, don’t you?	물론이죠. 당신은 축구하는 걸 좋아해요, 그렇죠?<br>A:No, I like playing tennis. You like playing tennis, right?	아니요, 저는 테니스 치는 걸 좋아해요. 당신은 테니스 치는 것을 좋아해요, 그렇죠?<br>B:Yes, I do.	네, 그렇죠.<br>1단계<br>A:You like playing soccer, don’t you?	너 축구하는 걸 좋아하는구나, 그렇지?<br>B:<Yes, I do|No, I don’t>.	<예, 그렇습니다|아니요, 그렇지 않습니다>.<br>2단계<br>Direction:자라나에게 과학을 좋아하지 않는지 확인해보세요.S:You like science, don’t you?	당신은 과학을 좋아하는데요, 그렇죠?<br>AI:No, I don’t. I like English!	아니요, 그렇지 않습니다. 난 영어를 좋아한다!<br>Direction:자라나의 확인 요청에 답해보세요.	Direction:자라나의 확인 요청에 답변해 주세요.<br>AI:You look different. You got a haircut, right?	당신은 달라 보여요. 머리 잘랐죠?<br>S:<No, I didn’t|Yes, I did>.	<아니요, 안 했어요|예, 했어요>.<br>3단계<br>Direction:자라나와 서로 좋아하는 음식을 확인해보세요.AI:Guess which food I like.	내가 어떤 음식을 좋아하는지 맞춰보세요.<br>S:You like <Kimbap|Remen|Gimchi|Bulgogi|Ttokbeokki>, don’t you?	 <김밥|레멘|김치|불고기|떡볶이> 좋아하시나요?<br>AI:Yes, I do. You like Ttokbeokki, right?	네, 그렇습니다. 떡볶이 좋아하시죠?<br>S:<Yes, I do|No, I don’t>.	<예, 그렇습니다|아니요, 그렇지 않습니다>.<br><br>
-069;후회 표현하기;<br>A:It’s freezing today. I should have worn my mittens.	오늘은 춥네요. 장갑을 꼈어야 했는데.<br>B:I know.	알아요.<br>A:You look cold.	너 추워 보여.<br>B:I should have worn my jacket today.	오늘은 재킷을 입었어야 했는데.<br>1단계<br>A:I should have worn my mittens.	장갑을 착용했어야 했는데.<br>B:I should have worn my jacket today.	오늘은 재킷을 입었어야 했는데.<br>2단계<br>Direction:자라나에게 어제 공부를 더 열심히 했어야 한다고 말해보세요.AI:You got C on your test?	시험에서 C를 받았나요?<br>S:I [should have studied harder] yesterday.	어제 [더 열심히 공부했어야 했는데].<br>Direction:자라나에게 편지를 썼어야 한다고 말해보세요.AI:I heard that Sion left Korea yesterday.	시온이 어제 한국을 떠났다고 들었어요.<br>S:I [should have written a letter].	나 [편지를 썼어야 했는데].<br>3단계<br>Direction:자라나와 규칙적인 생활에서의 후회를 표현해보세요.AI:It is still 10 A.M. I’m hungry.	아직 오전 10시입니다. 배고파요.<br>S:You [should have eaten breakfast].	당신은 [아침을 먹었어야 했어요].<br>AI:I know. You look tired today.	 알겠습니다. 너 오늘 피곤해 보이는구나.<br>S:I should have <slept|went to bed early>.	나는 <잠을|일찍 잠자리에 들었어야> 했어요.<br><br>
-070;가격 묻고 답하기;<br>A:Welcome to Better Buy. Do you need help?	A:Better Buy에 오신 것을 환영합니다. 도움이 필요하신가요?<br>B:How much is this headphone?	이 헤드폰은 얼마예요?<br>A:It’s 200,000 won.	A: 20만원입니다.<br>B:Wow, it is expensive.	와, 비싸다.<br>1단계<br>A:How much is this headphone?	이 헤드폰은 얼마예요?<br>B:It’s 200,000 won.	B: 20만원입니다.<br>2단계<br>Direction:자라나에게 자라나의 모자가 얼마인지 물어보세요.S:[How much] is [your hat]?	[당신의 모자]는 얼마입니까?<br>AI:It’s 20,000 won.	AI: 2만원이에요.<br>Direction:자라나에게 필통이 7천원이라고 말해보세요.AI:How much is this pencil case?	 이 필통은 얼마예요?<br>S:It’s [7,000 won].	S:[7,000원]입니다.<br>3단계<br>Direction:자라나와 마니또에게 고를 물건의 가격을 묻고 답해보세요.S:How much is <gift>?	<선물>은 얼마예요?<br>AI:It’s <price> won. It is perfect for your secret friend. I want to give this hairband. How much is it?	<가격>원입니다. 비밀 친구에게 딱 맞습니다. 이 머리끈을 주고 싶어요. 얼마인가요?<br>S:It is <price> won.	<가격>원입니다.<br><br>
-086;오해 지적하기;<br>A:Can you guess who made this lego?	이 레고를 만든 사람이 누구인지 짐작할 수 있나요?<br>B:I’m sure June made it. She is good at making legos.	B:June이 성공했을 거라고 확신해요. 그녀는 레고를 잘 만듭니다.<br>A:I’m afraid that’s not right. Joe made it.	안타깝지만 그건 옳지 않습니다. 조가 해냈습니다.<br>B:Really? I didn’t know that.	정말요? 나는 그것을 몰랐다.<br>1단계<br>A:I’m afraid that’s not right.	안타깝지만 그건 옳지 않습니다.<br>B:I didn’t know that.	 그건 몰랐어요.<br>2단계<br>Direction:자라나에게 그것이 오해라고 말해보세요.AI:It takes about 4 hours to go to Hawaii, right?	하와이까지 4시간 정도 걸리죠?<br>S:I’m [afraid that’s not right.]	[그건 옳지 않은 것 같아요.]<br>Direction:자라나에게 그 점을 몰라서 오해했다고 말해보세요.AI:I’m afraid what you said is not right.	 유감스럽게도 말씀하신 내용이 옳지 않습니다.<br>S:I [didn’t know] that.	 그건 [몰랐어요].<br>3단계<br>Direction:자라나가 가지고 있는 오해를 지적하고 올바르게 알려주세요.AI:Can I call 119 to call the ambulance in the U.S.?	미국에서 구급차를 부르려면 119에 전화해도 되나요?<br>S:I’m afraid that’s not right.	 안타깝지만 그건 옳지 않습니다.<br>AI:I thought every country uses 119.	모든 나라가 119를 쓰는 줄 알았는데.<br>S:In [the U.S.], you [have to call 911].	[미국]에서는 [911에 전화해야 합니다].<br><br>
-087;원하는 것 묻기;<br>A:What do you want for lunch?	점심으로 무엇을 원하세요?<br>B:I want a hamburger.	나는 햄버거를 먹고 싶어.<br>A:I want a spaghetti.	스파게티를 먹고 싶어요.<br>B:Let’s go to ‘Sam’s’ to eat together.	샘네 집에 같이 밥 먹으러 가자.<br>1단계<br>A:What do you want for lunch?	점심으로 무엇을 원하세요?<br>B:I want a hamburger.	나는 햄버거를 먹고 싶어.<br>2단계<br>Direction:자라나에게 주말에 무엇을 하고 싶은지 물어보세요.S:What do you [want to do this weekend]?	당신은 [이번 주말에 무엇을 하고 싶나요]?<br>AI:I want to go camping with my family.	가족과 함께 캠핑을 가고 싶어요.<br>Direction:자라나에게 시험 끝나고 친구들과 마라탕을 먹고 싶다고 말해보세요.AI:What do you want to do after the test?	시험이 끝나면 무엇을 하고 싶나요?<br>S:I [want to eat] Maratang [with my friends].	저는 [먹고 싶어요] 마라탕을 [친구들과] 먹었어요.<br>3단계<br>Direction:자라나와 생일에 원하는 것을 묻고 답해보세요.S:What do you want for your birthday?	 생일 선물로 무엇을 갖고 싶나요?<br>AI:I want to watch a movie with my friends. What about you?	친구들과 영화를 보고 싶어요. 당신은 어때요?<br>S:I want to <Activities>.	<액티비티>를 하고 싶어요.<br>AI:That sounds fun. Invite me!	 재미있을 것 같네요. 나를 초대해!<br><br>
-088;원하는 행동 묻기;<br>A:What are these?	이것들은 무엇인가요?<br>B:They are presents for my friends. Can you help me?	그것들은 내 친구들을 위한 선물이에요. 도와주세요?<br>A:Sure. What do you want me to do?	물론이죠. 내가 무엇을 하기를 바라나요?<br>B:Please put the names on them.	이름을 적어주세요.<br>1단계<br>A:What do you want me to do?	내가 무엇을 하기를 바라나요?<br>B:Please put the name on them.	이름을 적어주세요.<br>2단계<br>Direction:자라나에게 무엇을 해주길 원하는지 물어보세요.S:What [do you want me to do]?	[내가 무엇을 하기를 원하시나요?]?<br>AI:Please water the plants in our class.	우리 수업의 식물에 물을 주세요.<br>Direction:자라나에게 아이들에게 책을 읽어달라고 말해보세요.AI:What do you want to do now?	 지금 무엇을 하고 싶나요?<br>S:Please [read books for children].	[어린이를 위해 책을 읽어주세요].<br>3단계<br>Direction:자라나와 학급 파티 준비에 필요한 행동을 묻고 답해세요.AI:Let’s prepare for our class party!	 학급 파티를 준비하자!<br>S:What do you want me to do?	내가 무엇을 하기를 바라나요?<br>AI:Well, I’m not sure. What do you want me to do?	 글쎄요, 잘 모르겠어요. 내가 무엇을 하기를 바라나요?<br>S:Please <send the invitation|prepare the dishes>.	<초대장을 보내주세요|요리를 준비하세요>.<br><br>
-089;음식 주문하기;<br>A:What would you like to order?	무엇을 주문하시겠어요?<br>B:I’d like to order two chocolate waffles.	초콜릿 와플 두 개를 주문하고 싶은데요.<br>A:Okay, that will be 5,000 won.	알겠습니다. 5,000원입니다.<br>B:Here’s the money.	여기 돈이 있어요.<br>1단계<br>A:What would you like to order?	무엇을 주문하시겠어요?<br>B:I’d like to order two chocolate waffles.	초콜릿 와플 두 개를 주문하고 싶은데요.<br>2단계<br>Direction:자라나에게 무슨 음식을 주문하고 싶은지 물어보세요.S:What [would you like to order]?	무엇을 주문하시겠습니까?<br>AI:I’d like to order a taco.	타코를 주문하고 싶어요.<br>Direction:자라나에게 버블티를 주문하고 싶다고 말해보세요.AI:What would you like to drink?	무엇을 마실래요?<br>S:[I’d like to order one bubble tea].	[버블티 하나를 주문하고 싶어요].<br>3단계<br>Direction:자라나와 한식당에서 무엇을 주문할 지 묻고 답해보세요.S:What [would you like to order]?	무엇을 주문하시겠습니까?<br>AI:Hmm.. I’d like to order Kimchi fried rice. What about you?	흠.. 김치볶음밥을 주문하고 싶은데요. 당신은 어때요?<br>S:I’d like to order <Bulgogi|Remen>.	<불고기|레멘>을 주문하고 싶어요.<br>AI:I like <Bulgogi|Remen>, too. Let’s order then.	저도 <불고기|레멘>을 좋아해요. 그럼 주문하자.<br><br>
-090;의향 말하기;<br>A:What’s your plan for this summer?	올 여름 계획은 뭐예요?<br>B:I’m thinking of taking swimming lessons.	수영 강습을 받을 생각이에요.<br>A:Cool. I’m thinking of reading some books.	답: 멋지네요. 책을 좀 읽을 생각이에요.<br>B:Really? I will bring some books for you.	정말요? 나는 당신을 위해 책 몇 권을 가져올 것입니다.<br>1단계<br>A:What’s your plan for this summer?	올 여름 계획은 뭐예요?<br>B:I’m thinking of reading some books.	책을 좀 읽을 생각이에요.<br>2단계<br>Direction:자라나에게 내일 무엇을 할 의향인지 물어보세요.S:[What’s your plan for tomorrow]?	[내일 계획이 뭐예요]?<br>AI:I’m thinking of going hiking with my dad.	아빠와 함께 하이킹을 갈 생각이에요.<br>Direction:자라나에게 야구 경기에 갈 의향이 있다고 말해보세요.AI:What’s your plan for this Saturday?	 이번 토요일에 무슨 계획이 있나요?<br>S:[I’m thinking of going to a baseball game].	[야구 경기를 보러 갈 생각이에요].<br>3단계<br>Direction:자라나와 주말에 무엇을 할 의향인지 묻고 답해보세요.S:What’s your plan for this weekend?	 이번 주말에 무슨 계획이 있나요?<br>AI:I’m thinking of visiting my grandparents. What about you?	 조부모님 댁에 가볼까 생각 중이에요. 당신은 어때요?<br>S:I’m thinking of going to<church with my family|picnic with my brother>.	<가족과 함께 교회에|오빠와 함께 소풍> 가려고 해요.<br>AI:Okay. Have a good weekend!	알겠습니다. 좋은 주말 보내세요!<br><br>
-011;선호 말하기;<br>A:Which do you prefer, hamburgers or pizza?	햄버거와 피자 중 어느 것을 더 좋아하시나요?<br>B:I prefer hamburgers. What about you?	저는 햄버거를 더 좋아해요. 당신은 어때요?<br>A:I prefer pizza. Actually, it is my favorite	저는 피자를 더 좋아해요. 사실 제가 제일 좋아하는 거거든요<br>food.	음식.<br>B:Oh, I see.	아, 알겠습니다.<br>1단계<br>A:Which do you prefer, summer or winter?	여름과 겨울 중 어느 것을 더 좋아하시나요?<br>B:I prefer winter.	나는 겨울을 더 좋아해요.<br>2단계<br>Direction:자라나에게 소고기와 돼지고기중 무엇을 선호하는지 물어보세요.S:Which do you prefer, [beef] or [pork]?	[쇠고기]와 [돼지고기] 중 어느 것을 더 좋아하시나요?<br>AI:I prefer pork.	 저는 돼지고기를 더 좋아해요.<br>Direction:자라나에게 소고기를 선호한다고 말해 보세요.AI:Which do you prefer, beef or pork?	소고기와 돼지고기 중 어느 것을 더 좋아하시나요?<br>S:I prefer [beef].	저는 [쇠고기]를 더 좋아해요.<br>3단계<br>Direction:자라나와 선호하는 음식에 대해 묻고 답해보세요.S:Which do you prefer, <pizza|Gimbab> or <pizza|Gimbab>?	 <피자|김밥>과 <피자|김밥> 중 어느 것을 더 좋아하시나요?<br>AI:I prefer <pizza|Gimbab>. What about you?	저는 <피자|김밥>을 더 좋아해요. 당신은 어때요?<br>S:I prefer <pizza|Gimbab>.	저는 <피자|김밥>을 더 좋아해요.<br><br>
-012;이유 말하기;<br>A:Which country do you want to visit?	어느 나라를 방문하고 싶나요?<br>B:I want to visit France.	프랑스를 방문하고 싶어요.<br>A:Why do you want to visit France?	왜 프랑스를 방문하고 싶나요?<br>B:Because I want to see the Eiffel Tower.	에펠탑을 보고 싶어서요.<br>1단계<br>A:Why do you want to join the dance club?	왜 댄스 동아리에 가입하고 싶어?<br>B:Because I want to practice dancing.	댄스 연습을 하고 싶어서요.<br>2단계<br>Direction:자라나에게 영어를 배우는 이유를 물어보세요.S:[Why do you] learn English?	[왜] 영어를 배우나요?<br>AI:Because I can communicate with people from other countries.	다른 나라 사람들과도 소통할 수 있으니까요.<br>Direction:자라나에게 전화를 잃어버렸기 때문이라는 이유를 말해 보세요.AI:Why do you look so sad?	왜 그렇게 슬픈 표정을 짓나요?<br>S:Because [I lost my phone.]	왜냐하면 [휴대폰을 잃어버렸어요.]<br>3단계<br>Direction:특정 나라에 방문하고 싶은 이유에 대해 자라나와 묻고 답해보세요.S:Why do you want to visit <Tokyo|Seoul|Paris|New York|Rome|Egypt>?	왜 <도쿄|서울|파리|뉴욕|로마|이집트>를 방문하고 싶나요?<br>AI:Because I want to see the <Tokyo|Seoul|Paris|New York|Rome|Egypt> tower. Why do you want to visit <Tokyo|Seoul|Paris|New York|Rome|Egypt>?	 <도쿄|서울|파리|뉴욕|로마|이집트> 타워를 보고 싶어서요. 왜 <도쿄|서울|파리|뉴욕|로마|이집트>를 방문하고 싶나요?<br>S:Because I want to see the <Pyramid|Eiffel Tower|London Eye|beautiful beach|Hanok village>.	 <피라미드|에펠탑|런던아이|아름다운 해변|한옥마을>을 보고 싶어서요.<br>3. 희망 기대 표현하기;013	3. 기대된다;013<br>A:Are you going to travel to Sokcho next week?	다음 주에 속초로 여행을 갈 예정인가요?<br>B:Yes, I am.	네, 그렇습니다.<br>A:Good for you! Have a nice trip.	잘 됐네요! 즐거운 여행 되세요.<br>B:Thanks. I am looking forward to it.	 고마워요. 나는 그것을 기대하고 있습니다.<br>1단계<br>A:Are you going to have a birthday party this Saturday?	이번 토요일에 생일 파티를 할 거예요?<br>B:Yes, I am looking forward to it.	네, 기대됩니다.<br>2단계<br>Direction:자라나에게 제주도로 여행을 갈 계획인지 물어보세요.S:Are you going to [travel to Jeju]?	[제주여행] 가시나요?<br>AI:Yes, I am looking forward to it.	네, 기대됩니다.<br>Direction:자라나에게 소풍을 기대한다고 말해 보세요.AI:Are you going to go on a picnic?	소풍 갈 건가요?<br>S:Yes, I [am looking forward to] it.	네, 기대하고 있어요.<br>3단계<br>Direction:자라나와 국내 도시로의 여행 계획을 묻고 기대를 표현 해보세요.S:Are you going to travel to <Busan|Andong|Sokcho>?	<부산|안동|속초>로 여행을 가시나요?<br>AI:Yes, I am looking forward to it. Are you going	네, 기대됩니다. 가는거야<br>to travel to <Busan|Andong|Sokcho>?	<부산|안동|속초>로 여행을 떠나시나요?<br>S:Yes, I am looking forward to it.	네, 기대됩니다.<br><br>
-014;주말 계획 묻고 답하기;<br>A:What are you going to do this weekend?	이번 주말에 뭐 할 거예요?<br>B:I’m going to go on a camping trip. What about you?	캠핑 여행을 갈 예정이에요. 당신은 어때요?<br>A:I’m going to visit my grandparents.	조부모님 댁에 갈 예정이에요.<br>B:Sounds great. Have a nice weekend.	좋네요. 좋은 주말 되세요.<br>1단계<br>A:What are you going to do this weekend?	이번 주말에 뭐 할 거예요?<br>B:I am going to play soccer with my friends.	친구들과 축구를 할 예정이에요.<br>2단계<br>Direction:자라나에게 주말 계획을 물어보세요.S:[What are you going to do] this weekend?	[이번 주말에 뭐 할 거예요?]<br>AI:I am going to go shopping.	쇼핑하러 갈 거예요.<br>Direction:자라나에게 운동을 할 계획이라고 말해 보세요.AI:What are you going to do this weekend?	 이번 주말에 뭐 할 거예요?<br>S:I am going to [play sports].	저는 [스포츠를]할 예정이에요.<br>3단계<br>Direction:자라나와 주말 계획에 대해 묻고 답해보세요.S:What are you going to do this weekend?	 이번 주말에 뭐 할 거예요?<br>AI:I am going to <play game|spend time with my family|watch the movie|read books>. What about you?	나는 <게임하기|가족들과 함께 시간 보내기|영화 보기|책 읽기>할 예정이에요. 당신은 어때요?<br>S:I am going to <play game|spend time with my family|watch the movie|read a book>.	저는 <게임을 할 거예요|가족과 함께 시간을 보낼 거예요|영화를 볼 거예요|책을 읽을 거예요>.<br><br>
-015;길 묻고 답하기;<br>A:Excuse me. How can I get to the bookstore?	죄송합니다. 서점에 어떻게 가나요?<br>B:Go straight one block and turn right. It will be on your right.	한 블록 직진한 후 우회전하세요. 그것은 당신의 오른쪽에있을 것입니다.<br>A:Thanks a lot.	 정말 고마워요.<br>B:You’re welcome.	천만에요.<br>1단계<br>A:How can I get to the museum?	박물관에 어떻게 가나요?<br>B:Go straight two blocks and turn right.	두 블록을 직진한 후 우회전하세요.<br>2단계<br>Direction:자라나에게 빵집에 가는 길을 물어보세요.S:[How can I get to] the bakery?	제과점에 [어떻게 가나요?]<br>AI:Go straight three blocks and turn left.	세 블록을 직진한 후 좌회전하세요.<br>Direction:자라나에게 한 블럭을 직진한 후 좌회전하라고 말해 보세요.AI:How can I get to the police station?	경찰서에 어떻게 가나요?<br>S:[Go straight one block] and [turn left].	[한 블록 직진] 그리고 [좌회전].<br>3단계<br>Direction:자라나와 역할을 번갈아 수행하며 <보기(지도)> 속 장소로 가는 길을 묻고 답해 보세요S:How can I get to the <bakery|shoes store|bank|post office|museum>?	<빵집|신발가게|은행|우체국|박물관>에 어떻게 가나요?<br>AI:Go straight <one|two> blocks and turn <left|right>.	AI:<1|2> 블록 직진하고 <좌|우> 회전하세요.<br><br>
-031;만족 묻고 답하기;<br>A:How do you like this T-shirt?	이 티셔츠 어때요?<br>B:I like it.	좋아요.<br>A:What do you like about it?	그것의 어떤 점이 마음에 드나요?<br>B:I like its color.	색깔이 마음에 들어요.<br>1단계<br>A:How do you like this backpack?	이 배낭은 어때요?<br>B:I like it. I like its design.	좋아요. 나는 그 디자인을 좋아한다.<br>2단계<br>Direction:자라나에게 드레스에 대한 만족도를 물어 보세요.S:[How do you like] this dress?	[어떠세요] 이 드레스요?<br>AI:I like it. I like its color and design.	좋아요. 색상과 디자인이 마음에 듭니다.<br>Direction:자라나에게 만족감을 표현한 후, ‘모양’이 만족스럽다는 것을 말해보세요.AI:How do you like this hat?	 이 모자는 어때요?<br>S:I [like it]. I like [its shape].	[좋아요]. 나는 [그 모양]을 좋아한다.<br>3단계<br>Direction:자라나와 제품에 대한 만족감을 묻고 이유와 함께 만족함을 말해보세요. <보기>에 제시된 표현을 이용하여 대화해 보세요.S:How do you like this <phone|bike|bag|skirt|laptop|backpack>?	이 <전화|자전거|가방|스커트|노트북|배낭> 어떠세요?<br>AI:I like it. I like its function. How do you like this <phone|bike|bag|skirt|laptop|backpack>?	좋아요. 나는 그 기능을 좋아한다. 이 <phone|자전거|가방|스커트|노트북|배낭> 어떠세요?<br>S:I like it. I like its <color|design|size>.	좋아요. <색상|디자인|크기>가 마음에 듭니다.<br><br>
-032;걱정 표현하기;<br>A:What’s the matter?	무슨 일이에요?<br>B:I’m worried about my dog. He doesn’t sleep well.	나는 내 개가 걱정돼요. 그는 잠을 잘 못 자요.<br>A:Why don’t you play some music for him?	그 사람을 위해 음악을 연주해 주는 게 어때요?<br>B:That’s a good idea. Thanks.	좋은 생각이네요. 감사해요.<br>1단계<br>A:What’s the matter?	무슨 일이에요?<br>B:I am worried about my presentation.	발표가 걱정돼요.<br>2단계<br>Direction:자라나에게 무슨일이 있는지 물어 보세요.S:What’s [the matter]?	 [문제]가 뭐예요?<br>AI:I am worried about my sister.	저는 여동생이 걱정됩니다.<br>Direction:자라나에게 수학 시험이 걱정된다고 말해 보세요.AI:What’s the matter?	 무슨 일이에요?<br>S:I am worried about the [math exam].	[수학 시험]이 걱정됩니다.<br>3단계<br>Direction:자라나와 학교 생활과 관련된 걱정에 대해 서로 묻고 말해 보세요.S:What’s the matter?	남: 무슨 일이에요?<br>AI:I’m worried about the science project. What about you?	과학 프로젝트 때문에 걱정이에요. 당신은 어때요?<br>S:I am worried about <my grade|the final exam|the singing contest|the soccer game|the English test>.	<내 성적|기말고사|노래자랑|축구경기|영어시험>이 걱정이에요.<br><br>
-033;지난 주말 일(과거 일) 묻고 답하기;<br>A:What did you do last weekend?	지난 주말에 뭐 했어요?<br>B:I went to the movies. How about you?	영화보러 갔어. 당신은 어떤가요?<br>A:I practiced dancing with my dance club members.	댄스 동아리 멤버들과 춤 연습을 했어요.<br>B:Sounds fun!	재밌겠다!<br>1단계<br>A:What did you do last weekend?	지난 주말에 뭐 했어요?<br>B:I went shopping with my friends.	친구들과 쇼핑하러 갔어요.<br>2단계<br>Direction:자라나에게 지난 주말에 한 일을 물어보세요.S:[What did you do] last weekend?	지난 주말에 [무엇을 했나요?]<br>AI:I went swimming.	수영하러 갔어요.<br>Direction:자라나에게 친구들과 농구를 했었다고 말해 보세요.AI:What did you do last weekend?	지난 주말에 뭐 했어요?<br>S:I [played basketball] with my friends.	친구들과 [농구를 했어요].<br>3단계<br>Direction:자라나와 지난 주말에 한 일에 대해 묻고 답해보세요.S:What are you going to do this weekend?	 이번 주말에 뭐 할 거예요?<br>AI:I went on a trip to Jejudo. What did you do?	제주도로 여행을 다녀왔습니다. 뭐 했어?<br>S:I <played game|walked my dog|watched movies|read books|played sports|went skii>.	저는 <게임을 했습니다|강아지를 산책시켰습니다|영화를 보았습니다|책을 읽었습니다|스포츠를 했습니다|스키를 갔습니다>.<br><br>
-034;중요한 일정에 대해 기원의 말 해주기;<br>A:What are you going to do this weekend?	이번 주말에 뭐 할 거예요?<br>B:I am going to enter a dance contest.	댄스 대회에 참가할 예정이에요.<br>A:Wow, I will keep my fingers crossed for you.	와, 제가 당신을 위해 최선을 다하겠습니다.<br>B:Thanks!	 고마워요!<br>1단계<br>A:I am going to enter a singing contest.	노래 대회에 참가할 예정이에요.<br>B:I will keep my fingers crossed for you.	당신을 위해 최선을 다하겠습니다.<br>2단계<br>Direction:자라나에게 축구 시합에 참가할 것이라고 말해 보세요.S:I am going to [enter a soccer match].	저는 [축구 경기에 참가]할 예정입니다.<br>AI:I will keep my fingers crossed for you.	나는 당신을 위해 최선을 다하겠습니다.<br>Direction:자라나에게 행운을 비는 말을 해 주세요.AI:I have a math test tomorrow.	내일 수학 시험이 있어요.<br>S:I will [keep my fingers crossed for you].	저는 [당신을 위해 최선을 다하겠습니다].<br>3단계<br>Direction:학교 축제에서 할 일에 대해 자라나와 이야기를 나누며 서로에게 행운을 기원하는 말을 해 보세요.S:I am going to [dance] at the school festival.	저는 학교 축제에 [댄스]하러 갈 예정이에요.<br>AI:I will keep my fingers crossed for you. Actually, I am going to <perform in a musical|play the piano|play the guitar|be the host|run a booth>.	나는 당신을 위해 최선을 다하겠습니다. 사실 저는 <뮤지컬|피아노 연주|기타 연주|진행자|부스 운영>할 예정이에요.<br>S:I will keep my fingers crossed for you!	당신을 위해 최선을 다하겠습니다!<br><br>
-035;반대하기;<br>A:I saw the movie, Spider Man last weekend.	지난 주말에 영화 스파이더맨을 봤어요.<br>B:Me, too. What do you think about it?	나도 마찬가지야. 당신이 그것에 대해 어떻게 생각하십니까?<br>A:I think it is interesting. What do you think?	흥미롭다고 생각해요. 어떻게 생각하나요?<br>B:Well, I don’t think so. It is boring.	글쎄, 내 생각에는 그렇지 않은 것 같아. 지루해요.<br>1단계<br>A:I think math is really fun.	내 생각엔 수학이 정말 재미있을 것 같아.<br>B:Well, I don’t think so. It is so hard.	글쎄, 내 생각에는 그렇지 않은 것 같아. 너무 힘들어요.<br>2단계<br>Direction:자라나에게 피자는 맛있다는 의견을 말해 보세요.S:[I think] pizza is delicious.	[내 생각엔] 피자가 맛있을 것 같아.<br>AI:Well, I don’t think so. It is too salty.	글쎄, 내 생각에는 그렇지 않다. 너무 짜다.<br>Direction:자라나에게 반대한다고 말한 다음, 쉽기 때문이라는 이유도 말해 보세요.AI:I think math is hard.	 수학은 어려운 것 같아요.<br>S:[Well, I don’t think so]. It is [easy].	[글쎄, 내 생각엔 그렇지 않은 것 같아]. [쉬움]입니다.<br>3단계<br>Direction:자라나와 함께, 어려운 과목과 흥미로운 과목에 대한 의견을 나눠 보세요.S:I think <english|korean|history|math> is <hard|interesting>.	내 생각에는 <영어|한국어|역사|수학>이 <어려워|흥미롭다>.<br>AI:I don’t think so. I think <english|korean|history|math> is <hard|interesting>.	그렇지 않은 것 같아요. 내 생각엔 <영어|한국어|역사|수학>은 <어려워|흥미롭다>.<br><br>
-051;강조하기;<br>A:What should I do to become a writer?	작가가 되려면 어떻게 해야 하나요?<br>B:It is important to practice writing	글쓰기 연습을 하는 것이 중요해요<br>regularly.	정기적으로.<br>A:Thanks for the advice.	조언을 주셔서 감사합니다.<br>B:Anytime!	언제든지요!<br>1단계<br>A:What should I do to become a chef?	셰프가 되려면 어떻게 해야 하나요?<br>B:It is important to develop cooking skills.	요리 실력을 키우는 것이 중요해요.<br>2단계<br>Direction:자라나에게 가수가 되려면 무엇을 해야하는지 물어 보세요.S:[What should I do to] be good at English?	[어떻게 하면] 영어를 잘 할 수 있나요?<br>AI:It is important to learn new words.	새로운 단어를 배우는 것이 중요합니다.<br>Direction:자라나에게 열심히 연습하는 것이 중요하다고 말해 주세요.AI:What should I do to be good at soccer?	축구를 잘하려면 어떻게 해야 하나요?<br>S:It is important to [practice hard].	[열심히 연습하는] 것이 중요해요.<br>3단계<br>Direction:건강한 삶을 살기 위해 해야할 일을 강조하는 대화를 나눠보세요.S:What should we do to be healthy?	건강해지려면 어떻게 해야 하나요?<br>AI:It is important to limit fast food. Do you have any other ideas?	패스트푸드를 제한하는 것이 중요합니다. 다른 아이디어가 있나요?<br>S:It is important to <limit screen time|exercise regularly|eat less sweets|sleep enough|eat healthy food|drink enough water>.	<화면 시간 제한|규칙적인 운동|단 음식 덜 먹기|충분히 잠|건강에 좋은 음식 먹기|충분한 물 마시기>가 중요해요.<br><br>
-053;감사하고 답하기;<br>A:Your performance was great!	당신의 연기는 정말 훌륭했어요!<br>B:Thanks for coming to my play.	제 연극에 와주셔서 감사합니다.<br>A:You’re welcome. I really enjoyed it.	천만에요. 나는 그것을 정말로 즐 겼어.<br>B:I am glad that you liked it.	좋아해주셔서 기뻐요.<br>1단계<br>A:Thanks for your understanding.	 이해해 주셔서 감사합니다.<br>B:You’re welcome.	천만에요.<br>2단계<br>Direction:자라나에게 숙제를 도와줘서 고맙다고 말해 보세요.S:Thanks for [helping me with my homework].	[숙제를 도와줘서] 고마워요.<br>AI:You’re welcome.	천만에요.<br>Direction:자라나의 감사에 적절히 답해 보세요.AI:Thanks for being a great friend.	좋은 친구가 되어주셔서 감사합니다.<br>S:[You’re welcome].	[천만에요].<br>3단계<br>Direction:자라나와 서로 평상시 고마운 친구 사이라고 생각하고 감사 인사를 주고 받아 보세요. <보기>에 제시된 표현을 이용하여 대화해 보세요.<보기>	<보기><br>S:Thanks for <helping me with my homework|being my study buddy|making everything more fun|making me laugh|being an awesome friend>.	<숙제를 도와줘서|공부 친구가 되어 주고|모든 것을 더 재미있게 만들어 주고|웃게 만들어 주고|멋진 친구가 되어 줘서>고마워요.<br>AI:You’re welcome. Thanks for being so kind.	천만에요. 친절해주셔서 감사합니다.<br>S:You’re welcome!	천만에요!<br><br>
-054;기쁨이나 슬픔 표현하기;<br>A:How are you feeling today?	오늘 기분이 어때요?<br>B:I feel sad.	안타깝네요.<br>A:Oh, what happened?	아, 무슨 일이 있었나요?<br>B:My best friend moved to another city.	내 가장 친한 친구가 다른 도시로 이사했어요.<br>1단계<br>A:How are you feeling?	기분이 어때요?<br>B:I feel excited.	기분이 좋아요.<br>2단계<br>Direction:자라나에게 기분을 물어보세요.S:How are you feeling?	기분이 어때요?<br>AI:I feel great.	기분이 좋아요.<br>Direction:자라나에게 슬프다고 말해 보세요.AI:How are you feeling?	기분이 어때요?<br>S:I feel [sad].	[슬픈] 기분이에요.<br>3단계<br>Direction:자라나와 서로의 기분을 묻고 답해 보세요.S:How are you feeling?	기분이 어때요?<br>AI:I feel <good|not bad|happy>. What about you?	 기분이 <좋습니다|나쁘지 않아요|행복해요>. 당신은 어때요?<br>S:I feel <good|not bad|happy>	기분이 <좋습니다|나쁘지 않습니다|행복합니다><br><br>
-055;날씨 묻고 말하기;<br>A:How’s the weather in Seoul?	서울 날씨는 어때요?<br>B:It is sunny and cool. How’s the weather	맑고 시원해요. 날씨가 어때요<br>in London?	런던에서?<br>A:It is warm and cloudy.	따뜻하고 구름이 많아요.<br>B:Oh, I see. Have a nice day!	아, 알겠습니다. 좋은 하루 되세요!<br>1단계<br>A:How’s the weather in New York?	뉴욕 날씨는 어때요?<br>B:It is cold and snowy.	춥고 눈이 와요.<br>2단계<br>Direction:자라나에게 부산의 날씨에 대해 물어보세요.S:[How’s the weather] in Busan?	[날씨는 어때요] 부산은요?<br>AI:It is cloudy.	흐려요.<br>Direction:자라나에게 날씨가 따뜻하다고 말해주세요.AI:How’s the weather in Jejudo?	제주도 날씨는 어때요?<br>S:It is [warm].	[따뜻해요].<br>3단계<br>Direction:자라나와 세계 각국 도시의 날씨에 대해 묻고 답 해 보세요AI:It is sunny. How’s the weather in <Tokyo|London|Paris|Seoul|Beijing>?	맑아요. <도쿄|런던|파리|서울|베이징> 날씨는 어때요?<br>S:It is <cloudy|rainy|sonwy|windy>.	<구름|비|소우|바람>입니다.<br><br>
-091;장소 말하기;<br>A:I went to my grandparents’ farm last weekend.	지난 주말에 조부모님 농장에 갔었어요.<br>B:Oh, where is it?	아, 어디예요?<br>A:It’s in An-sung. They grow strawberries.	안성에 있어요. 그들은 딸기를 재배합니다.<br>B:Wow, that sounds amazing.	와, 그거 정말 놀라운데.<br>1단계<br>A:Where is Gyeongbokgung?	경복궁은 어디에 있나요?<br>B:It is in Seoul.	서울에 있어요.<br>2단계<br>Direction:자라나에게 불국사가 어디에 있는지 물어보세요.S:[Where is] Bulguksa?	[어디] 불국사요?<br>AI:It is in Gyeongju.	 경주에 있어요.<br>Direction:자라나에게 해당장소가 안동에 있다고 말해 주세요.AI:Where is the Hahoe Village?	아이:하회마을은 어디에 있나요?<br>S:[It is in] Andong.	[들어있습니다] 안동이에요.<br>3단계<br>Direction:자라나와 함께 세계의 랜드마크들이 어디 있는지 묻고 답해 보세요.S:Where is the <Great Wall|Seoul Tower|Tower Bridge|Opera House|Tokyo Tower|Effel Tower>?	<만리장성|서울타워|타워브리지|오페라하우스|도쿄타워|에펠타워>는 어디에 있나요?<br>AI:It is in <China|Korea|London|Sydney|Tokyo|Paris>. Where is the Eiffel Tower?	 <중국|한국|런던|시드니|도쿄|파리>에 있어요. 에펠탑은 어디에 있나요?<br>S:It is in Paris.	파리에 있어요.<br><br>
-094;장래 희망 말하기;<br>A:What do you want to be in the future?	미래에 무엇이 되고 싶나요?<br>B:I want to be a police officer. What about you?	저는 경찰이 되고 싶어요. 당신은 어때요?<br>A:I want to be a teacher.	저는 선생님이 되고 싶어요.<br>B:Sounds great. I hope your dream comes true.	좋네요. 당신의 꿈이 이루어지기를 바랍니다.<br>1단계<br>A:What do you want to be in the future?	미래에 무엇이 되고 싶나요?<br>B:I want to be a doctor.	저는 의사가 되고 싶어요.<br>2단계<br>Direction:자라나에게 장래에 무엇이 되고 싶은지 무엇인지 물어보세요.S:[What do you want to be] in the future?	미래에 [무엇이 되고 싶나요?]<br>AI:I want to be a basketball player.	저는 농구선수가 되고 싶어요.<br>Direction:자라나에게 가수가 되고 싶다고 말해 보세요.AI:What do you want to be in the future?	미래에 무엇이 되고 싶나요?<br>S:I want to be a [singer].	저는 [가수]가 되고 싶어요.<br>3단계<br>Direction:자라나와 함께 서로의 장래 희망 직업에 대해 묻고 답해 보세요.S:What do you want to be in the future?	미래에 무엇이 되고 싶나요?<br>AI:I want to be a <doctor|nurse|teacher|programmer|architect|professor>. What do you want to be in the future?	저는 <의사|간호사|교사|프로그래머|건축가|교수>가 되고 싶어요. 당신은 미래에 무엇이 되고 싶나요?<br>S:I want to be a <doctor|nurse|teacher|programmer|architect|professor>.	저는 <의사|간호사|교사|프로그래머|건축가|교수>가 되고 싶어요.<br><br>
-072;격려하기;<br>A:Hey, are you practicing dance moves?	야, 너 춤 연습하고 있어?<br>B:Right, but it’s not going well. I want to	맞아요. 그런데 잘 안 되고 있어요. 나는하고 싶다<br>dance well, but it’s so hard.	춤은 잘 추는데 너무 힘들어요.<br>A:Don’t give up. You can do it. Keep trying.	포기하지 마세요. 할 수 있어요. 계속 노력하세요.<br>B:Thanks. I will keep them in mind.	 고마워요. 나는 그들을 명심할 것이다.<br>1단계<br>A:I want to sing well, but it’s so hard.	노래를 잘하고 싶은데 너무 힘들어요.<br>B:Don’t give up. You can do it. Keep trying.	포기하지 마세요. 할 수 있어요. 계속 노력하세요.<br>2단계<br>Direction:자라나에게 요리를 잘하고 싶지만 너무 어렵다고 말해 보세요.S:I want to [cook well], but it’s so hard.	요리를 잘하고 싶은데 너무 힘들어요.<br>AI:Don’t give up. You can do it!	포기하지 마세요. 할 수 있어요!<br>Direction:자라나에게 포기하지말고 계속 시도해 보라는 격려의 말을 해주세요.AI:I want to be good at math, but it’s so hard.	 수학을 잘하고 싶은데 너무 힘들어요.<br>S:Don’t [give up]. [Keep trying].	 [포기]하지 마세요. [계속 노력하세요].<br>3단계<br>Direction:: 잘 하고 싶지만 어려움을 겪고 있는 일에 대해 자라나와 이야기해 보고, 격려의 말을 전해 보세요.	Direction:: 잘 지내고 싶은데 어려움을 겪고 있는 일에 대해 자라나와 이야기해 보고, 격려를 기대하겠습니다.<br>S:I want to <speak english well|play soccer well|make things well|draw well|swim well|run fast>, but it’s so hard.	<영어를 잘하고|축구를 잘하고|만들기를 잘하고|그림을 잘|수영을 잘하고|빠르게 달리고 싶은데 너무 힘들어요.<br>AI:As for me, speaking Korean well is so hard.	저는 한국어를 잘하는 게 너무 힘들어요.<br>S:<Keep trying|You can do it!|Don’t give up>.	<계속 노력하세요|당신은 할 수 있어요!|포기하지 마세요>.<br><br>
-092;정의하기;<br>A:What does the sign over there mean?	저쪽에 있는 표지판은 무엇을 의미하나요?<br>B:You mean the one with a picture of deer?	사슴 그림이 있는 거 말인가요?<br>A:Yes.	 그렇습니다.<br>B:It means ‘watch out for deer crossing’.	B:’사슴이 건너가는 것을 조심하세요’라는 뜻이에요.<br>1단계<br>A:What does the gesture mean?	그 몸짓은 무슨 뜻인가요?<br>B:It means ‘hello’ or ‘goodbye’.	B:’안녕’이나 ’안녕’이라는 뜻이에요.<br>2단계<br>Direction:자라나에게 그 표지판이 무슨 의미를 지니는지 물어 보세요.	Direction: 자라나에게 그 의미가 무슨 의미인지 알려달라고 합니다.<br>S:What does the sign mean?	그 표시는 무엇을 의미하나요?<br>AI:It means ‘stop the car’.	AI: ’차를 멈추다’라는 뜻이에요.<br>Direction:자라나에게 평화를 의미한다는 것을 말해보세요	Direction:자라나에게 평화를 의미한다는 것을 말해주는 것입니다<br>AI:What does the symbol mean?	 기호는 무엇을 의미하나요?<br>S:It means [peace].	 그것은 [평화]를 의미합니다.<br>3단계<br>Direction:자라나와 제스쳐의 의미에 대해 묻고 답해 보세요.	Direction:자라나와 제스쳐의 의미에 대해 묻고 답해 보세요.<br>S:What does the <thumb up|pointing at the watch|high-five gesture|victory sign with two fingers|hand covering the mouth> mean?	<엄지를 위로|시계를 가리키며|하이파이브|두 손가락으로|손으로 입을 가리는 승리 표시>는 무슨 뜻인가요?<br>AI:It means <agreement|greeting|hello|feeling pain|excitement|be quiet>. What does the finger to lips motion mean?	 <동의|인사|안녕하세요|고통을 느낀다|흥분|조용히>라는 뜻이에요. 손가락에서 입술로의 움직임은 무엇을 의미합니까?<br>S:It means [be quiet].	 [조용히 하세요]라는 뜻이에요.<br><br>
-119;알고 있는지 묻기;<br>A:Have you heard about the upcoming concert in town?	이번 시내에서 열리는 콘서트 소식 들었어?<br>B:No, I haven’t. Who’s playing at the concert?	아니요, 없어요. 콘서트에서 누가 연주하나요?<br>A:A famous K-pop band.	유명한 K팝 밴드예요.<br>B:Really? Let’s get the tickets!	정말요? 티켓을 구하자!<br>1단계<br>A:Have you heard about a new restaurant?	새 식당에 대해 들어본 적 있나요?<br>B:No, I haven’t.	아니요, 없어요.<br>2단계<br>Direction:자라나에게 새로 온 학생에 대해 들어봤는지 물어보세요.S:[Have you heard about] the new student?	[들어본 적 있나요] 신입생이요?<br>AI:No, I haven’t.	아니요, 없어요.<br>Direction:자라나에게 들어본적이 없다고 말해 보세요.AI:Have you heard about the new movie that just came out?	방금 개봉한 새 영화에 대해 들어보셨나요?<br>S:No, I [haven’t].	아니요, 저는 [해본 적이 없습니다].<br>3단계<br>Direction:자라나와 세계 각국의 디저트에 대해 들어본 적 있는지 묻고 답해 보세요.S:Have you heard about <tiramisu|mocha|gelato|churros|shortbread|mooncakes|ddeok>?	<티라미수|모카|젤라또|츄러스|쇼트브레드|월병|떡>에 대해 들어보셨나요?<br>AI:No, I haven’t. What is it?	아니요, 없어요. 그것은 무엇입니까?<br>S:It is a dessert from <Japan|Italy|Spain|the UK|China>.	<일본|이탈리아|스페인|영국|중국>의 디저트예요.<br><br>
-130;사람에 대해 묻고 답하기;<br>A:Who is the girl over there?	저기 있는 여자는 누구예요?<br>B:You mean the girl with long black hair?	검은 긴 머리를 한 여자애 말이에요?<br>A:Yes, right.	네, 그렇죠.<br>B:Oh, she is my younger sister, Jenny.	아, 그 사람은 내 여동생 Jenny야.<br>1단계<br>A:Who is the man?	그 남자는 누구예요?<br>B:He is my English teacher, Mr. Kim.	그분은 제 영어 선생님이신 김 선생님이세요.<br>2단계<br>Direction:자라나에게 소년이 누구인지 물어 보세요.S:[Who is] the girl?	[누구] 그 소녀는요?<br>AI:She is my best friend, Jihoon.	그녀는 나의 가장 친한 친구인 지훈이에요.<br>Direction:자라나에게 그녀는 수학 선생님이라고 말해 보세요.AI:Who is the woman over there?	저기 여자는 누구예요?<br>S:She is [my math teacher].	그녀는 [나의 수학 선생님]이에요.<br>3단계<br>Direction:자라나와 특정 사람에 대해 묻고 답하는 대화를 해보세요.S:Who is the <boy|man|woman|best friend|classmate|aunt>?	<소년|남자|여자|가장 친한 친구|동급생|이모>는 누구인가요?<br>AI:<She|He> is <friend|brother|sister|science teacher>, Suji. Who is the man over there?	 <그녀|그>는 <친구|형제|자매|과학선생님> 수지예요. 저기 있는 남자는 누구예요?<br>S:<She|He> is my <friend|brother|sister|science teacher>.	<그녀|그>는 내 <친구|형제|자매|과학 선생님>입니다.<br><br>
-141;성격 묘사하기;<br>A:I made a new friend in my class. Her name is Mina.	나 수업시간에 새 친구를 사귀었어. 그녀의 이름은 미나입니다.<br>B:Oh, what is she like?	아, 그 사람은 어때요?<br>A:She is very active and friendly. I am	그녀는 매우 활동적이고 친절합니다. 그래요<br>happy to be with her.	그녀와 함께 있어서 행복해요.<br>B:Good for you!	잘됐네요!<br>1단계<br>A:What is he like?	그 사람은 어떤 사람이에요?<br>B:He is outgoing.	그 사람은 외향적이에요.<br>2단계<br>Direction:자라나에게 Minsu의 성격을 물어보세요.S:[What is] Minsu [like]?	[무엇이] 민수를 [좋아해요]?<br>AI:He is creative and patient.	그는 창의적이고 인내심이 많습니다.<br>Direction:자라나가 말한 사람은 친절하다고 말해 주세요.AI:What is Ms. Lee like?	 이 씨는 어떤 분인가요?<br>S:She is [kind].	그녀는 [친절하다].<br>3단계<br>Direction:주변 친구의 성격에 대해 자라나와 서로 묻고 답해 보세요.S:What is <Jane|Tom|John|Michell> like?	<제인|톰|존|미셸>은 어떤가요?<br>AI:<She|He> is <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful> and <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful>. What is <Jane|Tom|John|Michell> like?	<그녀|그>는 <친절함|친구|책임감|외향적|활동|창의적|현명함|명랑>이고 <친절|친구|책임감|외향적|활동|창의적|현명함|명랑함>입니다. <제인|톰|존|미셸>은 어떤가요?<br>S:<She|He> is <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful> and <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful>	<그녀|그>는 <친절함|친구|책임감|외향적|활동|창의성|현명함|명랑>이며 <친절|친구|책임감|외향적|활동|창의적|현명함|명랑><br><br>
-159;용도 묻고 말하기;<br>A:What is it?	뭔데요?<br>B:It is a bookmark with a light.	라이트가 달린 책갈피입니다.<br>A:Oh, What is it for?	아, 그게 뭔데요?<br>B:It is for reading in the dark.	어두운 곳에서 책을 읽기 위한 것입니다.<br>1단계<br>A:What is it for?	무슨 용도인가요?<br>B:It is for brushing teeth.	양치를 위한 것입니다.<br>2단계<br>Direction:자라나가 설명하고자 하는 대상의 용도가 무엇인지 물어 보세요.S:[What is it for]?	[무슨 용도인가요]?<br>AI:It is for telling time.	시간을 알려주기 위한 것입니다.<br>Direction:설명하고자 하는 대상의 용도가 ‘사람들과 이야기를 나누는 것’임을 말해 보세요.AI:What is it for?	무슨 용도인가요?<br>S:It is for talking with [people]	[사람]과 대화하기 위한 것입니다.<br>3단계<br>Direction:자라나와 물건의 용도에 대해 묻고 답하며 해당 물건이 무엇인지 맞혀보세요.<보기>	<보기><br>S:What is it for?	그것은 무엇을 위한 것인가요?<br>AI:It is for <making calls|brushing hair|seeing in the dark|writing on a computer>.	<전화 걸기|머리 빗기|어두운 곳에서 보기|컴퓨터 쓰기>용입니다.<br>S:It must be <a camera|socks|a pen|scissors|a washing machine|a notebook>	<카메라|양말|펜|가위|세탁기|노트>여야 합니다.<br><br>
-176;잘하는 것 말하기;<br>A:What are you good at?	당신은 무엇을 잘하나요?<br>B:I am good at soccer. What about you?	나는 축구를 잘해요. 당신은 어때요?<br>A:Well, I am good at cooking.	음, 나는 요리를 잘해요.<br>B:That’s awesome!	멋지네요!<br>1단계<br>A:What are you good at?	당신은 무엇을 잘하나요?<br>B:I am good at drawing pictures.	나는 그림을 잘 그려요.<br>2단계<br>Direction:자라나에게 무엇을 잘 하는지 물어보세요.S:[What are you good at]?	[당신은 무엇을 잘하나요]?<br>AI:I am good at English.	저는 영어를 잘해요.<br>Direction:자라나에게 수학을 잘 한다고 말해 보세요.AI:What are you good at?	당신은 무엇을 잘하나요?<br>S:I am good at [math].	저는 [수학]을 잘해요.<br>3단계<br>Direction:자라나와 함께 서로 잘하는 과목에 대해 묻고 답해 보세요.S:What are you good at?	당신은 무엇을 잘하나요?<br>AI:I am good at <math|English|Korean|history|social studies>. What are you good at?	저는 <수학|영어|한국어|역사|사회>를 잘해요. 너는 잘 하는게 뭐야?<br>S:I am good at <math|English|Korean|history|social studies>.	저는 <수학|영어|한국어|역사|사회>를 잘해요.<br><br>
-181;증상 묻고 답하기;<br>A:You look sick. What’s wrong?	너 아픈 것 같아. 뭐가 문제 야?<br>B:I have a terrible headache.	두통이 심해요.<br>A:Oh, I hope you get better soon.	아, 빨리 낫기를 바라요.<br>B:Thanks.	 고마워요.<br>1단계<br>A:What’s wrong?	무슨 일이야?<br>B:I have a cold.	감기에 걸렸어요.<br>2단계<br>Direction:건강이 안 좋아 보이는 자라나에게 무슨일이 있는지 물어보세요.S:[What’s wrong]?	[무슨 일이야]?<br>AI:I have a toothache.	치통이 있어요.<br>Direction:자라나에게 열이 난다고 말해 보세요.AI:What’s wrong?	 무슨 일이야?<br>S:I have [a fever].	[열]이 있어요.<br>3단계<br>Direction:자라나와 함께 서로의 건강 상태에 대해 묻고 증상을 말해 보세요.S:What’s wrong?	무슨 일이야?<br>AI:I have <a cold|a fever|a sore throat|the flo|a cough>. You look sick as well. What’s wrong?	저는 <감기|열|인후통|플루|기침>이 있어요. 너도 아픈 것 같구나. 뭐가 문제 야?<br>S:I have <a cold|a fever|a sore throat|the flo|a cough>	나는 <감기|열|목이 아프다|플루|기침>이 있어요<br><br>
-185;찾는 물건 말하기;<br>A:Can I help you?	도와드릴까요?<br>B:Yes. I am looking for a hat.	네. 나는 모자를 찾고 있어요.<br>A:Oh, you can find hats in the B section.	아, B섹션에서 모자를 찾으실 수 있어요.<br>B:Thanks.	 고마워요.<br>1단계<br>A:Can I help you?	도와드릴까요?<br>B:I am looking for a pair of running shoes.	운동화 한 켤레를 찾고 있어요.<br>2단계<br>Direction:자라나에게 도움이 필요한지 물어 보세요.S:[Can I help you]?	[도와드릴까요]?<br>AI:Yes, I am looking for a baseball cap.	네, 야구 모자를 찾고 있어요.<br>Direction:자라나에게 스카프를 찾고 있다고 말해 보세요.AI:Can I help you?	도와드릴까요?<br>S:Yes, I [am looking for] a scarf.	네, 스카프를 [찾고 있어요].<br>3단계<br>Direction:자라나와 ‘점원과 손님’ 역할을 번갈아 수행하며 대화해 보세요.S:Can I help you?	도와드릴까요?<br>AI:Yes, I am looking for a <tumbler|phone case|earphones|pair of shoes|pencil case>.	네, <텀블러|휴대폰 케이스|이어폰|신발|필통>을 찾고 있어요.<br><br>
-016;음식 권유하고 권유에 답하기;<br>A:Would you like some fried chicken?	후라이드 치킨 좀 드실래요?<br>B:Yes, please. Wow, it’s really good!	네, 부탁드립니다. 와, 정말 좋아요!<br>A:Thank you. My mom made it.	답: 감사합니다. 우리 엄마가 해냈어요.<br>B:She is a great cook.	그녀는 요리를 아주 잘해요.<br>1단계<br>A:Would you like some waffles?	와플 좀 드실래요?<br>B:<Yes, please|No, thanks>.	<예, 부탁드립니다|아니요, 감사합니다>.<br>2단계<br>Direction:자라나에게 불고기를 권해보세요.S:[Would you like some] bulgogi?	[불고기 좀 드실래요?]<br>AI:Yes, please.	네, 부탁드립니다.<br>Direction:자라나가 권해주는 음식을 거절해보세요.AI:Would you like some french fries?	감자튀김 좀 드실래요?<br>S:[No, thanks].	[아니요, 고마워요].<br>3단계<br>Direction:자라나와 관심있는 운동에 대해 묻고 답해보세요.S:Would you like some <Ramen|Gimbab|coffee>?	<라면|김밥|커피> 드실래요?<br>AI:No, thanks. I’m full. Would you like some spaghetti?	아니요, 고마워요. 나는 전체 해요. 스파게티 좀 드시겠어요?<br>S:<Yes, please|No, thanks>.	<예, 부탁드립니다|아니요, 감사합니다>.<br><br>
-017;바라거나 기대하는 일 표현하기;<br>A:Do you have any plans for this Saturday, Jiho?	지호야, 이번 토요일에 무슨 계획 있어?<br>B:I will go camping with my family. I’m looking forward to it. What about you, Bora?	가족들과 함께 캠핑을 갈 거예요. 나는 그것을 기대하고있어. 보라, 너는 어때?<br>A:Mike and I will see a movie.	마이크와 나는 영화를 볼 거예요.<br>B:Sounds like a wonderful weekend.	정말 멋진 주말인 것 같군요.<br>1단계<br>A:Do you have any plans for this weekend?	이번 주말에 무슨 계획이라도 있나요?<br>B:I will see a movie. I’m looking forward to it.	영화를 볼 거예요. 나는 그것을 기대하고있어.<br>2단계<br>Direction:자라나의 내일 계획을 물어보세요.S:Do you [have any plans] for tomorrow?	내일 [계획이 있나요?]<br>AI:I will go to my friend’s house. I’m looking forward to it.	 친구 집에 갈 거예요. 나는 그것을 기대하고있어.<br>Direction:자라나에게 친구들과 축구를 할 것이고, 그것을 기대중이라고 답해보세요.AI:Do you have any plans for tomorrow?	내일 계획이 있나요?<br>S:I will [play soccer with my friends]. [I’m looking forward to it].	저는 [친구들과 축구를 할 것입니다]. [나는 그것을 기대하고있어].<br>3단계<br>Direction:자라나와 내일 계획에 대해 묻고 답하며 기대를 표현해보세요.S:Do you have any plans for tomorrow?	내일 계획이 있나요?<br>AI:I will go see my grandparents. What about you?	조부모님께 가보겠습니다. 당신은 어때요?<br>S:I will <fishing|hiking|camp fire>. I’m looking forward to it.	<낚시|하이킹|캠프파이어>하겠습니다. 나는 그것을 고대하고 있습니다..<br><br>
-018;안부 묻고 답하기;<br>A:Hey, Tim. How are you doing?	안녕, 팀. 어떻게 지내세요?<br>B:I’m great. And you?	저는 좋아요. 당신은요?<br>A:Not good. I have too much homework.	 좋지 않아요. 숙제가 너무 많아요.<br>B:Oh, I’m sorry to hear that.	아, 안됐네요.<br>1단계<br>A:How are you doing?	 잘 지내요?<br>B:<I’m great|Not bad|Not good>.	<좋아요|나쁘지 않아요|좋지 않아요>.<br>2단계<br>Direction:자라나에게 안부를 물어보세요.S:How [are you doing]?	어떻게 지내세요?<br>AI:I’m great. Thanks!	저는 훌륭해요. 감사해요!<br>Direction:자라나의 안부 묻기에 “좋지 않아”라고 답해보세요.AI:How are you doing?	 잘 지내요?<br>S:Not good.	 좋지 않아요.<br>3단계<br>Direction:자라나와 안부를 묻고 답해보세요.S:How are you doing?	 잘 지내요?<br>AI:Not bad. What about you?	 나쁘지 않아요. 당신은 어때요?<br>S:<I’m great|Not bad|Not good>.	<좋아요|나쁘지 않아요|좋지 않아요>.<br><br>
-020;허락 구하기;<br>A:I feel cold. Do you mind if I close the window?	추워요. 창문을 닫아도 괜찮을까요?<br>B:Not at all. Are you feeling sick?	 전혀 그렇지 않아요. 몸이 아픈가요?<br>A:I think I might have a cold.	나 감기 걸린 것 같아.<br>B:Oh, no. Get better soon.	아, 아뇨. 곧 좋아질.<br>1단계<br>A:Do you mind if I drink this water?	이 물을 마셔도 될까요?<br>B:Not at all. Sure, go ahead.	 전혀 그렇지 않아요. 응 해봐.<br>2단계<br>Direction:자라나에게 문을 닫아도 되냐고 허락을 구해보세요.S:Do you mind if I [close the door]?	제가 [문을 닫아도] 될까요?<br>AI:Sure, go ahead.	물론이죠. 계속하세요.<br>Direction:자라나의 허락 요청에 괜찮다고 대답해보세요.AI:Do you mind if I use this pen?	 이 펜을 사용해도 될까요?<br>S:<Not at all|Sure, go ahead>.	<전혀 그렇지 않습니다|그렇습니다. 계속하세요>.<br>3단계<br>Direction:자라나에게창문을 열어도 되는지 허락을 구하고, 자라나의 요청에 괜찮다고 답해보세요.S:Do you mind if I open the window?	창문을 열어도 될까요?<br>AI:Not at all. Then, do you mind if I use your blanket?	 전혀 그렇지 않습니다. 그럼, 담요 좀 사용해도 될까요?<br>S:<Not at all|Sure, go ahead>.	<전혀 그렇지 않습니다|그렇습니다. 계속하세요>.<br><br>
-036;동의하기;<br>A:Hi, Justin. What are you listening to?	안녕하세요, 저스틴. 무엇을 듣고 있어요?<br>B:Hello, Annie. I’m listening to BPS’s music.	안녕하세요, 애니. BPS의 음악을 듣고 있어요.<br>A:Oh, I like them, too. In my opinion, they are the best singers in Korea.	아, 나도 좋아해요. 내 생각엔 그들은 한국 최고의 가수들이다.<br>B:I agree with you.	동의해요.<br>1단계<br>A:In my opinion, Mr. Yoon is the best teacher in our school.	내 생각에는 윤 선생님이 우리 학교에서 최고의 선생님이세요.<br>B:<I agree with you|I don’t agree with you>.	<동의합니다|동의하지 않습니다>.<br>2단계<br>Direction:자라나에게 영어가 최고의 과목이라는 의견을 말해보세요.S:In my opinion, English is the best [subject].	제 생각에는 영어가 가장 좋은 것 같아요.<br>AI:I agree with you.	 동의합니다.<br>Direction:자라나의 의견에 동의하거나 반대해보세요.AI:In my opinion, basketball is the best sport.	 제 생각엔 농구가 최고의 스포츠인 것 같아요.<br>S:<I [agree with] you|I don’t agree with you>.	<나는 당신에게 [동의합니다]|나는 당신에게 동의하지 않습니다>.<br>3단계<br>Direction:자라나에게 재즈가 최고의 음악이라는 의견을 표현하고, 그 후에 자라나의 의견에 동의하지 않는다고 말해보세요.S:In my opinion, jazz is the best music.	제 생각엔 재즈가 최고의 음악이에요.<br>AI:No. In my opinion, rock is the best music.	아니요. 내 생각에는 록이 최고의 음악이다.<br>S:I don’t agree with you.	나는 당신의 의견에 동의하지 않습니다.<br><br>
-038;소개하고 답하기;<br>A:Hi, I’m Jake. I’m in first grade.	안녕하세요, 저는 제이크입니다. 저는 1학년이에요.<br>B:Hi. I’m Tim. I’m in the first grade, too.	안녕하세요. 저는 팀이에요. 나도 1학년이야.<br>A:Nice to meet you, Tim.	만나서 반가워요, 팀.<br>B:Nice to meet you, too!	저도 만나서 반가워요!<br>1단계<br>Hi, I’m <John|Park|Minho>. I’m in first grade.	안녕하세요, 저는 <존|박|민호>입니다. 저는 1학년이에요.<br>B:<Nice to meet yo|Glad to meet you>.	<만나서 반가워요|만나서 반가워요>.<br>2단계<br>Direction:자라나에게 본인의 이름을 말해주고, 나는 1학년이라고 말해보세요.S:Hi, [I’m] <John|Park|Minho> I’m in <first|second|third> [grade].	안녕하세요, [저는] <John|박|민호>입니다. 저는 <1|2|3> [학년]입니다.<br>AI:Nice to meet you.	만나서 반가워요.<br>Direction:자라나의 자기소개에 만나서 반갑다고 대답해보세요.	방향 : 자라나의 자기소개에 만나서 반갑다고 대답해보세요.<br>AI:Hi, I’m Jarana. I’m in first grade.	안녕하세요, 저는 Jarana입니다. 저는 1학년이에요.<br>S:<Nice to mee|Glad to meet> you.	<만나서 반가워요|만나서 반가워요>.<br>3단계<br>Direction:자라나와 자기소개를 주고 받고, 반갑다고 대답해보세요.S:Hi, I’m <John|Park|Minho>. I’m in <first|second|third> grade.	안녕하세요. 저는 <John|박|민호>입니다. 저는 <1학년|2|3학년>이에요.<br>AI:Nice to meet you. I’m Jarana. I’m in <first|second|third> grade, too.	만나서 반가워요. 저는 자라나입니다. 나도 <1|2|3>학년이에요.<br>S:<Nice|Glad> to meet you.	<반갑습니다|반갑습니다> 만나서 반가워요.<br><br>
-040;주제 소개하기;<br>A:Hi, class. Mina is going to give a presentation today.	안녕하세요, 여러분. 오늘 미나가 프레젠테이션을 할 예정이에요.<br>B:Thanks, Ms. Kang	고마워요, 강 선생님<br>A:What are you going to talk about?	무슨 얘기를 할 거예요?<br>B:I’d like to tell you about our new school library.	새 학교 도서관에 대해 말씀드리고 싶습니다.<br>1단계<br>A:What are you going to talk about?	무슨 얘기를 할 거예요?<br>B:I’d like to tell you about our school.	우리 학교에 대해 말씀드리고 싶습니다.<br>2단계<br>Direction:자라나에게 오늘 무엇에 대해 이야기할 것인지 주제에 대해 물어보세요.S:What [are you going to] talk about?	무슨 얘기를 할 거예요?<br>AI:I’d like to tell you about my dog.	내 개에 대해 이야기하고 싶습니다.<br>Direction:자라나에게 나의 가족에 대해 말해보고 싶다고 주제를 소개해보세요.AI:What are you going to talk about?	무슨 얘기를 할 거예요?<br>S:[I’d like to] tell you about my family.	[저는] 제 가족에 대해 말씀드리고 싶습니다.<br>3단계<br>Direction:자라나와 서로의 발표 주제에 대해 묻고 답해보세요.S:What are you going to talk about?	무슨 얘기를 할 거예요?<br>AI:I’d like to tell you about our city hall. What about you? What’s your topic?	우리 시청에 대해 말씀드리고 싶습니다. 당신은 어때요? 당신의 주제는 무엇입니까?<br>S:I’d like to tell you about <politics|sports|weather|universe>	<정치|스포츠|날씨|우주>에 대해 말씀드리고 싶습니다.<br><br>
-056;다른 사람 소개하기;<br>A:Who is the person in the picture?	사진 속의 사람은 누구예요?<br>B:This is my uncle.	이분은 제 삼촌이에요.<br>A:He looks very handsome.	그 사람 정말 잘생겼어요.<br>B:Yes. He is a musical actor.	네. 그는 뮤지컬 배우이다.<br>1단계<br>A:Who is she?	그 사람은 누구예요?<br>B:This is my sister.	이분은 제 여동생이에요.<br>2단계<br>Direction:자라나에게 ‘그’가 누군지 물어보세요.S:[Who is] he?	[누구] 그 사람이요?<br>AI:He is my friend, Jinho.	그는 내 친구 진호예요.<br>Direction:자라나의 질문에 그녀는 나의 이모라고 답해보세요.AI:Who is she?	 그 사람은 누구죠?<br>S:She is my [aunt].	그녀는 나의 [이모]입니다.<br>3단계<br>Direction:자라나와 서로 함께있는 사람에 대해 묻고 답해보세요.S:Who is <he|she>?	 <그|그녀>는 누구인가요?<br>AI:<He|She> is my <sister|brother>. Who is she with you?	<그|그녀>는 내 <자매|형제>입니다. 너랑 같이 있는 그 사람은 누구야?<br>S:She is <my mother|sister|aunt|grandmother>.	그녀는 <내 어머니|자매|이모|할머니>입니다.<br><br>
-057;도덕적 의무 표현하기;<br>A:Who threw the trash on the floor?	누가 바닥에 쓰레기를 버렸나요?<br>B:I did.	 그랬어요.<br>A:You should throw the trash in the trash can.	쓰레기는 쓰레기통에 버려야 합니다.<br>B:I’m sorry. I’ll put it in the trash can right now.	죄송합니다. 지금 당장 쓰레기통에 버리겠습니다.<br>1단계<br>A:You should be nice to your friend.	친구에게 친절하게 대해야 해요.<br>B:<Okay, I will|I’m sorry. I see it now>.	<알겠습니다. 그렇게 하겠습니다|죄송합니다. 이제 봤어요>.<br>2단계<br>Direction:자라나에게 수업중엔 조용히 해야 한다고 의무를 말해주세요.S:You should be [quiet during the class].	[수업 중에는 조용히]하세요.<br>AI:Okay, I will.	알겠습니다. 그럴게요.<br>Direction:자라나가 의무를 알려주면, 알겠다고 대답해보세요.AI:You should pay attention to the class.	 수업에 집중해야 합니다.<br>S:<Okay, I will|I’m sorry. I see it now>.	<알겠습니다. 그렇게 하겠습니다|죄송합니다. 이제 봤어요>.<br>3단계<br>Direction:자라나와 학생이 지켜야 하는 의무에 대해 이야기해보세요.AI:Why don’t we give each other advice for school life? You go first.	학교 생활에 대해 서로 조언을 해주는 것이 어떨까요? 니가 먼저가.<br>S:You should <<be nice to your friends|be quiet in the classroom|focus on class>>.	<<친구들에게 잘 대해주고|교실에서는 조용히|수업에 집중>>하세요.<br>AI:Oh, I see. And I think you should respect the teachers.	아, 알겠습니다. 그리고 선생님을 존경해야 한다고 생각해요.<br>S:Okay, I will.	알겠습니다. 그럴게요.<br><br>
-059;알고 있음 표현하기;<br>A:Do you know the weather tomorrow?	내일 날씨를 아시나요?<br>B:I heard that it might rain.	비가 올지도 모른다고 들었어.<br>A:Then, I should bring my umbrella.	그럼 우산을 가져가야겠네요.<br>B:Me, too.	나도 마찬가지야.<br>1단계<br>A:I heard that it might rain.	비가 올지도 모른다고 들었어요.<br>B:Then, I should bring my umbrella tomorrow.	그럼 내일은 우산을 가져가야겠네요.<br>2단계<br>Direction:자라나에게 내일 점심 메뉴는 스파게티라고 말해주세요.S:I heard that [tomorrow’s lunch menu] is spaghetti.	[내일 점심 메뉴]가 스파게티라고 들었어요.<br>AI:Then, I should eat a lot tomorrow.	그럼 내일은 많이 먹어야겠네요.<br>Direction:자라나가 들려주는 소식에 시합을 놓치지 말아야겠다고 응답해보세요.AI:I heard that the Korean soccer team is playing against Japan tomorrow.	내일 한국 축구팀이 일본과 경기를 한다고 들었어요.<br>S:Then, I should [not miss it].	그렇다면 [놓치면 안 되겠죠].<br>3단계<br>Direction:자라나에게 물을 마시는 것이 건강에 좋다고 알려주고, 물을 더 마셔야겠다고 말해보세요.AI:Oh, great. I heard that it is good for your skin, too.	아, 좋아요. 피부에도 좋다고 들었습니다.<br>S:Then, we should <drink more water|drink a lot of water|drink water more often>.	그럼 <물을 더 많이 마셔요|물을 많이 마셔요|물을 더 자주 마셔야 해요>.<br><br>
-060;열거하기;<br>A:Can I help you, Hanmin?	한민 씨, 도와드릴까요?<br>B:Yes, Ms. Adams. How do I use this vending machine?	네, Adams 선생님. 이 자동판매기를 어떻게 사용하나요?<br>A:First, put the money in. Second, choose the drink. Third, push the button. That’s it!	첫째, 돈을 넣으세요. 둘째, 음료수를 선택하세요. 셋째, 버튼을 누른다. 그게 다야!<br>B:Thank you, Ms. Adams!	고마워요, Adams 선생님!<br>1단계<br>A:How do I use this vending machine?	이 자동판매기를 어떻게 사용하나요?<br>B:First, put the money in. Second, choose the drink. Third, push the button.	먼저 돈을 넣으세요. 둘째, 음료수를 고르세요. 셋째, 버튼을 누른다.<br>2단계<br>Direction:자라나에게 컴퓨터를 어떻게 사용하는지 물어보세요.S:How do I use this [computer]?	이 [컴퓨터]를 어떻게 사용하나요?<br>AI:First, turn it on. Second, click on what you want. Third, use the keyboard to type.	먼저 전원을 켜세요. 둘째, 원하는 것을 클릭하세요. 셋째, 키보드를 사용하여 입력합니다.<br>Direction:자라나에게 씨앗을 심는 법을 단계별로 알려주세요. (힌트를 참고하세요!)AI:How do I plant a seed?	씨앗은 어떻게 심나요?<br>S:First, [dig a hole in the ground]. Second, [put the seed in]. Third, [cover it with soil].	먼저, [땅에 구멍을 파세요]. 둘째, [씨앗을 넣는다]. 셋째, [흙으로 덮는다].<br>3단계<br>Direction:자라나에게도서관에서 책 빌리는 법을 물어보고, 절차를 따라 말해보세요.S:How do I [check out a book] from the library?	도서관에서 어떻게 [책을 대출]하나요?<br>AI:First, find the book you want. Second, take it to the checkout desk. Third, present your library card. Can you remember it?	먼저 원하는 책을 찾아보세요. 둘째, 계산대에 가져가세요. 셋째, 도서관 카드를 제시하세요. 기억할 수 있나요?<br>S:First, find the book you want. Second, take it to the checkout desk. Third, present your library card.	먼저 원하는 책을 찾으세요. 둘째, 계산대에 가져가세요. 셋째, 도서관 카드를 제시하세요.<br><br>
-076;물건 사기;<br>A:How can I help you?	무엇을 도와드릴까요?<br>B:I’m looking for a shirt. How much is this shirt?	셔츠를 찾고 있어요. 이 셔츠는 얼마인가요?<br>A:It’s 10 dollars.	A: 10달러입니다.<br>B:Great. I’ll take it.	좋아요. 내가 할게요.<br>1단계<br>A:How much is this shirt?	이 셔츠는 얼마예요?<br>B:It’s 10 dollars.	B: 10달러입니다.<br>2단계<br>Direction:자라나에게 이 펜이 얼마인지 물어보세요.S:How much is this [pen]?	이 [펜]은 얼마예요?<br>AI:It’s 2 dollars.	AI: 2달러입니다.<br>Direction:자라나에게 과자의 가격이 3달러라고 답해보세요.2단계 대화 B	2단계 대화 B<br>AI:How much is this snack?	이 간식은 얼마예요?<br>S:It’s [3 dollars].	S:[3달러]입니다.<br>3단계<br>Direction:자라나와 벼룩시장에서 만났어요. 서로의 물건 가격을 묻고 답해보세요.	방향 : 자라나와 벼룩시장에서 만나요. 서로의 물건 가격을 묻고 대답해보세요.<br>S:How much is this <dolls|flowers|pencil case|book|watch>?	이 <인형|꽃|필통|책|시계> 얼마예요?<br>AI:It’s <12|20> dollars. You have cool things too! How much is this ring?	AI:<12|20>달러입니다. 너도 멋진 걸 갖고 있구나! 이 반지는 얼마예요?<br>S:It’s <5|10> dollars.	S:<5|10>달러입니다.<br>AI:<That’s too expensive!|Great. I’ll take it>.	<너무 비싸요!|좋네요. 가져갈게요>.<br><br>
-077;보고하기;<br>A:Did you hear the news yesterday?	어제 그 소식 들었어?<br>B:No. What did the news say?	아니요. 뉴스에서 뭐라고 하던가요?<br>A:The news said the city hall will be closed for 2 weeks.	뉴스에 시청이 2주 동안 문을 닫는다고 하더군요.<br>B:Oh, good to know!	아, 알아가서 다행이네요!<br>1단계<br>A:What did the news say?	뉴스에서 뭐라고 했는데?<br>B:The news said the city hall will be closed for 2 weeks.	시청이 2주 동안 문을 닫는다는 뉴스가 있었어요.<br>2단계<br>Direction:자라나에게 Mr. Smith가 뭐라고 했는지 물어보세요.S:What did [Mr. Smith] say?	S:[Mr. 스미스] 말인가?<br>AI:He said we are going to have snacks for lunch tomorrow.	내일 점심으로 간식을 먹겠다고 하더군요.<br>Direction:자라나에게 Minho가 내일 학교에 나오지 못한다고 했다고 전해보세요.AI:What did Minho say?	민호가 뭐라고 했어요?<br>S:He said he [can’t come to school] tomorrow.	 내일 [학교에 올 수 없다]고 하더군요.<br>3단계<br>Direction:자라나와 지수가 한 말에 대해 묻고 답해보세요.S:What did Jisoo say?	지수 씨가 뭐라고 했어요?<br>AI:She said she can’t play with us this weekend. What did she say to you?	 이번 주말에 우리랑 놀 수 없다고 하더군요. 그녀가 당신에게 뭐라고 말했나요?<br>S:She said she <has to take care of her brother|has a swimming class|is going camping with his family>.	 <오빠를 돌봐야 한다|수영 강습을 받는다|가족과 함께 캠핑을 간다>고 하더군요.<br><br>
-078;비교하기;<br>A:Hey, Mike. Do you know where China is?	안녕, 마이크. 중국이 어디 있는지 아시나요?<br>B:Sure. It’s right next to Korea.	그럼요. 한국 바로 옆이에요.<br>A:Then, which is bigger, Korea or China?	그럼 한국과 중국 중 어느 것이 더 큽니까?<br>B:China is bigger than Korea.	중국은 한국보다 큽니다.<br>1단계<br>A:Which is bigger, Korea or China?	한국과 중국 중 어느 것이 더 큽니까?<br>B:China is bigger than Korea.	중국은 한국보다 큽니다.<br>2단계<br>Direction:자라나에게 서울과 대구 중 어느 곳이 더 더운지 물어보세요.S:Which is hotter, Seoul or Daegu?	서울과 대구 중 어느 쪽이 더 덥나요?<br>AI:Daegu is hotter than Seoul.	 대구는 서울보다 더 덥습니다.<br>Direction:자라나에게 치타가 코끼리보다 빠르다고 답해보세요.AI:Which is faster, a cheetah or an elephant?	치타와 코끼리 중 어느 것이 더 빠릅니까?<br>S:A cheetah is [faster than] an elephant.	치타는 코끼리보다 [빠릅니다].<br>3단계<br>Direction:자라나와 피자와 햄버거 중 무엇이 더 맛있는지 묻고 답해보세요.S:Which is tastier, pizza or hamburger?	 피자와 햄버거 중 어느 것이 더 맛있나요?<br>AI:I think <pizz|hamburger> are tastier than <pizz|hamburger>. What do you think?	제 생각엔 <피즈|햄버거>가 <피즈|햄버거>보다 더 맛있는 것 같아요. 어떻게 생각하나요?<br>S:I think <<pizz|hamburger>> is tastier than <<pizz|hamburger>>.	내 생각엔 <<피즈|햄버거>>가 <<피즈|햄버거>>보다 더 맛있는 것 같아요.<br><br>
-079;빈도 묻고 말하기;<br>A:Hey, Jenny. Where are you going to study today?	안녕, 제니. 오늘은 어디서 공부할 거예요?<br>B:I usually go to the library.	저는 보통 도서관에 가요.<br>A:Oh, I see. How often do you go to the library?	아, 그렇군요. 도서관에 얼마나 자주 가시나요?<br>B:I go there three times a week.	저는 거기 일주일에 세 번씩 가요.<br>1단계<br>A:How often do you go to the library?	도서관에 얼마나 자주 가시나요?<br>B:I go to the library three times a week.	나는 일주일에 세 번씩 도서관에 가요.<br>2단계<br>Direction:자라나에게 얼마나 자주 방 청소를 하냐고 물어보세요.S:How often do you [clean your room]?	방을 얼마나 자주 청소하시나요?<br>AI:I clean my room twice a week.	저는 일주일에 두 번씩 방을 청소합니다.<br>Direction:자라나에게 1년에 두 번 여행을 간다고 말해보세요.AI:How often do you go on a trip?	여행은 얼마나 자주 가시나요?<br>S:I go on a trip [twice a year].	저는 [1년에 두 번] 여행을 갑니다.<br>3단계<br>Direction:자라나와 한 달에 몇 번 특정 활동을 하는지 묻고 답해보세요.Example: once|twice|3 ~ .. times	예: 한 번|두 번|3 ~ ..번<br>S:How often do you <clean your room|see the movies>?	당신은 얼마나 자주 <방 청소>를 합니까?<br>AI:I <clean my room|see the movies> twice times a month. What about you?	저는 한 달에 두 번 <방 청소>영화를 봅니다. 당신은 어때요?<br>S:I <clean your room|see the movies> once a month.	저는 한 달에 한 번씩 <방을 청소하고|영화를 봅니다>.<br><br>
-080;상대방의 의견 묻기;<br>A:Hi, Robin. What are you reading?	안녕하세요, 로빈. 무엇을 읽습니까?<br>B:I’m reading an English newspaper.	영자 신문을 읽고 있어요.<br>A:Do you find it helpful to read English newspapers?	영자신문을 읽는 것이 도움이 된다고 생각하시나요?<br>B:Yes, it helps me learn English.	네, 영어를 배우는 데 도움이 돼요.<br>1단계<br>A:Do you find it helpful to read English newspapers?	영자신문을 읽는 것이 도움이 된다고 생각하시나요?<br>B:Yes, it helps me learn English.	네, 영어를 배우는 데 도움이 돼요.<br>2단계<br>Direction:자라나에게 아침 조깅이 도움이 된다고 생각하는지 물어보세요.S:Do you find it helpful to [jog in the morning]?	[아침에 조깅]하는 것이 도움이 된다고 생각하시나요?<br>AI:Yes, it helps me concentrate.	네, 집중하는데 도움이 됩니다.<br>Direction:자라나에게 다리 스트레칭이 수영을 더 잘 하는 데 도움이 된다고 답해보세요.AI:Do you find it helpful to stretch your legs before you swim?	수영하기 전에 다리를 스트레칭하는 것이 도움이 된다고 생각하시나요?<br>S:Yes, it helps me [swim better].	네, 그것은 제가 [수영을 더 잘하도록] 도움이 됩니다.<br>3단계<br>Direction:자라나와 서로 도움이 된다고 생각하는 것에 대해 의견을 주고받아 보세요.S:Do you find it helpful to <take notes|ask questions to the teacher|read the textbook before the class>?	 <메모하기|선생님께 질문하기|수업 전에 교과서 읽기>가 도움이 되었나요?<br>AI:Yes, it helps me learn better in class. Do you find it helpful to read books in the library?	네, 수업 시간에 더 잘 배우는 데 도움이 됩니다. 도서관에서 책을 읽는 것이 도움이 된다고 생각하시나요?<br>S:Yes, it helps me <learn about the world|study for the exam|read books free and save money>.	네, <세계에 대해 배우고|시험 공부|무료로 책을 읽고 돈을 절약>하는 데 도움이 됩니다.<br><br>
-096;전화하거나 받기;<br>A:Hello. This is Minsu. Is Amy there?	안녕하세요. 민수입니다. 에이미 거기 있어요?<br>B:This is her speaking.	그 사람이 말하는 거예요.<br>A:Hi, Amy. Can you help me with my math homework?	안녕하세요, 에이미. 내 수학 숙제를 도와줄 수 있나요?<br>B:Sure. I’d love to.	그럼요. 그러고 싶습니다.<br>1단계<br>A:This is Minsu. Is Amy there?	민수예요. 에이미 거기 있어요?<br>B:<This is her speaking|She’s not here>.	<그녀가 말하는 내용입니다|그녀는 여기에 없습니다>.<br>2단계<br>상대방에게 자라나가 있는지 전화상으로 물어보세요.	아이들에게 자라나는 것이 전화상으로 물어보세요.<br>S:This is <John|Hanna>. [Is Jarana there]?	S:<John|Hanna>입니다. [거기 자라나 있어?]<br>AI:He’s not here.	그 사람은 여기 없어요.<br>Direction:자라나에게 내가 지금 전화상에 이야기하고 있다고 답해주세요.AI:Hello. Is <John|Hanna> there?	안녕하세요. <존|한나> 거기 있어요?<br>S:This is <John|Hanna> [speaking].	저는 <John|Hanna>입니다.<br>3단계<br>Direction:자라나와 전화상으로 대화를 주고받아 보세요.S:Is Jarana there?	S: Jarana 거기 있어요?<br>AI:This is Jarana speaking.	 저는 Jarana입니다.<br><br>
-097;제안, 권유, 요청에 답하기;<br>A:Welcome. How can I help you?	답: 환영합니다. 어떻게 도와 드릴까요?<br>B:I’m looking for a new jacket. Can I try this jacket on?	새 재킷을 찾고 있어요. 이 재킷을 입어봐도 될까요?<br>A:Sure. Go ahead. The fitting room is over there.	물론이죠. 계속하세요. 피팅룸은 저기 있어요.<br>B:Thanks.	 고마워요.<br>1단계<br>A:Can I try this jacket on?	이 재킷을 입어봐도 될까요?<br>B:<Sure. Go ahead|I’m afraid you can’t>.	<그럼요. 계속하세요|안타깝지만 할 수 없습니다>.<br>2단계<br>Direction:자라나에게 동물들에게 먹이를 줘도 되냐고 요청하세요.S:Can I [feed the animals]?	[동물들에게 먹이를 줄] 수 있나요?<br>AI:I’m afraid you can’t. It’s against the rule.	 안타깝지만 할 수 없습니다. 그것은 규칙에 위배됩니다.<br>Direction:자라나의 요청에 긍정 혹은 부정으로 응답해보세요.AI:Can I read this book?	 이 책을 읽어도 될까요?<br>S:<Sure. Go ahead|I’m afraid you can’t>.	<그럼요. 계속하세요|안타깝지만 할 수 없습니다>.<br>3단계<br>Direction:자라나와 서로에게 요청을 하고 응답해보세요.S:Can I <have one of your snacks|borrow this book|try your jacket on>?	<간식 하나 먹어도 되나요|이 책 빌릴 수 있나요|재킷을 입어봐도 될까요>?<br>AI:Sure, go ahead. Then, can I play with your computer?	물론이죠. 계속하세요. 그럼 네 컴퓨터로 놀아도 돼?<br>S:<Sure, go ahead|I’m afraid you can’t>.	<그렇습니다. 계속하세요|안타깝지만 할 수는 없습니다>.<br><br>
-098;가장 좋아하는 것 말하기;<br>A:Hey, Paul. Do you want to go see a movie with me this afternoon?	안녕, 폴. 오늘 오후에 나랑 영화 보러 갈래?<br>B:Sounds fun. Count me in.	재밌겠다. 나도 끼워 줘.<br>A:What’s your favorite kind of movie?	당신이 가장 좋아하는 종류의 영화는 무엇입니까?<br>B:I like horror movies the most.	나는 공포영화를 가장 좋아해요.<br>1단계<br>A:What’s your favorite subject?	네가 가장 좋아하는 과목은 무엇입니까?<br>B:It’s English|I like English the most.	영어예요|저는 영어를 제일 좋아해요.<br>2단계<br>Direction:자라나가 가장 좋아하는 스포츠를 물어보세요.S:What’s your favorite [sport]?	당신이 가장 좋아하는 [스포츠]는 무엇입니까?<br>AI:It’s <baseball/football/soccor/baseball>.	 <야구/축구/축구/야구>입니다.<br>Direction:자라나에게 내가 가장 좋아하는 과목은 수학이라고 답해보세요.AI:What’s your favorite subject?	 가장 좋아하는 과목은 무엇입니까?<br>S:<It’s math|I like math the most>.	<수학이에요|나는 수학을 제일 좋아해요>.<br>3단계<br>Direction:자라나와 가장 좋아하는 음악에 대해 묻고 답해보세요.S:What’s your favorite music?	가장 좋아하는 음악은 무엇인가요?<br>AI:It’s jazz. What about you? What is your favorite music?	재즈예요. 당신은 어때요? 당신이 가장 좋아하는 음악은 무엇입니까?<br>S:I like <jazz|rock|classic|pop|K-pop|hiphop|wrap> the most.	저는 <재즈|록|클래식|팝|K팝|힙합|랩>을 가장 좋아해요.<br><br>
-099;감사 표현하기;<br>A:Could you help me move these boxes?	이 상자들을 옮기는 것을 도와주실 수 있나요?<br>B:Sure. Where should I put it?	그럼요. 어디에 넣어야 하나요?<br>A:Right beside the sofa. Thank you for the help.	소파 바로 옆에 있어요. 도와 주셔서 감사합니다.<br>B:Don’t mention it.	그건 언급하지 마세요.<br>1단계<br>A:Thank you for the help.	도움을 주셔서 감사합니다.<br>B:<Don’t mention it|No worries|It’s nothing>.	<말하지 마세요|걱정 마세요|아무것도 아닙니다>.<br>2단계<br>Direction:자라나에게 도움에 감사해보세요.S:Thank you for the help.	도움을 주셔서 감사합니다.<br>AI:No worries.	 걱정하지 마세요.<br>Direction:자라나의 감사 인사에 괜찮다고 대답해보세요.AI:Thank you so much for the help.	도움을 주셔서 정말 감사합니다.<br>S:<Don’t mention it|No worries|It’s nothing>.	<말하지 마세요|걱정 마세요|아무것도 아닙니다>.<br>3단계<br>Direction:자라나와 서로 도움에 감사하는 대화를 해보세요.S:Thank you for the help.	도움을 주셔서 감사합니다.<br>AI:Don’t mention it. You also helped me before! Thank you for the help, too!	 언급하지 마세요. 당신은 전에도 나를 도와줬어요! 도움을 주셔서 감사합니다!<br>S:<Don’t mention it|No worries|It’s nothing>.	<말하지 마세요|걱정 마세요|아무것도 아닙니다>.<br><br>
-100;거절하기;<br>A:Hey, look! Jungsook is going to have a concert next month.	이봐요, 보세요! 정숙이가 다음달에 콘서트를 할 예정이에요.<br>B:That’s true. Do you want to go to the concert with me?	맞아요. 나랑 콘서트 갈래?<br>A:I’d love to, but I can’t. I have plans with my family that day.	 그러고 싶지만 그럴 수가 없어요. 나는 그날 가족과 함께 계획이 있다.<br>B:Oh, it’s okay. Maybe next time.	아, 괜찮아요. 아마 다음 번에.<br>1단계<br>A:Do you want to go to the concert with me?	나와 함께 콘서트에 갈래?<br>B:I’d love to, but I can’t.	 그러고 싶지만 그럴 수가 없어요.<br>2단계<br>Direction:자라나에게 방과후에 함께 자전거를 타자고 제안해보세요.S:Do you want to ride a bike with me after school?	방과 후에 나와 함께 자전거 탈래?<br>AI:I’d love to, but I can’t.	 그러고 싶지만 그럴 수가 없어요.<br>Direction:자라나의 제안을 정중히 거절해보세요.AI:Do you want to play catch with me tomorrow?	내일 나랑 캐치볼 할래?<br>S:I’d love to, but I can’t.	 그러고 싶지만 그럴 수가 없어요.<br>3단계<br>Direction:자라나와 서로 약속을 제안하고 거절해보세요.S:Do you want to <go shopping|go hiking|play computer games> with me tomorrow?	내일 나랑 <쇼핑|등산|컴퓨터 게임>할래?<br>AI:Sorry. I’d love to, but I can’t. Instead, do you want to see a movie this Saturday?	죄송합니다. 그러고 싶지만 그럴 수가 없어요. 대신 이번 토요일에 영화 볼래?<br>S:I’d love to, but I can’t. I have <to study|plans with my family|an appointment with the doctor>	 그러고 싶지만 그럴 수가 없어요. 나는 <공부할 예정|가족과 함께|약속이 있어요|의사와 약속>이 있어요<br><br>
-109;교환 요청하기;<br>A:Hi. What can I do for you today?	답:안녕하세요. 오늘은 무엇을 도와드릴까요?<br>B:I’d like to exchange this shirt.	이 셔츠를 교환하고 싶은데요.<br>A:What do you want to exchange it for?	무엇으로 교환하고 싶으신가요?<br>B:I want to exchange it for a blue one.	파란색으로 교환하고 싶어요.<br>1단계<br>A:I’d like to exchange this shirt.	이 셔츠를 교환하고 싶은데요.<br>B:I want to exchange it for a blue one.	파란색으로 교환하고 싶어요.<br>2단계<br>Direction:자라나에게 이 펜을 교환하고 싶다고 요청해보세요.S:I’d like to [exchange this pen].	[이 펜을 교환]하고 싶습니다.<br>AI:Sure. What do you want to exchange it for?	 물론이죠. 무엇으로 교환하고 싶으신가요?<br>Direction:자라나에게 빨간 펜으로 교환하고 싶다고 답해보세요.AI:What do you want to exchange it for?	무엇과 교환하고 싶으신가요?<br>S:I want to exchange it for [a red one].	[빨간색]으로 교환하고 싶어요.<br>3단계<br>Direction:자라나에게 교환하고 싶은 물건을 말하고, 어떤 것으로 교환하고 싶은지 말해보세요.S:I’d like to exchange this <cap|shirts|cup|book>.	이 <cap|shirts|cup|book>을 교환하고 싶은데요.<br>AI:Sure. What do you want to exchange it for?	 물론이죠. 무엇으로 교환하고 싶으신가요?<br>S:I want to exchange it for <cap|shirts|cup|book>.	S:<cap|shirts|cup|book>으로 교환하고 싶어요.<br><br>
-117;대안 묻기;<br>A:Excuse me. I’d like to order a drink.	죄송합니다. 음료를 주문하고 싶어요.<br>B:Yes. We have coke and juice. What would you like to order?	네. 콜라와 주스가 있어요. 무엇을 주문하시겠습니까?<br>A:Are there any other drinks?	다른 음료는 없나요?<br>B:Sorry, these are the only two we have.	죄송합니다. 우리가 가지고 있는 것은 이것 두 개뿐입니다.<br>1단계<br>A:Are there any other drinks?	다른 음료는 없나요?<br>B:<Yes. We have lemonade, too|Sorry, these are the only two we have>.	 <그렇습니다. 레모네이드도 있어요|미안해요. 우리에겐 이것밖에 없어요>.<br>2단계<br>Direction:자라나에게 다른 펜이 있는지 물어보세요.S:Are there [any other pens]?	[다른 펜] 있나요?<br>AI:Yes. We have blue and yellow ones, too.	네. 파란색과 노란색도 있어요.<br>Direction:자라나에게 그것들이 유일한 선택지라고 말해보세요.AI:I don’t like this one. Are there any other choices?	이건 마음에 들지 않습니다. 다른 선택이 있나요?<br>S:Sorry. These are [the only ones we have].	남:죄송합니다. 이것들은 [우리가 가지고 있는 유일한 것]입니다.<br>3단계<br>Direction:자라나와 다른 선택지를 묻고 답하는 대화를 해보세요.S:Are there any other <shoes|caps|shirts|pants>?	<신발|모자|셔츠|바지> 또 있나요?<br>AI:Sorry, these are the only ones we have.	죄송합니다. 이것이 우리가 가지고 있는 유일한 것입니다.<br>AI:Are there any other <shoes|caps|shirts|pants>?	<신발|모자|셔츠|바지> 또 있나요?<br>S:<Sure. We have more options|Sorry, these are the only cups we have>.	<그럼요. 더 많은 옵션이 있습니다|죄송합니다. 우리가 가지고 있는 컵은 이것뿐입니다>.<br><br>
-114;느낀 점 말하기;<br>A:What did you do yesterday, Bomi?	보미야, 어제 뭐했니?<br>B:I saw a movie with my dad.	아빠랑 영화를 봤어요.<br>A:How was it?	어땠나요?<br>B:It was very fun.	정말 재미있었어요.<br>1단계<br>A:How was the movie?	영화는 어땠어요?<br>B:It was very fun.	정말 재미있었어요.<br>2단계<br>Direction:자라나에게 영화가 어땠는지 물어보세요.S:How was [the movie]?	[영화]는 어땠어요?<br>AI:It was boring.	지루했어요.<br>Direction:자라나에게 영화가 재밌었다고 말해보세요.AI:How was the movie?	영화는 어땠어요?<br>S:It was [fun].	[재밌었어요].<br>3단계<br>Direction:자라나와 방금 본 영화에 대한 느낌을 묻고 답해보세요.S:How was the movie?	영화는 어땠어요?<br>AI:It was boring. What about you? How did you like the movie?	지루했어요. 당신은 어때요? 영화는 어땠나요?<br>S:It was <very funny/interesting/boring too>.	 <매우 재미있었어요/흥미롭기도 했어요/지루하기도 했어요>.<br><br>
-171;이루어지기를 바라는 일 표현하기;<br>A:Did you know that Earth is so beautiful when you look at it from space?	우주에서 지구를 보면 지구가 너무 아름다운 걸 알고 계셨나요?<br>B:Wow, I didn’t know. That’s interesting!	와, 몰랐어요. 그 흥미 롭군요!<br>A:I wish I could see Earth from the moon with my own eyes.	달에서 지구를 내 눈으로 직접 볼 수 있었으면 좋겠어요.<br>B:Me, too. It will be so cool!	나도 마찬가지야. 정말 멋질 거예요!<br>1단계<br>A:I wish I could see Earth from the moon with my own eyes.	달에서 지구를 내 눈으로 직접 볼 수 있었으면 좋겠어요.<br>B:Me, too. It will be so cool!	나도 마찬가지야. 정말 멋질 거예요!<br>2단계<br>Direction:자라나에게 매일 늦잠을 잘 수 있었으면 좋겠다고 말해보세요.S:I wish I could [sleep in] every morning.	매일 아침에 늦잠을 잘 수 있었으면 좋겠어요.<br>AI:Me, too. It will be so comfortable.	나도 마찬가지야. 정말 편할 거예요.<br>Direction:자라나의 소망에 공감해보세요.AI:I wish I could eat steaks every day.	스테이크를 매일 먹었으면 좋겠어요.<br>S:Me, too. It will be so [good].	나도 마찬가지야. 정말 [좋을] 거예요.<br>3단계<br>Direction:자라나와 서로의 소망에 대해 이야기 해보세요.S:I wish I could <pass the final exam|play Taekwono well>.	<기말고사에 합격|태권도를 잘> 하고 싶어요.<br>AI:Me, too. And I wish I could go to an amusement park whenever I want.	나도 마찬가지야. 그리고 내가 원할 때마다 놀이공원에 갈 수 있었으면 좋겠다.<br>S:Me, too. It will be so <nice|good>.	나도 마찬가지야. 정말 <멋질|좋을> 거야.<br><br>
-001;제안 권유하기;<br>A:Why don’t we go to the movies tomorrow?	우리 내일 영화 보러 가는 게 어때요?<br>B:I’d love to. How about 3 o’clock?	그러고 싶습니다. 3시는 어때요?<br>A:That’s fine with me.	 전 괜찮아요.<br>B:Okay. See you at the theater.	알았어. 극장에서 만나요.<br>1단계<br>A:Why don’t we go to the movies tomorrow?	우리 내일 영화 보러 가는 게 어때요?<br>B:I’d love to. How about 3 o’clock?	그러고 싶습니다. 3시는 어때요?<br>2단계<br>Direction:자라나에게 내일 영화를 보러 가자고 물어보세요.S:Why don’t we [go to the movies] tomorrow?	내일 [영화보러] 어때요?<br>AI:I’d love to. How about 3 o’clock?	그러고 싶습니다. 3시는 어때요?<br>Direction:자라나의 제안에 좋다고 하고 3시에 만나는 게 어떤지 제안하세요.AI:Why don’t we go to the movies tomorrow?	 내일 영화 보러 가는 게 어때요?<br>S:I’d love to. How about [3 o’clock]?	 그러고 싶습니다. [3시] 어때요?<br>3단계<br>Direction:자라나에게내일 같이 하고 싶은 것을 제안해보세요.A:Why don’t we go to the <movie|movies|museum|cafe|gym|park> tomorrow?	내일 <영화|영화|박물관|카페|체육관|공원>에 가는 게 어때요?<br>B:I’d love to. How about 3 o’clock?	그러고 싶습니다. 3시는 어때요?<br>A:That’s fine with me.	 전 괜찮아요.<br><br>
-002;좋아하는 것 말하기;<br>A:What’s your favorite subject?	네가 가장 좋아하는 과목은 무엇입니까?<br>B:My favorite subject is English.	제가 가장 좋아하는 과목은 영어예요.<br>A:Why do you like it?	왜 좋아해요?<br>B:Because I like English songs.	난 영어 노래를 좋아하니까.<br>1단계<br>A:What’s your favorite subject?	네가 가장 좋아하는 과목은 무엇입니까?<br>B:My favorite subject is English.	제가 가장 좋아하는 과목은 영어예요.<br>2단계<br>Direction:자라나에게 가장 좋아하는 과목을 물어 보세요.S:What’s your [favorite subject]?	당신의 [좋아하는 과목]은 무엇입니까?<br>AI:My favorite subject is English.	제가 가장 좋아하는 과목은 영어입니다.<br>Direction:자라나에게 가장 좋아하는 과목이 영어라고 말해보세요.S:What’s your favorite subject?	당신이 가장 좋아하는 과목은 무엇입니까?<br>AI:My favorite subject is [English].	제가 가장 좋아하는 과목은 [영어]입니다.<br>3단계<br>Direction:자라나와 가장 좋아하는 과목에 대해 묻고 답해보세요.A:What’s your favorite subject?	네가 가장 좋아하는 과목은 무엇입니까?<br>B:My favorite subject is English. What about you?	제가 가장 좋아하는 과목은 영어예요. 당신은 어때요?<br>A:My favorite subject is <math|music|sports|history>.	제가 가장 좋아하는 과목은 <수학|음악|스포츠|역사>입니다.<br><br>
-003;관심사 묻고 답하기;<br>A:What are you interested in, Somi?	소미 씨는 무엇에 관심이 있나요?<br>B:I’m interested in sports.	저는 스포츠에 관심이 있어요.<br>A:What sport do you like?	어떤 스포츠를 좋아해요?<br>B:I like basketball.	나는 농구를 좋아해요.<br>1단계<br>A:What are you interested in?	무엇에 관심이 있나요?<br>B:I’m interested in basketball.	나는 농구에 관심이 있어요.<br>2단계<br>Direction:자라나에게 관심사에 대해 물어보세요.S:What are you [interested in]?	당신은 무엇에 관심이 있나요?<br>AI:I’m interested in basketball.	저는 농구에 관심이 있어요.<br>Direction:자라나에게 농구에 흥미가 있다고 답해보세요.AI:What are you interested in?	무엇에 관심이 있나요?<br>S:I’m interested in [basketball].	저는 [농구]에 관심이 있어요.<br>3단계<br>Direction:자라나와 관심있는 운동에 대해 묻고 답해보세요.S:What are you interested in?	무엇에 관심이 있나요?<br>AI:I’m interested in basketball. What about you?	저는 농구에 관심이 있어요. 당신은 어때요?<br>S:I’m interested in play <football|basketball|running|game>.	저는 <축구|농구|달리기|게임>에 관심이 있어요.<br><br>
-004;의견묻고 답하기;<br>A:What is your opinion about social media?	소셜 미디어에 대해 어떻게 생각하시나요?<br>B:It’s good for relationships.	관계에 좋아요.<br>A:What do you mean by that?	그게 무슨 뜻이에요?<br>B:I can meet friends online.	온라인으로 친구들을 만날 수 있어요.<br>1단계<br>A:What is your opinion about social media?	소셜 미디어에 대해 어떻게 생각하시나요?<br>B:It’s good for relationships.	관계에 좋아요.<br>2단계<br>Direction:자라나에게 SNS에 대한 의견을 물어보세요.S:What is your opinion about [social media]?	[소셜 미디어]에 대한 당신의 의견은 무엇입니까?<br>AI:It’s good for relationships.	관계에 좋습니다.<br>Direction:자라나의 질문에 관계를 위해 좋다고 답해보세요.AI:What is your opinion about social media?	 소셜 미디어에 대한 당신의 의견은 무엇입니까?<br>S:It’s good for [relationships].	[관계]에 좋습니다.<br>3단계<br>Direction:자라나와 SNS에 대해 의견을 묻고 답해보세요.S:What is your opinion about social media?	소셜 미디어에 대해 어떻게 생각하시나요?<br>AI:It’s good for relationships. What is your opinion about social media?	관계에 좋습니다. 소셜 미디어에 대한 당신의 의견은 무엇입니까?<br>S:It’s good for <a hobby|making friends|business|health>.	 <취미|친구사귀기|사업|건강>에 좋아요.<br><br>
-005;궁금한 것 묻고 답하기;<br>A:I bought a scarf for my mom.	엄마께 드릴 스카프를 샀어요.<br>B:Wow, it’s beautiful.	와, 정말 아름다워요.<br>A:I wonder if she likes it.	그녀가 그것을 좋아하는지 궁금해요.<br>B:I think she will.	내 생각엔 그럴 것 같아.<br>1단계<br>A:I wonder if she likes the scarf.	그 사람이 스카프를 좋아하는지 궁금해요.<br>B:I think she will.	내 생각엔 그럴 것 같아.<br>2단계<br>Direction:자라나에게 그녀가 스카프를 좋아할지 궁금하다고 물어 보세요.S:I wonder if she likes [the scarf].	그녀가 [스카프]를 좋아하는지 궁금해요.<br>AI:I think she will.	 내 생각에는 그럴 것 같아요.<br>Direction:자라나에게 좋아할 것 같다고 답해보세요.AI:I wonder if she likes the scarf.	그녀가 스카프를 좋아하는지 궁금해요.<br>S:I think she will.	내 생각에는 그럴 것 같아요.<br>3단계<br>Direction:자라나와 궁금한 점을 묻고 답해보세요.S:I wonder if my mom likes <gloves|scarf|sunglasses|jacket>.	우리 엄마는 <장갑|스카프|선글라스|재킷>을 좋아하실지 궁금해요.<br>AI:I think she will. I wonder if my dad likes <gloves|scarf|sunglases|jacket>.	 내 생각에는 그럴 것 같아요. 우리 아빠는 <장갑|스카프|선글라스|재킷>을 좋아하실지 궁금해요.<br>S:I think he will.	내 생각에는 그럴 것 같아요.<br><br>
-021;경험 묻고 답하기;<br>A:Have you ever been to Busan?	부산에 가본 적이 있나요?<br>B:Yes, I have.	네, 그랬어요.<br>A:When did you go there?	거긴 언제 가셨어요?<br>B:Last summer.	지난여름.<br>1단계<br>A:Have you ever been to Busan?	부산에 가본 적이 있나요?<br>B:No, I haven’t.	아니요, 없어요.<br>2단계<br>Direction:자라나에게 부산에 가본 적이 있는지 물어 보세요.S:Have you ever been to [Busan]?	[부산]에 가보신 적이 있나요?<br>AI:No, I haven’t.	아니요, 없어요.<br>Direction:자라나에게 부산에 가본 적이 없다고 답해보세요.AI:Have you ever been to Busan?	부산에 가본 적이 있나요?<br>S:No, I [haven’t].	아니요, 저는 [해본 적이 없습니다].<br>3단계<br>Direction:자라나와 경험에 대해 묻고 답해보세요.S:Have you ever been to <Thai|Japan|China>?	<태국|일본|중국>에 가보신 적이 있나요?<br>AI:No, I haven’t. Have you ever been to Japan?	아니요, 없어요. 너는 일본에 간 적이 있니?<br>S:<Yes, I have|No, I haven’t>.	<네, 있어요|아니요, 없어요>.<br><br>
-022;금지하기;<br>A:May I take pictures in the museum?	박물관에서 사진을 찍어도 될까요?<br>B:You must not take pictures here.	여기서는 사진을 찍으면 안 됩니다.<br>A:Then, may I eat a snack here?	그럼 여기서 간식 먹어도 될까요?<br>B:No, you must not eat here.	아니요, 여기서 식사하시면 안 됩니다.<br>1단계<br>A:May I take pictures in the museum?	박물관에서 사진을 찍어도 될까요?<br>B:You must not take pictures here.	여기서는 사진을 찍으면 안 됩니다.<br>2단계<br>Direction:자라나에게 박물관에서 사진을 찍어도 되는지 물어 보세요.S:May I take pictures in the [museum]?	[박물관]에서 사진을 찍어도 될까요?<br>AI:You must not take pictures here.	여기에서는 사진을 찍으면 안 됩니다.<br>Direction:자라나에게 박물관에서 사진을 찍을 수 없다고 답해 주세요.AI:May I take pictures in the museum?	박물관에서 사진을 찍어도 될까요?<br>S:You must not [take pictures] here.	여기서는 사진을 찍으면 안 됩니다.<br>3단계<br>Direction:자라나와 박물관에서 금지된 행동에 대해 묻고 답하세요.S:You must not <talk|eat|run|litter|drink|turn on music> in the museum.	박물관에서는 <말|먹|달리기|쓰레기|마시|음악 켜기>를 해서는 안 됩니다.<br>AI:Then, may I call in the museum?	그럼 박물관에 전화해도 될까요?<br>S:No. you must not call here.	학생: 아니요. 여기로 전화하면 안 돼요.<br><br>
-023;놀라움 표현하기;<br>A:How was your trip?	여행은 어땠어요?<br>B:It was surprising.	놀랐어요.<br>A:What surprised you?	무엇이 놀랐나요?<br>B:I was surprised by nature.	자연에 놀랐어요.<br>1단계<br>A:What surprised you at the trip?	여행에서 무엇을 놀랐나요?<br>B:I was surprised by nature.	자연에 놀랐어요.<br>2단계<br>Direction:자라나에게 여행에서 무엇이 놀라웠는지 물어 보세요.S:What surprised you at the [trip]?	[여행]에서 놀랐던 점은 무엇인가요?<br>AI:I was surprised by nature.	자연에 놀랐어요.<br>Direction:자라나에게 자연이 놀라웠다고 답해보세요.AI:What surprised you at the trip?	여행에서 놀랐던 점은 무엇이었나요?<br>S:I was surprised by [nature].	[자연]에 놀랐어요.<br>3단계<br>Direction:자라나와 여행가서 놀라웠던 일을 이야기해보세요.S:What surprised you at the trip?	여행에서 놀랐던 점은 무엇이었나요?<br>AI:I was surprised by nature. How about you?	자연에 놀랐어요. 당신은 어떤가요?<br>S:I was surprised by <people|food|hotel|palace|museum|transportation>	<사람|음식|호텔|궁전|박물관|교통>에 놀랐어요<br><br>
-024;상기시켜주기;<br>A:Tomorrow is a sports day.	내일은 운동회 날이에요.<br>B:Wow, it will be exciting.	와, 정말 재미있겠다.<br>A:What should I bring on a sports day?	운동회에 무엇을 가져가야 합니까?<br>B:Don’t forget to bring water.	물을 가져오는 것을 잊지 마세요.<br>1단계<br>A:What should I bring on a sports day?	운동회에 무엇을 가져가야 합니까?<br>B:Don’t forget to bring water.	물을 가져오는 것을 잊지 마세요.<br>2단계<br>Direction:자라나에게 내가 스포츠 데이에 가지고 와야 할 것을 물어 보세요.S:What should I bring on a [sports] day?	[스포츠] 날에는 무엇을 가져가야 합니까?<br>AI:Don’t forget to bring water.	 물을 가져오는 것을 잊지 마세요.<br>Direction:자라나에게 물을 가지고 오는 걸 잊지 말라고 상기시켜주세요.	Direction:자라나에게 물을 가지고 오는 것을 잊지 말라고 상기시켜주세요.<br>AI:What should I bring on a sports day?	운동회에 무엇을 가져가야 하나요?<br>S:Don’t forget to bring [water].	[물]을 가져오는 것을 잊지 마세요.<br>3단계<br>Direction:자라나에게 스포츠 데이에 가져올 물건들을 상기시켜 주세요.S:Bring water on a sports day.	운동회에는 물을 가져오세요.<br>AI:What else should I bring on a sports day?	운동회에 또 무엇을 가져가야 하나요?<br>S:Don’t forget to bring a <towel|suncream|lunchbox|snack|hat>.	<수건|선크림|도시락|간식|모자> 가져오는 것을 잊지 마세요.<br><br>
-025;요청하고 답하기;<br>A:I’m sorry but I’m busy now.	죄송하지만 지금은 바빠요.<br>B:Oh, I see.	아, 알겠습니다.<br>A:Can I ask you to call me back in 10 minutes?	A:10분 후에 다시 전화해 주시겠어요?<br>B:Okay. I’ll call you back later.	알았어. 나중에 다시 전화할게요.<br>1단계<br>A:Can I ask you to call me back?	다시 전화해 달라고 부탁드려도 될까요?<br>B:Okay. I’ll call you back later.	알았어. 나중에 다시 전화할게요.<br>2단계<br>Direction:자라나에게 십분후에 전화를 해달라고 부탁하세요.S:Can I ask you to call me back [in 10 minutes]?	S:[10분 후에] 다시 전화해 주시겠어요?<br>AI:Okay. I’ll call you back later.	알겠습니다. 나중에 다시 전화할게요.<br>Direction:자라나에게 나중에 다시 전화하겠다고 답하세요.AI:Can I ask you to call me back in 10 minutes?	AI:10분 후에 다시 전화해 주시겠어요?<br>S:Okay. I’ll call you back [later].	남: 알았어. [나중에] 다시 전화할게요.<br>3단계<br>Direction:자라나에게요청하고 답하는 대화를 해보세요.S:Can I ask you to <clean the room|do the dishes|cook|do shopping|recycle|water plants>?	<방 청소|설거지|요리|쇼핑|재활용|수생식물> 부탁드려도 될까요?<br>AI:Yes but can I ask you to help me?	 네, 그런데 도와달라고 해도 될까요?<br>S:<All right|I’m sorry but I can’t>.	<알았어|죄송하지만 할 수 없어요>.<br><br>
-041;추천 요청하고 답하기;<br>A:Can I take your order?	주문을 받아도 될까요?<br>B:Can you recommend something from the menu?	메뉴에서 추천해주실 수 있나요?<br>A:I recommend that you try tomato pasta.	토마토 파스타를 드셔보시길 권합니다.<br>B:Oh, it looks delicious. I’ll order it.	아, 맛있어 보여요. 내가 주문할게.<br>1단계<br>A:Can you recommend something from the menu?	메뉴에서 추천해주실 수 있나요?<br>B:I recommend that you try tomato pasta.	토마토 파스타를 드셔보시길 권합니다.<br>2단계<br>Direction:자라나에게 메뉴에서 음식을 추천해달라고 하세요. .S:Can you recommend something from the menu?	메뉴에서 추천해주실 수 있나요?<br>AI:I recommend that you try tomato pasta.	토마토 파스타를 드셔보시길 추천합니다.<br>Direction:자라나에게 토마토 파스타를 추천해주세요.AI:Can you recommend something from the menu?	메뉴에서 추천해주실 수 있나요?<br>S:I recommend that you try tomato pasta.	토마토 파스타를 드셔보시길 권합니다.<br>3단계<br>Direction:자라나에게음식을 추천하거나 추천을 받아 보세요.S:Can you recommend something from the menu?	메뉴에서 추천해주실 수 있나요?<br>AI:I recommend that you try tomato pasta. Can you recommend something else?	토마토 파스타를 드셔보시길 추천합니다. 다른 것을 추천해주실 수 있나요?<br>S:I recommend that you try <toamto pasta|juice|Vietnam noodle|Gimbab>.	<토암토 파스타|주스|베트남 국수|김밥>을 드셔보시길 추천드려요.<br><br>
-042;확실성 정도 표현하기;<br>A:Look at the clouds.	구름 좀 보세요.<br>B:Is it going to rain?	비가 올까요?<br>A:Yes. I’m sure it’s going to rain soon.	답: 그렇습니다. 곧 비가 올 거라고 확신해요.<br>B:Let’s take an umbrella.	우산을 가져가자.<br>1단계<br>A:Is it going to rain?	비가 올까요?<br>B:Yes. I’m sure it’s going to rain soon.	네. 곧 비가 올 거라고 확신해요.<br>2단계<br>Direction:자라나에게 비가 올 것인지 물어 보세요.S:Is it going to [rain]?	비가 올까요?<br>AI:Yes. I’m sure it’s going to rain soon.	네. 곧 비가 올 거라고 확신해요.<br>Direction:자라나에게 비가 확실히 올 것이라고 말해보세요.AI:Is it going to rain?	비가 올까요?<br>S:Yes. I’m [sure] it’s going to rain soon.	학생: 네. 곧 비가 올 것 같아요.<br>3단계<br>Direction:자라나와의 대화에서 확실성을 표현해보세요.S:It’s going to <rain|be sunny|be cloudy|be windy>.	<비|맑음|흐림|바람>이 올 것 같아요.<br>AI:Are you sure?	확실해요?<br>S:Yes. I’m sure it’s going to <rain|be sunny|be cloudy|be windy> soon.	학생: 네. 곧 <비|맑음|흐림|바람>이 올 것 같아요.<br><br>
-043;감사하기;<br>A:You look so busy.	너 너무 바쁜 것 같아.<br>B:Yes. I have to do a lot of things.	네. 나는 많은 일을 해야 한다.<br>A:Can I help you with cleaning?	청소하는 것을 도와드릴까요?<br>B:I appreciate your help.	도움을 주셔서 감사합니다.<br>1단계<br>A:Can I help you with cleaning?	청소하는 것을 도와드릴까요?<br>B:I appreciate your help.	도움을 주셔서 감사합니다.<br>2단계<br>Direction:자라나에게 청소를 도와줄 수 있다고 말해 보세요.S:Can I help you with [cleaning]?	[청소]를 도와드릴까요?<br>AI:I appreciate your help.	도움을 주셔서 감사합니다.<br>Direction:자라나에게 도와 주어 고맙다고 답해보세요.AI:Can I help you with cleaning?	청소를 도와드릴까요?<br>S:I [appreciate] your help.	당신의 도움에 [감사드립니다].<br>3단계<br>Direction:자라나와 서로 감사의 이야기를 나눠 보세요.S:I need to <clean the room|do my homework|prepare for exam|recycle trash|write a report>.	나는 <방 청소|숙제|시험 준비|쓰레기 재활용|보고서 작성>을 해야 해요.<br>AI:Thank you. Can I help you with it?	 감사합니다. 제가 도와드릴까요?<br>S:I appreciate your help.	도움을 주셔서 감사합니다.<br><br>
-127;가능한지 묻기;<br>A:Is it possible to use paper cups in the cafe?	카페에서 종이컵을 사용할 수 있나요?<br>B:You’re not supposed to use paper cups.	종이컵을 사용하면 안 돼요.<br>A:Then I’ll bring my own tumbler.	그럼 텀블러를 가져갈게요.<br>B:That’s a good idea.	좋은 생각이네요.<br>1단계<br>A:Is it possible to use paper cups in the cafe?	카페에서 종이컵을 사용할 수 있나요?<br>B:You’re not supposed to use paper cups.	종이컵을 사용하면 안 돼요.<br>2단계<br>Direction:자라나에게 카페에서 종이컵을 사용할 수 있는지 물어보세요.S:Is it possible to use paper cups in the cafe?	카페에서 종이컵을 사용할 수 있나요?<br>AI:You’re not supposed to use paper cups.	 종이컵을 사용하면 안 돼요.<br>Direction:자라나에게 종이컵을 사용할 수 없다고 답하세요.AI:Is it possible to use paper cups in the cafe?	카페에서 종이컵을 사용할 수 있나요?<br>S:You’re not supposed to use paper cups.	종이컵은 사용하면 안 돼요.<br>3단계<br>Direction:자라나에게 쇼핑을 가자고 하고 환경을 위해 하지 말아야 할 일에 대해 대화를 나누세요.S:Let’s go shopping.	쇼핑하러 가자.<br>AI:Is it possible to use a single-use item in the shop?	매장에서 일회용품을 사용할 수 있나요?<br>S:No. you’re not supposed to use <plastic cups|paper cups|plastic spoons|plastic bags|straws>.	학생: 아니요. <플라스틱 컵|종이컵|플라스틱 숟가락|비닐봉투|빨대>를 사용하면 안 됩니다.<br><br>
-045;방법 묻고답하기;<br>A:You are good at cooking.	당신은 요리를 잘해요.<br>B:Yes. I like cooking.	네. 나는 요리하는 걸 좋아해.<br>A:Can you tell me how to cook ramyeon?	라면 끓이는 법을 가르쳐 주시겠어요?<br>B:First, boil the water.	먼저 물을 끓여주세요.<br>1단계<br>A:Can you tell me how to cook ramyeon?	라면 끓이는 법을 가르쳐 주시겠어요?<br>B:First, boil the water.	먼저 물을 끓여주세요.<br>2단계<br>Direction:자라나에게 라면 끓이는 방법을 물어 보세요.S:Can you tell me how to cook ramyeon?	라면 끓이는 법을 알려줄 수 있나요?<br>AI:First, boil the water.	먼저 물을 끓입니다.<br>Direction:자라나에게 처음으로 물을 끓이라고 답해보세요.AI:Can you tell me how to cook ramyeon?	라면 끓이는 법을 알려줄 수 있나요?<br>S:First, boil the water.	먼저 물을 끓여주세요.<br>3단계<br>Direction:자라나에게 조리 방법을 물어 보세요.S:Can you tell me how to cook a <noodle|rice>?	<국수|밥> 요리하는 방법을 알려 주시겠어요?<br>AI:Here is the recipe.	레시피는 다음과 같습니다.<br>S:Thank you for the recipe of a <noodle|rice>.	<국수|밥> 레시피 감사합니다.<br><br>
-061;위치 말하기;<br>A:Excuse me.	죄송합니다.<br>B:How can I help you?	무엇을 도와드릴까요?<br>A:Where can I find the library?	도서관은 어디서 찾을 수 있나요?<br>B:You can find it on the first floor.	B:1층에서 찾으실 수 있어요.<br>1단계<br>A:Where can I find the library?	도서관은 어디서 찾을 수 있나요?<br>B:You can find it on the first floor.	B:1층에서 찾으실 수 있어요.<br>2단계<br>Direction:자라나에게 도서관이 어디에 있는지 물어 보세요.S:Where can I find the library?	도서관은 어디서 찾을 수 있나요?<br>AI:You can find it on the first floor.	AI: 1층에서 찾으실 수 있습니다.<br>Direction:자라나에게 1층에 있다고 답해보세요.AI:Where can I find the library?	도서관은 어디서 찾을 수 있나요?<br>S:You can find it on the first floor.	S: 1층에서 찾으실 수 있습니다.<br>3단계<br>Direction:자라나와 학교안에 있는 장소의 위치에 대해 이야기를 해보세요.S:Where can I find a<hospital|macdonald|convinience store>?	<병원|맥도날드|편의점>은 어디에서 찾을 수 있나요?<br>AI:You can find it on the first floor. Where is the music room?	AI: 1층에서 찾으실 수 있습니다. 음악실은 어디에 있나요?<br>S:You can find it on the <first|second|third> floor.	S:<1|2|3>층에서 찾으실 수 있습니다.<br><br>
-062;의도묻기;<br>A:What will you do for the earth?	지구를 위해 무엇을 할 건가요?<br>B:I will reduce trash.	쓰레기를 줄이겠습니다.<br>A:I will turn off the light not in use.	사용하지 않는 조명은 꺼두겠습니다.<br>B:That’s good.	좋네요.<br>1단계<br>A:What will you do for the earth?	지구를 위해 무엇을 할 건가요?<br>B:I will reduce trash.	쓰레기를 줄이겠습니다.<br>2단계<br>Direction:자라나에게 지구를 위해 무엇을 할 것인지 물어 보세요.S:What will you do for the earth?	지구를 위해 무엇을 하시겠습니까?<br>AI:I will reduce trash.	 쓰레기를 줄이겠습니다.<br>Direction:자라나에게 쓰레기를 줄일 것이라고 답해보세요.AI:What will you do for the earth?	지구를 위해 무엇을 하시겠습니까?<br>S:I will reduce trash.	쓰레기를 줄이겠습니다.<br>3단계<br>Direction:자라나와 의도를 묻고 답해보세요.S:What will you do for the earth?	지구를 위해 무엇을 하시겠습니까?<br>AI:I will reduce trash. What will you do?	 쓰레기를 줄이겠습니다. 당신은 무엇을 할 것인가?<br>S:I will < use a bottle|turn off the light not in use|walk to school|eat less meat|reduce plastic>.	저는 <병을 사용하겠습니다|사용하지 않는 불을 끄고|학교에 가겠습니다|고기를 덜 먹겠습니다|플라스틱을 줄입니다>.<br><br>
-005;정보묻고 답하기;<br>A:What kind of music do you listen to?	어떤 음악을 듣나요?<br>B:I listen to K-pop. How about you?	B:K-pop을 들어요. 당신은 어떤가요?<br>A:I usually listen to rock.	저는 주로 록 음악을 듣습니다.<br>B:That’s cool.	멋지네요.<br>1단계<br>A:What kind of music do you listen to?	어떤 음악을 듣나요?<br>B:I listen to K-pop.	B:K-pop을 들어요.<br>2단계<br>Direction:자라나에게 어떤 종류의 음악을 듣는지 물어 보세요.S:What kind of music do you listen to?	어떤 종류의 음악을 듣나요?<br>AI:I listen to K-pop.	AI:K-pop을 들어요.<br>Direction:자라나에게 K-pop을 듣는다고 말해보세요.	방향 : 자라나에게 K-pop을 듣고 있다고 말해보세요.<br>AI:What kind of music do you listen to?	 어떤 음악을 듣나요?<br>S:I listen to K-pop.	S:K-pop을 들어요.<br>3단계<br>Direction:자라나와 정보를 묻고 답해보세요.S:What kind of music do you listen to?	어떤 종류의 음악을 듣나요?<br>AI:I listen to classical music. How about you?	클래식 음악을 듣습니다. 당신은 어떤가요?<br>S:I listen to <rap|classic>.	저는 <랩|클래식>을 듣습니다.<br><br>
-064;진술하기;<br>A:Where is my phone?	내 전화기는 어디에 있나요?<br>B:There is a phone on the desk.	책상 위에 전화기가 있어요.<br>A:Oh, it’s mine. Thank you.	아, 내 꺼야. 감사합니다.<br>B:You’re welcome.	천만에요.<br>1단계<br>A:Where is my phone?	내 전화기는 어디에 있나요?<br>B:There is a phone on the desk.	책상 위에 전화기가 있어요.<br>2단계<br>Direction:자라나에게 내 폰이 어디있는지 물어 보세요.S:Where is my phone?	내 전화기는 어디에 있나요?<br>AI:There is a phone on the desk.	책상 위에 전화기가 있어요.<br>Direction:자라나에게 책상에 폰이 하나 있다고 말해 보세요.AI:Where is my phone?	 내 휴대폰은 어디에 있나요?<br>S:There is a phone on the desk.	책상 위에 전화기가 있어요.<br>3단계<br>Direction:자라나와 대화하면서 물건의 위치를 진술해보세요.S:Where is my <desk|table|sofa|bed|chair|shelf> ?	내 <책상|테이블|소파|침대|의자|선반>은 어디에 있나요?<br>AI:There is something on the desk, isn’t it?	책상 위에 뭔가 있는 것 아닌가요?<br>S:Ah,I found it. It is on the <desk|table|sofa|bed|chair|shelf>.	아, 찾았어요. <책상|테이블|소파|침대|의자|선반> 위에 있어요.<br><br>
-065;축하, 칭찬, 격려에 답하기;<br>A:Congratulations on your birthday.	생일을 축하합니다.<br>B:Thanks a lot.	정말 고마워요.<br>A:Here is my present.	여기 내 선물이 있습니다.<br>B:How kind of you!	정말 친절하시네요!<br>1단계<br>A:Congratulations on your birthday.	생일을 축하합니다.<br>B:Thanks a lot.	정말 고마워요.<br>2단계<br>Direction:자라나에게 생일을 축하한다고 말해보세요.S:Congratulations on your birthday.	생일을 축하합니다.<br>AI:Thanks a lot.	 정말 감사합니다.<br>Direction:자라나에게 정말 고맙다고 말해보세요.AI:Congratulations on your birthday.	생일을 축하합니다.<br>S:Thanks a lot.	남: 정말 고마워요.<br>3단계<br>Direction:자라나에게축하를 전해보세요.S:Congratulations on your <birthday|graduation|success|winning a game|winning an award>	<생일|졸업|성공|게임 우승|상 수상>을 축하합니다<br>AI:Thank you.	 감사합니다.<br>S:It’s my present for you.	당신을 위한 내 선물이에요.<br><br>
-081;소요시간 말하기;<br>A:How do you go to school?	학교에 어떻게 가나요?<br>B:I walk to school.	학교에 걸어서 가요.<br>A:How long does it take to go to school?	학교에 가는데 얼마나 걸리나요?<br>B:It takes about ten minutes.	B:10분 정도 걸립니다.<br>1단계<br>A:How long does it take to go to school?	학교에 가는데 얼마나 걸리나요?<br>B:It takes about ten minutes.	B:10분 정도 걸립니다.<br>2단계<br>Direction:자라나에게 학교까지 오는데 걸리는 시간을 물어 보세요.S:How long doesl it take to go to school?	학교에 가는데 얼마나 걸리나요?<br>AI:It takes about ten minutes.	AI: 10분 정도 걸립니다.<br>Direction:자라나에게 10분이 걸린다고 말해 보세요.AI:How long does it take to go to school?	학교에 가는데 얼마나 걸리나요?<br>S:It takes about ten minutes.	S:10분 정도 걸립니다.<br>3단계<br>Direction:자라나와 소요시간에 대해 말해 보세요.S:How long does it take to go to school?	학교에 가는데 얼마나 걸리나요?<br>AI:It takes about ten minutes. How about you?	AI: 10분 정도 걸립니다. 당신은 어떤가요?<br>S:It takes <20|30> minutes by bus.	버스로 <20|30>분 걸립니다.<br><br>
-146;숫자와 관련된 정보 묻기;<br>A:When were you born?	언제 태어났어요?<br>B:I was born in 2010.	B:2010년에 태어났어요.<br>A:When is your birthday?	네 생일이 언제니?<br>B:It is January 10th.	B:1월 10일이에요.<br>1단계<br>A:When were you born?	언제 태어났어요?<br>B:I was born in 2010.	B:2010년에 태어났어요.<br>2단계<br>Direction:자라나에게 태어난 해를 물어 보세요.S:When were you born?	언제 태어났어요?<br>AI:I was born in 2010.	저는 2010년에 태어났어요.<br>Direction:자라나에게 태어난 해를 말해 주세요.AI:When were you born?	언제 태어났나요?<br>S:I was born in 2010.	 저는 2010년에 태어났어요.<br>3단계<br>Direction:자라나에게 언제 태어났는지 묻고 답해 보세요.S:When were you born?	언제 태어났어요?<br>AI:I was born in 2010. How about you?	 저는 2010년에 태어났습니다. 당신은 어떤가요?<br>S:I was born in <2009|2011>.	저는 <2009|2011>에 태어났어요.<br><br>
-188;충고 구하기;<br>A:I fought with my brother.	동생이랑 싸웠어요.<br>B:You must be sad.	슬프겠구나.<br>A:What would you do if you were me?	당신이 나라면 어떻게 하시겠습니까?<br>B:If I were you, I would be nicer to my family.	내가 너였다면 가족들에게 더 친절했을 텐데.<br>1단계<br>A:What would you do if you were me?	당신이 나라면 어떻게 하시겠습니까?<br>B:If I were you, I would be nicer to my family.	내가 너였다면 가족들에게 더 친절했을 텐데.<br>2단계<br>Direction:자라나에게 네가 나라면 어떻게 할지 물어 보세요.A:What would you do if you were me?	당신이 나라면 어떻게 하시겠습니까?<br>B:If I were you, I would be nicer to my family.	내가 너였다면 가족들에게 더 친절했을 텐데.<br>Direction:자라나에게 내가 너라면 가족에게 더 잘 대해줄 것 같다고 답해보세요.A:What would you do if you were me?	당신이 나라면 어떻게 하시겠습니까?<br>B:If I were you, I would be nicer to my family.	내가 너였다면 가족들에게 더 친절했을 텐데.<br>3단계<br>Direction:자라나와 서로 충고를 해보세요.S:I don’t have good grades. What would you do if you were me?	 성적이 좋지 않아요. 당신이 나라면 어떻게 하시겠습니까?<br>AI:If I were you, I would <study harder|make a plan|read more|focus on class|ask many questions|search information>.	내가 너라면 <공부 더 열심히|계획 세우기|자세히 보기|수업 집중|질문 많이|정보 검색>할 텐데.<br>S:Thank you for advice.	조언 감사드립니다.<br><br>
-084;앞으로의 계획 묻기;<br>A:What are you planning to do on vacation?	휴가에 뭐 할 계획이에요?<br>B:I’m planning to study math.	나는 수학을 공부할 계획이야.<br>A:Really? So am I.	정말로? 나도 그래.<br>B:Let’s plan and study together.	같이 계획하고 공부하자.<br>1단계<br>A:What are you planning to do on vacation?	휴가에 뭐 할 계획이에요?<br>B:I’m planning to study math.	나는 수학을 공부할 계획이야.<br>2단계<br>Direction:자라나에게 방학 때 무엇을 할 계획인지 물어 보세요.S:What are you planning to do on vacation?	휴가에 무엇을 할 계획인가요?<br>AI:I’m planning to study math.	 수학을 공부할 예정이에요.<br>Direction:자라나에게 수학공부를 할 계획이라고 답해보세요.AI:What are you planning to do on vacation?	휴가에 뭐 할 계획이에요?<br>S:I’m planning to study math.	나는 수학을 공부할 계획이에요.<br>3단계<br>Direction:자라나와 방학 중 계획을 묻고 답해 보세요.S:What are you planning to do on vacation?	휴가에 무엇을 할 계획인가요?<br>AI:I’m planning to study math. What about you?	 수학을 공부할 예정이에요. 당신은 어때요?<br>S:I’m planning to <study English|read books|exercise|watch movies|hang out with friends>	<영어 공부|책 읽기|운동|영화 보기|친구들과 어울려>할 계획이에요.<br><br>
-085;여가 활동 말하기;<br>A:What do you usually do in your free time?	여가시간에는 주로 무엇을 하시나요?<br>B:I usually play games.	저는 주로 게임을 해요.<br>A:What game do you play?	어떤 게임을 하시나요?<br>B:I like to play LOL.	저는 LOL 게임을 좋아해요.<br>1단계<br>A:What do you usually do in your free time?	여가시간에는 주로 무엇을 하시나요?<br>B:I usually play games.	저는 주로 게임을 해요.<br>2단계<br>Direction:자라나에게 자유 시간에 무엇을 하는지 물어 보세요.S:What do you usually do in your free time?	 여가시간에는 주로 무엇을 하시나요?<br>AI:I usually play games	저는 주로 게임을 해요<br>Direction:자라나에게 보통 게임을 한다고 답해보세요.AI:What do you usually do in your free time?	 여가 시간에는 주로 무엇을 하시나요?<br>S:I usually play games	저는 주로 게임을 해요<br>3단계<br>Direction:자라나와 여가 활동에 대해 묻고 답해보세요.S:What do you usually do in your free time?	 여가시간에는 주로 무엇을 하시나요?<br>AI:I usually play games. What about you?	저는 주로 게임을 합니다. 당신은 어때요?<br>S:I <listen to music|watch movies|draw pictures|play dance|read cartoons|play soccer>.	나는 <음악 듣기|영화 보기|그림 그리기|춤추기|만화 읽기|축구하기>.
+006;설명 요청하기;
+A:What are you eating, Jina?
+B:It’s Gimbap!
+A:What is Kimbap?
+B:It is Korea’s most popular on-the-go meal!
+1단계
+A:What is Kimbap?
+B:It is Korea’s most popular on-the-go meal.
+2단계
+Direction:자라나에게 K-pop이 무엇인지 물어보세요.
+S:[What is] K-pop?
+AI:It is short for Korean pop music.
+Direction:자라나에게 한복은 한국의 전통의상이라고 설명해보세요.
+AI:What is Hanbok?
+S:It is a Korean [traditional] [clothing].
+3단계
+Direction:자라나와 여러 나라의 전통 모자에 대해서 묻고 답해보세요.
+S:What is <traditional-hat>?
+AI:It is a <country name> hat. What is a gat?
+S:It is a Korean [traditional][hat].
+
+
+007;알고 있는지 묻고 답하기;
+A:Do you know how to use this kiosk?
+B:Yes, I do. You need to first press the ‘start’ button.
+A:Okay. Do you know how to order some donuts?
+B:Yes, press this button and insert your card here.
+1단계
+A:Do you know how to use this kiosk?
+B:Yes, I do.
+2단계
+Direction:자라나에게 자판기 사용법을 알고 있는지 물어보세요.
+S:[Do you know] how to use a [vending machine]?
+AI:I don’t know how to use it. I’m sorry.
+Direction:자라나에게 바이올린을 켤 줄 안다고 답해보세요.
+AI:Do you know how to play the violin?
+S:Yes, [I do.]
+3단계
+Direction:자라나와 여러 나라의 전통 모자에 대해서 묻고 답해보세요.
+S: Do you know how to play <traditional-game>?
+AI: Yes, I do. I sometimes play it with my friends. Do you know how to play Monopoly?
+S: <Yes, [I do.]|No, [I don’t.]>
+S:Do you know how to play <traditional-game>?
+AI:Yes, I do. I sometimes play it with my friends. Do you know how to play Yutnori?
+S:<Yes, [I do.]|No, [I don’t.]>
+
+
+028;가능 여부 묻고 답하기;
+A:I have questions about our school rules. Can I ride a bike to school?
+B:No, you can’t. It can be dangerous.
+A:I see. Can I bring my smartphone to school?
+B:Yes, you can. But you can’t use it during classes.
+1단계
+A:Can I ride a bike to school?
+B:No, you can’t.
+2단계
+Direction:자라나에게 내 생일파티에 참석할 수 있는지 물어보세요.
+S:Can you [come to my birthday party]?
+AI:Yes, I can.
+Direction:자라나에게 사진을 찍을 수 없다고 답해보세요.
+AI:Can I take a picture there?
+S:No, you [can’t].
+3단계
+Direction:자라나와 능력여부에 대해 묻고 답해보세요.
+AI:Let’s make our library rules.
+S:Can I <eat in the library|run in the library|write in the books>?
+AI:No, you can’t. Can I read comic books?
+S:<Yes, you can|No, you can’t>
+
+
+029;기대 표현하기;
+A:You look happy today!
+B:Yes, I feel happy today.
+A:What is going on?
+B:I’m looking forward to going camping.
+1단계
+A:What’s going on?
+B:I’m looking forward to going camping.
+2단계
+Direction:자라나에게 기대할 만한 무슨 일이 있는지 물어보세요.
+S:What’s going on?
+AI:I’m looking forward to the summer vacation.
+Direction:자라나에게 이번 주말이 기대된다고 표현해보세요.
+AI:It is Friday today!
+S:I’m [looking forward to|this weekend].
+3단계
+Direction:자라나와 기대할 만한 일에 대해서 묻고 기대를 표현해보세요. 
+AI:Our school festival is coming up. What are you looking forward to the most?
+S:I’m looking forward to <magic show|band performance|photo exhibition|face painting>.
+AI:Really? I’m looking forward to it, too.
+
+
+030;당부하기;
+A:How’s the weather today?
+B:It is sunny but cloudy.
+A:The weather forecast says it will rain soon.
+B:Really? Make sure you take an umbrella.
+1단계
+A:It will rain soon.
+B:Make sure you take an umbrella.
+2단계
+Direction:자라나에게 목이 마르다고 말해보세요.
+S:I am [thirsty].
+AI:Make sure you drink enough water.
+Direction:자라나에게 약을 먹으라고 당부해보세요.
+AI:I feel sick.
+S:[Make sure] you [take|some medicine].
+3단계
+Direction:자라나와 해외 여행을 전 해야할 내용을 당부해보세요.
+AI:What else should I pack?
+AI:I’m packing my luggage for tomorrow’s trip.
+S:Make sure you pack <passport|hat|ticket|an umbrella>
+
+
+046;불만 표현하기;
+A:How can I help you?
+B:I want to buy a hat. Can I try this on?
+A:Sure. How do you like the hat?
+B:I’m not really happy with it. It’s too small for me.
+1단계
+A:How do you like the shirt?
+B:I’m not really happy with it. It’s too small for me.
+2단계
+Direction:자라나에게 음식이 너무 짜 마음에 들지 않는다고 말해보세요.
+AI:How do you like your food?
+S:I’m [not really] [happy with food]. It’s [too salty].
+Direction:자라나에게 파티가 어땠는지 물어보세요.
+S:How do you like [the party]?
+AI:I’m not really happy with it. I didn’t know anyone.
+3단계
+Direction:자라나와 영화에 대해 묻고 불만족함을 표현해보세요.
+S:How do you like the movie?
+AI:I didn’t like it. I could guess its ending.
+S:I didn’t like it, either. <It was boring|The story wasn’t funny|The plot was hard to understand>.
+AI:I feel the same.
+
+
+047;약속정하기;
+A:What time should we meet tomorrow?
+B:How about 10 o’clock?
+A:Sounds good. Where should we meet?
+B:Let’s meet in front of the movie theater.
+1단계
+A:What time and where should we meet?
+B:Let’s meet in front of the movie theater at 10 o’clock.
+2단계
+Direction:자라나에게 언제, 어디서 만날지 물어보세요.
+S:[What time] and [where should] we [meet]?
+AI:Let’s meet at 8 A.M. in front of the school.
+Direction:자라나에게 그 카페 앞에서 오후 3시에 만나자고 약속해보세요.
+AI:What time and where should we meet?
+S:Let’s meet [at 3 P.M.] in front of [the cafe].
+3단계
+Direction:자라나와 주말에 만날 약속을 정해보세요.
+AI:We should finish the team project. Let’s meet at the library on Saturday.
+S:Sure. [What time] should we [meet]?
+AI:Hmm, I’m free all day.
+S:Then, how about <Time>?
+
+
+048;외모 묘사하기;
+A:Did you see our new English teacher?
+B:Not yet. What does he look like?
+A:He is tall and has short hair.
+B:I’m looking forward to our English class.
+1단계
+A:What does she look like?
+B:She is tall and has short hair.
+2단계
+Direction:자라나에게 가장 친한 친구가 어떻게 생겼는지 물어보세요.
+S:What does [your best friend] [look like]?
+AI:He has brown hair and wears glasses.
+Direction:자라나에게 내 고양이는 작고 검은색이라고 묘사해보세요.
+AI:What does your cat look like?
+S:It is [small] and [has black hair].
+3단계
+Direction:자라나와 ‘나의 최애’를 서로 묻고 묘사해보세요.
+S:What does [your favorite person] look like?
+AI:My dad has blue eyes and usually wears jeans. What does your favorite person look like?
+S:<He|She> <has beautiful smile|has bright skin|has beautiful smile|wears glasses>.
+AI:Oh, I see.
+
+
+049;의무 표현하기;
+A:You can’t go outside without a hat.
+B:Why not?
+A:You have to follow our school rule: No hat, no play.
+B:Oh, I see. I will wear my hat.
+1단계
+A:You have to follow our school rules.
+B:Okay, I will.
+2단계
+Direction:자라나에게 물을 아껴야 한다고 도덕적 의무를 표현해보세요.
+S:You [have to] [save water].
+AI:Okay, I will.
+Direction:자라나에게 매일 한 시간씩 운동을 해야한다고 표현해보세요.
+S:You [have to] [exercise for one hour] every day.
+AI:I will try to do that.
+3단계
+Direction:자라나와 현장체험학습에서의 지켜야 하는 것을 표현해보세요.
+AI:Let’s talk about things we have to follow.
+S:We have to <be on time|bring your own lunch|let your teacher know when you’re sick>.
+AI:What else do we have to do?
+S:We have to <be on time|bring your own lunch|let your teacher know when you’re sick>.
+
+
+050;화가 난 감정 표현하기;
+A:You look upset.
+B:I’m upset with my best friend.
+A:What happened?
+B:She didn’t come to my birthday party.
+1단계
+A:You look upset. What happened?
+B:I’m upset with my friend. She broke her promise.
+2단계
+Direction:자라나에게 무슨 일이냐고 물어보세요.
+S:You [look upset]. [What happened]?
+AI:I’m upset with my dog. He ate my homework!
+Direction:자라나에게 오빠가 내 휴대전화를 떨어뜨려서 화가난 감정을 표현해보세요.
+AI:You look upset. What happened?
+S:My brother [dropped] [my phone]. I’m upset [with him]
+3단계
+Direction:자라나와 스포츠 데이 후 화가 난 감정을 표현해보세요.
+AI:You look upset. What happened at Sports Day?
+S:[Our team lost/The game wasn’t fair/The other team laughed at us].
+AI:That is rude!
+S:I’m upset with [myself][the other team]
+
+
+066;행동묘사하기;
+A:Did you see Jiho?
+B:Oh, she is at the park.
+A:What is she doing there?
+B:She is walking the dog.
+1단계
+A:What is she doing?
+B:She is walking the dog.
+2단계
+Direction:자라나에게 무엇을 하고 있는지 물어보세요.
+S:What are you [doing]?
+AI:I’m taking pictures now.
+Direction:자라나에게 지금 방 청소를 하고 있다고 말해보세요.
+AI:What are you doing?
+S:I’m [cleaning my room].
+3단계
+Direction:자라나와 묻고 답하며 그림 속 친구들의 행동을 묘사해보세요.
+S:What is <Mia|Jay|Tom|Jisu> doing?
+AI:<Mia|Jay|Tom|Jisu> is <singing a song|playing the piano|eating a cake|reading a book>. What is <Mi|Ja|To|Jisu> doing?
+S:<Mia|Jay|Tom|Jisu> is <singing a song|playing the piano|eating a cake|reading a book>.
+
+
+067;허가 여부 묻기;
+A:May I bring my dog on the bus?
+B:Do you have a pet carrier?
+A:Yes, I do. It’s in the carrier.
+B:Then yes, you may.
+1단계
+A:May I bring my dog on the bus?
+B:<Yes, you may|No, you may not>.
+2단계
+Direction:자라나에게 자리를 옮길 수 없다고 말해보세요.
+AI:May I move my seat?
+S:No, you [may not].
+Direction:자라나에게 사진을 찍어도 되는지 물어보세요.
+S:[May] I [take a picture]?
+AI:You may take pictures at the end.
+3단계
+Direction:자라나와 도서관에서 허가 여부를 묻고 답해보세요.
+AI:Welcome to Janara library.
+S:May I <library rules>?
+AI:Yes, you may.
+S:Then may I <library rules>?
+AI:No, you may not. I’m sorry.
+
+
+068;확인 요청하기;
+A:Let’s talk about our favorite sport!
+B:Sure, you like playing soccer, don’t you?
+A:No, I like playing tennis. You like playing tennis, right?
+B:Yes, I do.
+1단계
+A:You like playing soccer, don’t you?
+B:<Yes, I do|No, I don’t>.
+2단계
+Direction:자라나에게 과학을 좋아하지 않는지 확인해보세요.
+S:You like science, don’t you?
+AI:No, I don’t. I like English!
+Direction:자라나의 확인 요청에 답해보세요.
+AI:You look different. You got a haircut, right?
+S:<No, I didn’t|Yes, I did>.
+3단계
+Direction:자라나와 서로 좋아하는 음식을 확인해보세요.
+AI:Guess which food I like.
+S:You like <Kimbap|Remen|Gimchi|Bulgogi|Ttokbeokki>, don’t you?
+AI:Yes, I do. You like Ttokbeokki, right?
+S:<Yes, I do|No, I don’t>.
+
+
+069;후회 표현하기;
+A:It’s freezing today. I should have worn my mittens.
+B:I know.
+A:You look cold.
+B:I should have worn my jacket today.
+1단계
+A:I should have worn my mittens.
+B:I should have worn my jacket today.
+2단계
+Direction:자라나에게 어제 공부를 더 열심히 했어야 한다고 말해보세요.
+AI:You got C on your test?
+S:I [should have studied harder] yesterday.
+Direction:자라나에게 편지를 썼어야 한다고 말해보세요.
+AI:I heard that Sion left Korea yesterday.
+S:I [should have written a letter].
+3단계
+Direction:자라나와 규칙적인 생활에서의 후회를 표현해보세요.
+AI:It is still 10 A.M. I’m hungry.
+S:You [should have eaten breakfast].
+AI:I know. You look tired today.
+S:I should have <slept|went to bed early>.
+
+
+070;가격 묻고 답하기;
+A:Welcome to Better Buy. Do you need help?
+B:How much is this headphone?
+A:It’s 200,000 won.
+B:Wow, it is expensive.
+1단계
+A:How much is this headphone?
+B:It’s 200,000 won.
+2단계
+Direction:자라나에게 자라나의 모자가 얼마인지 물어보세요.
+S:[How much] is [your hat]?
+AI:It’s 20,000 won.
+Direction:자라나에게 필통이 7천원이라고 말해보세요.
+AI:How much is this pencil case?
+S:It’s [7,000 won].
+3단계
+Direction:자라나와 마니또에게 고를 물건의 가격을 묻고 답해보세요.
+S:How much is <gift>?
+AI:It’s <price> won. It is perfect for your secret friend. I want to give this hairband. How much is it?
+S:It is <price> won.
+
+
+086;오해 지적하기;
+A:Can you guess who made this lego?
+B:I’m sure June made it. She is good at making legos.
+A:I’m afraid that’s not right. Joe made it.
+B:Really? I didn’t know that.
+1단계
+A:I’m afraid that’s not right.
+B:I didn’t know that.
+2단계
+Direction:자라나에게 그것이 오해라고 말해보세요.
+AI:It takes about 4 hours to go to Hawaii, right?
+S:I’m [afraid that’s not right.]
+Direction:자라나에게 그 점을 몰라서 오해했다고 말해보세요.
+AI:I’m afraid what you said is not right.
+S:I [didn’t know] that.
+3단계
+Direction:자라나가 가지고 있는 오해를 지적하고 올바르게 알려주세요.
+AI:Can I call 119 to call the ambulance in the U.S.?
+S:I’m afraid that’s not right.
+AI:I thought every country uses 119.
+S:In [the U.S.], you [have to call 911].
+
+
+087;원하는 것 묻기;
+A:What do you want for lunch?
+B:I want a hamburger.
+A:I want a spaghetti.
+B:Let’s go to ‘Sam’s’ to eat together.
+1단계
+A:What do you want for lunch?
+B:I want a hamburger.
+2단계
+Direction:자라나에게 주말에 무엇을 하고 싶은지 물어보세요.
+S:What do you [want to do this weekend]?
+AI:I want to go camping with my family.
+Direction:자라나에게 시험 끝나고 친구들과 마라탕을 먹고 싶다고 말해보세요.
+AI:What do you want to do after the test?
+S:I [want to eat] Maratang [with my friends].
+3단계
+Direction:자라나와 생일에 원하는 것을 묻고 답해보세요.
+S:What do you want for your birthday?
+AI:I want to watch a movie with my friends. What about you?
+S:I want to <Activities>.
+AI:That sounds fun. Invite me!
+
+
+088;원하는 행동 묻기;
+A:What are these?
+B:They are presents for my friends. Can you help me?
+A:Sure. What do you want me to do?
+B:Please put the names on them.
+1단계
+A:What do you want me to do?
+B:Please put the name on them.
+2단계
+Direction:자라나에게 무엇을 해주길 원하는지 물어보세요.
+S:What [do you want me to do]?
+AI:Please water the plants in our class.
+Direction:자라나에게 아이들에게 책을 읽어달라고 말해보세요.
+AI:What do you want to do now?
+S:Please [read books for children].
+3단계
+Direction:자라나와 학급 파티 준비에 필요한 행동을 묻고 답해세요.
+AI:Let’s prepare for our class party!
+S:What do you want me to do?
+AI:Well, I’m not sure. What do you want me to do?
+S:Please <send the invitation|prepare the dishes>.
+
+
+089;음식 주문하기;
+A:What would you like to order?
+B:I’d like to order two chocolate waffles.
+A:Okay, that will be 5,000 won.
+B:Here’s the money.
+1단계
+A:What would you like to order?
+B:I’d like to order two chocolate waffles.
+2단계
+Direction:자라나에게 무슨 음식을 주문하고 싶은지 물어보세요.
+S:What [would you like to order]?
+AI:I’d like to order a taco.
+Direction:자라나에게 버블티를 주문하고 싶다고 말해보세요.
+AI:What would you like to drink?
+S:[I’d like to order one bubble tea].
+3단계
+Direction:자라나와 한식당에서 무엇을 주문할 지 묻고 답해보세요.
+S:What [would you like to order]?
+AI:Hmm.. I’d like to order Kimchi fried rice. What about you?
+S:I’d like to order <Bulgogi|Remen>.
+AI:I like <Bulgogi|Remen>, too. Let’s order then.
+
+
+090;의향 말하기;
+A:What’s your plan for this summer?
+B:I’m thinking of taking swimming lessons.
+A:Cool. I’m thinking of reading some books.
+B:Really? I will bring some books for you.
+1단계
+A:What’s your plan for this summer?
+B:I’m thinking of reading some books.
+2단계
+Direction:자라나에게 내일 무엇을 할 의향인지 물어보세요.
+S:[What’s your plan for tomorrow]?
+AI:I’m thinking of going hiking with my dad.
+Direction:자라나에게 야구 경기에 갈 의향이 있다고 말해보세요.
+AI:What’s your plan for this Saturday?
+S:[I’m thinking of going to a baseball game].
+3단계
+Direction:자라나와 주말에 무엇을 할 의향인지 묻고 답해보세요.
+S:What’s your plan for this weekend?
+AI:I’m thinking of visiting my grandparents. What about you?
+S:I’m thinking of going to<church with my family|picnic with my brother>.
+AI:Okay. Have a good weekend!
+
+
+011;선호 말하기;
+A:Which do you prefer, hamburgers or pizza?
+B:I prefer hamburgers. What about you?
+A:I prefer pizza. Actually, it is my favorite
+food.
+B:Oh, I see.
+1단계
+A:Which do you prefer, summer or winter?
+B:I prefer winter.
+2단계
+Direction:자라나에게 소고기와 돼지고기중 무엇을 선호하는지 물어보세요.
+S:Which do you prefer, [beef] or [pork]?
+AI:I prefer pork.
+Direction:자라나에게 소고기를 선호한다고 말해 보세요.
+AI:Which do you prefer, beef or pork?
+S:I prefer [beef].
+3단계
+Direction:자라나와 선호하는 음식에 대해 묻고 답해보세요.
+S:Which do you prefer, <pizza|Gimbab> or <pizza|Gimbab>?
+AI:I prefer <pizza|Gimbab>. What about you?
+S:I prefer <pizza|Gimbab>.
+
+
+012;이유 말하기;
+A:Which country do you want to visit?
+B:I want to visit France.
+A:Why do you want to visit France?
+B:Because I want to see the Eiffel Tower.
+1단계
+A:Why do you want to join the dance club?
+B:Because I want to practice dancing.
+2단계
+Direction:자라나에게 영어를 배우는 이유를 물어보세요.
+S:[Why do you] learn English?
+AI:Because I can communicate with people from other countries.
+Direction:자라나에게 전화를 잃어버렸기 때문이라는 이유를 말해 보세요.
+AI:Why do you look so sad?
+S:Because [I lost my phone.]
+3단계
+Direction:특정 나라에 방문하고 싶은 이유에 대해 자라나와 묻고 답해보세요.
+S:Why do you want to visit <Tokyo|Seoul|Paris|New York|Rome|Egypt>?
+AI:Because I want to see the <Tokyo|Seoul|Paris|New York|Rome|Egypt> tower. Why do you want to visit <Tokyo|Seoul|Paris|New York|Rome|Egypt>?
+S:Because I want to see the <Pyramid|Eiffel Tower|London Eye|beautiful beach|Hanok village>.
+3. 희망 기대 표현하기;013
+A:Are you going to travel to Sokcho next week?
+B:Yes, I am.
+A:Good for you! Have a nice trip.
+B:Thanks. I am looking forward to it.
+1단계
+A:Are you going to have a birthday party this Saturday?
+B:Yes, I am looking forward to it.
+2단계
+Direction:자라나에게 제주도로 여행을 갈 계획인지 물어보세요.
+S:Are you going to [travel to Jeju]?
+AI:Yes, I am looking forward to it.
+Direction:자라나에게 소풍을 기대한다고 말해 보세요.
+AI:Are you going to go on a picnic?
+S:Yes, I [am looking forward to] it.
+3단계
+Direction:자라나와 국내 도시로의 여행 계획을 묻고 기대를 표현 해보세요.
+S:Are you going to travel to <Busan|Andong|Sokcho>?
+AI:Yes, I am looking forward to it. Are you going
+to travel to <Busan|Andong|Sokcho>?
+S:Yes, I am looking forward to it.
+
+
+014;주말 계획 묻고 답하기;
+A:What are you going to do this weekend?
+B:I’m going to go on a camping trip. What about you?
+A:I’m going to visit my grandparents.
+B:Sounds great. Have a nice weekend.
+1단계
+A:What are you going to do this weekend?
+B:I am going to play soccer with my friends.
+2단계
+Direction:자라나에게 주말 계획을 물어보세요.
+S:[What are you going to do] this weekend?
+AI:I am going to go shopping.
+Direction:자라나에게 운동을 할 계획이라고 말해 보세요.
+AI:What are you going to do this weekend?
+S:I am going to [play sports].
+3단계
+Direction:자라나와 주말 계획에 대해 묻고 답해보세요.
+S:What are you going to do this weekend?
+AI:I am going to <play game|spend time with my family|watch the movie|read books>. What about you?
+S:I am going to <play game|spend time with my family|watch the movie|read a book>.
+
+
+015;길 묻고 답하기;
+A:Excuse me. How can I get to the bookstore?
+B:Go straight one block and turn right. It will be on your right.
+A:Thanks a lot.
+B:You’re welcome.
+1단계
+A:How can I get to the museum?
+B:Go straight two blocks and turn right.
+2단계
+Direction:자라나에게 빵집에 가는 길을 물어보세요.
+S:[How can I get to] the bakery?
+AI:Go straight three blocks and turn left.
+Direction:자라나에게 한 블럭을 직진한 후 좌회전하라고 말해 보세요.
+AI:How can I get to the police station?
+S:[Go straight one block] and [turn left].
+3단계
+Direction:자라나와 역할을 번갈아 수행하며 <보기(지도)> 속 장소로 가는 길을 묻고 답해 보세요S
+S:How can I get to the <bakery|shoes store|bank|post office|museum>?
+AI:Go straight <one|two> blocks and turn <left|right>.
+
+
+031;만족 묻고 답하기;
+A:How do you like this T-shirt?
+B:I like it.
+A:What do you like about it?
+B:I like its color.
+1단계
+A:How do you like this backpack?
+B:I like it. I like its design.
+2단계
+Direction:자라나에게 드레스에 대한 만족도를 물어 보세요.
+S:[How do you like] this dress?
+AI:I like it. I like its color and design.
+Direction:자라나에게 만족감을 표현한 후, ‘모양’이 만족스럽다는 것을 말해보세요.
+AI:How do you like this hat?
+S:I [like it]. I like [its shape].
+3단계
+Direction:자라나와 제품에 대한 만족감을 묻고 이유와 함께 만족함을 말해보세요.
+S:How do you like this <phone|bike|bag|skirt|laptop|backpack>?
+AI:I like it. I like its function. How do you like this <phone|bike|bag|skirt|laptop|backpack>?
+S:I like it. I like its <color|design|size>.
+
+
+032;걱정 표현하기;
+A:What’s the matter?
+B:I’m worried about my dog. He doesn’t sleep well.
+A:Why don’t you play some music for him?
+B:That’s a good idea. Thanks.
+1단계
+A:What’s the matter?
+B:I am worried about my presentation.
+2단계
+Direction:자라나에게 무슨일이 있는지 물어 보세요.
+S:What’s [the matter]?
+AI:I am worried about my sister.
+Direction:자라나에게 수학 시험이 걱정된다고 말해 보세요.
+AI:What’s the matter?
+S:I am worried about the [math exam].
+3단계
+Direction:자라나와 학교 생활과 관련된 걱정에 대해 서로 묻고 말해 보세요.
+S:What’s the matter?
+AI:I’m worried about the science project. What about you?
+S:I am worried about <my grade|the final exam|the singing contest|the soccer game|the English test>.
+
+
+033;지난 주말 일(과거 일) 묻고 답하기;
+A:What did you do last weekend?
+B:I went to the movies. How about you?
+A:I practiced dancing with my dance club members.
+B:Sounds fun!
+1단계
+A:What did you do last weekend?
+B:I went shopping with my friends.
+2단계
+Direction:자라나에게 지난 주말에 한 일을 물어보세요.
+S:[What did you do] last weekend?
+AI:I went swimming.
+Direction:자라나에게 친구들과 농구를 했었다고 말해 보세요.
+AI:What did you do last weekend?
+S:I [played basketball] with my friends.
+3단계
+Direction:자라나와 지난 주말에 한 일에 대해 묻고 답해보세요.
+S:What are you going to do this weekend?
+AI:I went on a trip to Jejudo. What did you do?
+S:I <played game|walked my dog|watched movies|read books|played sports|went skii>.
+
+
+034;중요한 일정에 대해 기원의 말 해주기;
+A:What are you going to do this weekend?
+B:I am going to enter a dance contest.
+A:Wow, I will keep my fingers crossed for you.
+B:Thanks!
+1단계
+A:I am going to enter a singing contest.
+B:I will keep my fingers crossed for you.
+2단계
+Direction:자라나에게 축구 시합에 참가할 것이라고 말해 보세요.
+S:I am going to [enter a soccer match].
+AI:I will keep my fingers crossed for you.
+Direction:자라나에게 행운을 비는 말을 해 주세요.
+AI:I have a math test tomorrow.
+S:I will [keep my fingers crossed for you].
+3단계
+Direction:학교 축제에서 할 일에 대해 자라나와 이야기를 나누며 서로에게 행운을 기원하는 말을 해 보세요.
+S:I am going to [dance] at the school festival.
+AI:I will keep my fingers crossed for you. Actually, I am going to <perform in a musical|play the piano|play the guitar|be the host|run a booth>.
+S:I will keep my fingers crossed for you!
+
+
+035;반대하기;
+A:I saw the movie, Spider Man last weekend.
+B:Me, too. What do you think about it?
+A:I think it is interesting. What do you think?
+B:Well, I don’t think so. It is boring.
+1단계
+A:I think math is really fun.
+B:Well, I don’t think so. It is so hard.
+2단계
+Direction:자라나에게 피자는 맛있다는 의견을 말해 보세요.
+S:[I think] pizza is delicious.
+AI:Well, I don’t think so. It is too salty.
+Direction:자라나에게 반대한다고 말한 다음, 쉽기 때문이라는 이유도 말해 보세요.
+AI:I think math is hard.
+S:[Well, I don’t think so]. It is [easy].
+3단계
+Direction:자라나와 함께, 어려운 과목과 흥미로운 과목에 대한 의견을 나눠 보세요.
+S:I think <english|korean|history|math> is <hard|interesting>.
+AI:I don’t think so. I think <english|korean|history|math> is <hard|interesting>.
+
+
+051;강조하기;
+A:What should I do to become a writer?
+B:It is important to practice writing
+regularly.
+A:Thanks for the advice.
+B:Anytime!
+1단계
+A:What should I do to become a chef?
+B:It is important to develop cooking skills.
+2단계
+Direction:자라나에게 가수가 되려면 무엇을 해야하는지 물어 보세요.
+S:[What should I do to] be good at English?
+AI:It is important to learn new words.
+Direction:자라나에게 열심히 연습하는 것이 중요하다고 말해 주세요.
+AI:What should I do to be good at soccer?
+S:It is important to [practice hard].
+3단계
+Direction:건강한 삶을 살기 위해 해야할 일을 강조하는 대화를 나눠보세요.
+S:What should we do to be healthy?
+AI:It is important to limit fast food. Do you have any other ideas?
+S:It is important to <limit screen time|exercise regularly|eat less sweets|sleep enough|eat healthy food|drink enough water>.
+
+
+053;감사하고 답하기;
+A:Your performance was great!
+B:Thanks for coming to my play.
+A:You’re welcome. I really enjoyed it.
+B:I am glad that you liked it.
+1단계
+A:Thanks for your understanding.
+B:You’re welcome.
+2단계
+Direction:자라나에게 숙제를 도와줘서 고맙다고 말해 보세요.
+S:Thanks for [helping me with my homework].
+AI:You’re welcome.
+Direction:자라나의 감사에 적절히 답해 보세요.
+AI:Thanks for being a great friend.
+S:[You’re welcome].
+3단계
+Direction:자라나와 서로 평상시 고마운 친구 사이라고 생각하고 감사 인사를 주고 받아 보세요. <보기>에 제시된 표현을 이용하여 대화해 보세요.<보기>
+S:Thanks for <helping me with my homework|being my study buddy|making everything more fun|making me laugh|being an awesome friend>.
+AI:You’re welcome. Thanks for being so kind.
+S:You’re welcome!
+
+
+054;기쁨이나 슬픔 표현하기;
+A:How are you feeling today?
+B:I feel sad.
+A:Oh, what happened?
+B:My best friend moved to another city.
+1단계
+A:How are you feeling?
+B:I feel excited.
+2단계
+Direction:자라나에게 기분을 물어보세요.
+S:How are you feeling?
+AI:I feel great.
+Direction:자라나에게 슬프다고 말해 보세요.
+AI:How are you feeling?
+S:I feel [sad].
+3단계
+Direction:자라나와 서로의 기분을 묻고 답해 보세요.
+S:How are you feeling?
+AI:I feel <good|not bad|happy>. What about you?
+S:I feel <good|not bad|happy>
+
+
+055;날씨 묻고 말하기;
+A:How’s the weather in Seoul?
+B:It is sunny and cool. How’s the weather
+in London?
+A:It is warm and cloudy.
+B:Oh, I see. Have a nice day!
+1단계
+A:How’s the weather in New York?
+B:It is cold and snowy.
+2단계
+Direction:자라나에게 부산의 날씨에 대해 물어보세요.
+S:[How’s the weather] in Busan?
+AI:It is cloudy.
+Direction:자라나에게 날씨가 따뜻하다고 말해주세요.
+AI:How’s the weather in Jejudo?
+S:It is [warm].
+3단계
+Direction:자라나와 세계 각국 도시의 날씨에 대해 묻고 답 해 보세요.
+AI:It is sunny. How’s the weather in <Tokyo|London|Paris|Seoul|Beijing>?
+S:It is <cloudy|rainy|snowy|windy>.
+
+
+091;장소 말하기;
+A:I went to my grandparents’ farm last weekend.
+B:Oh, where is it?
+A:It’s in An-sung. They grow strawberries.
+B:Wow, that sounds amazing.
+1단계
+A:Where is Gyeongbokgung?
+B:It is in Seoul.
+2단계
+Direction:자라나에게 불국사가 어디에 있는지 물어보세요.
+S:[Where is] Bulguksa?
+AI:It is in Gyeongju.
+Direction:자라나에게 해당장소가 안동에 있다고 말해 주세요.
+AI:Where is the Hahoe Village?
+S:[It is in] Andong.
+3단계
+Direction:자라나와 함께 세계의 랜드마크들이 어디 있는지 묻고 답해 보세요.
+S:Where is the <Great Wall|Seoul Tower|Tower Bridge|Opera House|Tokyo Tower|Effel Tower>?
+AI:It is in <China|Korea|London|Sydney|Tokyo|Paris>. Where is the Eiffel Tower?
+S:It is in Paris.
+
+
+094;장래 희망 말하기;
+A:What do you want to be in the future?
+B:I want to be a police officer. What about you?
+A:I want to be a teacher.
+B:Sounds great. I hope your dream comes true.
+1단계
+A:What do you want to be in the future?
+B:I want to be a doctor.
+2단계
+Direction:자라나에게 장래에 무엇이 되고 싶은지 무엇인지 물어보세요.
+S:[What do you want to be] in the future?
+AI:I want to be a basketball player.
+Direction:자라나에게 가수가 되고 싶다고 말해 보세요.
+AI:What do you want to be in the future?
+S:I want to be a [singer].
+3단계
+Direction:자라나와 함께 서로의 장래 희망 직업에 대해 묻고 답해 보세요.
+S:What do you want to be in the future?
+AI:I want to be a <doctor|nurse|teacher|programmer|architect|professor>. What do you want to be in the future?
+S:I want to be a <doctor|nurse|teacher|programmer|architect|professor>.
+
+
+072;격려하기;
+A:Hey, are you practicing dance moves?
+B:Right, but it’s not going well. I want to
+dance well, but it’s so hard.
+A:Don’t give up. You can do it. Keep trying.
+B:Thanks. I will keep them in mind.
+1단계
+A:I want to sing well, but it’s so hard.
+B:Don’t give up. You can do it. Keep trying.
+2단계
+Direction:자라나에게 요리를 잘하고 싶지만 너무 어렵다고 말해 보세요.
+S:I want to [cook well], but it’s so hard.
+AI:Don’t give up. You can do it!
+Direction:자라나에게 포기하지말고 계속 시도해 보라는 격려의 말을 해주세요.
+AI:I want to be good at math, but it’s so hard.
+S:Don’t [give up]. [Keep trying].
+3단계
+Direction:: 잘 하고 싶지만 어려움을 겪고 있는 일에 대해 자라나와 이야기해 보고, 격려의 말을 전해 보세요.
+S:I want to <speak english well|play soccer well|make things well|draw well|swim well|run fast>, but it’s so hard.
+AI:As for me, speaking Korean well is so hard.
+S:<Keep trying|You can do it!|Don’t give up>.
+
+
+092;정의하기;
+A:What does the sign over there mean?
+B:You mean the one with a picture of deer?
+A:Yes.
+B:It means ‘watch out for deer crossing’.
+1단계
+A:What does the gesture mean?
+B:It means ‘hello’ or ‘goodbye’.
+2단계
+Direction:자라나에게 그 표지판이 무슨 의미를 지니는지 물어 보세요.
+S:What does the sign mean?
+AI:It means ‘stop the car’.
+Direction:자라나에게 평화를 의미한다는 것을 말해보세요.
+AI:What does the symbol mean?
+S:It means [peace].
+3단계
+Direction:자라나와 제스쳐의 의미에 대해 묻고 답해 보세요.
+S:What does the <thumb up|pointing at the watch|high-five gesture|victory sign with two fingers|hand covering the mouth> mean?
+AI:It means <agreement|greeting|hello|feeling pain|excitement|be quiet>. What does the finger to lips motion mean?
+S:It means [be quiet].
+
+
+119;알고 있는지 묻기;
+A:Have you heard about the upcoming concert in town?
+B:No, I haven’t. Who’s playing at the concert?
+A:A famous K-pop band.
+B:Really? Let’s get the tickets!
+1단계
+A:Have you heard about a new restaurant?
+B:No, I haven’t.
+2단계
+Direction:자라나에게 새로 온 학생에 대해 들어봤는지 물어보세요.
+S:[Have you heard about] the new student?
+AI:No, I haven’t.
+Direction:자라나에게 들어본적이 없다고 말해 보세요.
+AI:Have you heard about the new movie that just came out?
+S:No, I [haven’t].
+3단계
+Direction:자라나와 세계 각국의 디저트에 대해 들어본 적 있는지 묻고 답해 보세요.
+S:Have you heard about <tiramisu|mocha|gelato|churros|shortbread|mooncakes|ddeok>?
+AI:No, I haven’t. What is it?
+S:It is a dessert from <Japan|Italy|Spain|the UK|China>.
+
+
+130;사람에 대해 묻고 답하기;
+A:Who is the girl over there?
+B:You mean the girl with long black hair?
+A:Yes, right.
+B:Oh, she is my younger sister, Jenny.
+1단계
+A:Who is the man?
+B:He is my English teacher, Mr. Kim.
+2단계
+Direction:자라나에게 소년이 누구인지 물어 보세요.
+S:[Who is] the girl?
+AI:She is my best friend, Jihoon.
+Direction:자라나에게 그녀는 수학 선생님이라고 말해 보세요.
+AI:Who is the woman over there?
+S:She is [my math teacher].
+3단계
+Direction:자라나와 특정 사람에 대해 묻고 답하는 대화를 해보세요.
+S:Who is the <boy|man|woman|best friend|classmate|aunt>?
+AI:<She|He> is <friend|brother|sister|science teacher>, Suji. Who is the man over there?
+S:<She|He> is my <friend|brother|sister|science teacher>.
+
+
+141;성격 묘사하기;
+A:I made a new friend in my class. Her name is Mina.
+B:Oh, what is she like?
+A:She is very active and friendly. I am
+B:Good for you!
+1단계
+A:What is he like?
+B:He is outgoing.
+2단계
+Direction:자라나에게 Minsu의 성격을 물어보세요.
+S:[What is] Minsu [like]?
+AI:He is creative and patient.
+Direction:자라나가 말한 사람은 친절하다고 말해 주세요.
+AI:What is Ms. Lee like?
+S:She is [kind].
+3단계
+Direction:주변 친구의 성격에 대해 자라나와 서로 묻고 답해 보세요.
+S:What is <Jane|Tom|John|Michell> like?
+AI:<She|He> is <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful> and <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful>. What is <Jane|Tom|John|Michell> like?
+S:<She|He> is <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful> and <kind|friendy|responsible|outgoing|activy|creativy|wise|cheerful>
+
+
+159;용도 묻고 말하기;
+A:What is it?
+B:It is a bookmark with a light.
+A:Oh, What is it for?
+B:It is for reading in the dark.
+1단계
+A:What is it for?
+B:It is for brushing teeth.
+2단계
+Direction:자라나가 설명하고자 하는 대상의 용도가 무엇인지 물어 보세요.
+S:[What is it for]?
+AI:It is for telling time.
+Direction:설명하고자 하는 대상의 용도가 ‘사람들과 이야기를 나누는 것’임을 말해 보세요.
+AI:What is it for?
+S:It is for talking with [people]
+3단계
+Direction:자라나와 물건의 용도에 대해 묻고 답하며 해당 물건이 무엇인지 맞혀보세요.<보기>
+S:What is it for?
+AI:It is for <making calls|brushing hair|seeing in the dark|writing on a computer>.
+S:It must be <a camera|socks|a pen|scissors|a washing machine|a notebook>
+
+
+176;잘하는 것 말하기;
+A:What are you good at?
+B:I am good at soccer. What about you?
+A:Well, I am good at cooking.
+B:That’s awesome!
+1단계
+A:What are you good at?
+B:I am good at drawing pictures.
+2단계
+Direction:자라나에게 무엇을 잘 하는지 물어보세요.
+S:[What are you good at]?
+AI:I am good at English.
+Direction:자라나에게 수학을 잘 한다고 말해 보세요.
+AI:What are you good at?
+S:I am good at [math].
+3단계
+Direction:자라나와 함께 서로 잘하는 과목에 대해 묻고 답해 보세요.
+S:What are you good at?
+AI:I am good at <math|English|Korean|history|social studies>. What are you good at?
+S:I am good at <math|English|Korean|history|social studies>.
+
+
+181;증상 묻고 답하기;
+A:You look sick. What’s wrong?
+B:I have a terrible headache.
+A:Oh, I hope you get better soon.
+B:Thanks.
+1단계
+A:What’s wrong?
+B:I have a cold.
+2단계
+Direction:건강이 안 좋아 보이는 자라나에게 무슨일이 있는지 물어보세요.
+S:[What’s wrong]?
+AI:I have a toothache.
+Direction:자라나에게 열이 난다고 말해 보세요.
+AI:What’s wrong?
+S:I have [a fever].
+3단계
+Direction:자라나와 함께 서로의 건강 상태에 대해 묻고 증상을 말해 보세요.
+S:What’s wrong?
+AI:I have <a cold|a fever|a sore throat|the flo|a cough>. You look sick as well. What’s wrong?
+S:I have <a cold|a fever|a sore throat|the flo|a cough>
+
+
+185;찾는 물건 말하기;
+A:Can I help you?
+B:Yes. I am looking for a hat.
+A:Oh, you can find hats in the B section.
+B:Thanks.
+1단계
+A:Can I help you?
+B:I am looking for a pair of running shoes.
+2단계
+Direction:자라나에게 도움이 필요한지 물어 보세요.
+S:[Can I help you]?
+AI:Yes, I am looking for a baseball cap.
+Direction:자라나에게 스카프를 찾고 있다고 말해 보세요.
+AI:Can I help you?
+S:Yes, I [am looking for] a scarf.
+3단계
+Direction:자라나와 ‘점원과 손님’ 역할을 번갈아 수행하며 대화해 보세요.
+S:Can I help you?
+AI:Yes, I am looking for a <tumbler|phone case|earphones|pair of shoes|pencil case>.
+
+
+016;음식 권유하고 권유에 답하기;
+A:Would you like some fried chicken?
+B:Yes, please. Wow, it’s really good!
+A:Thank you. My mom made it.
+B:She is a great cook.
+1단계
+A:Would you like some waffles?
+B:<Yes, please|No, thanks>.
+2단계
+Direction:자라나에게 불고기를 권해보세요.
+S:[Would you like some] bulgogi?
+AI:Yes, please.
+Direction:자라나가 권해주는 음식을 거절해보세요.
+AI:Would you like some french fries?
+S:[No, thanks].
+3단계
+Direction:자라나와 관심있는 운동에 대해 묻고 답해보세요.
+S:Would you like some <Ramen|Gimbab|coffee>?
+AI:No, thanks. I’m full. Would you like some spaghetti?
+S:<Yes, please|No, thanks>.
+
+
+017;바라거나 기대하는 일 표현하기;
+A:Do you have any plans for this Saturday, Jiho?
+B:I will go camping with my family. I’m looking forward to it. What about you, Bora?
+A:Mike and I will see a movie.
+B:Sounds like a wonderful weekend.
+1단계
+A:Do you have any plans for this weekend?
+B:I will see a movie. I’m looking forward to it.
+2단계
+Direction:자라나의 내일 계획을 물어보세요.
+S:Do you [have any plans] for tomorrow?
+AI:I will go to my friend’s house. I’m looking forward to it.
+Direction:자라나에게 친구들과 축구를 할 것이고, 그것을 기대중이라고 답해보세요.
+AI:Do you have any plans for tomorrow?
+S:I will [play soccer with my friends]. [I’m looking forward to it].
+3단계
+Direction:자라나와 내일 계획에 대해 묻고 답하며 기대를 표현해보세요.
+S:Do you have any plans for tomorrow?
+AI:I will go see my grandparents. What about you?
+S:I will <fishing|hiking|camp fire>. I’m looking forward to it.
+
+
+018;안부 묻고 답하기;
+A:Hey, Tim. How are you doing?
+B:I’m great. And you?
+A:Not good. I have too much homework.
+B:Oh, I’m sorry to hear that.
+1단계
+A:How are you doing?
+B:<I’m great|Not bad|Not good>.
+2단계
+Direction:자라나에게 안부를 물어보세요.
+S:How [are you doing]?
+AI:I’m great. Thanks!
+Direction:자라나의 안부 묻기에 “좋지 않아”라고 답해보세요.
+AI:How are you doing?
+S:Not good.
+3단계
+Direction:자라나와 안부를 묻고 답해보세요.
+S:How are you doing?
+AI:Not bad. What about you?
+S:<I’m great|Not bad|Not good>.
+
+
+020;허락 구하기;
+A:I feel cold. Do you mind if I close the window?
+B:Not at all. Are you feeling sick?
+A:I think I might have a cold.
+B:Oh, no. Get better soon.
+1단계
+A:Do you mind if I drink this water?
+B:Not at all. Sure, go ahead.
+2단계
+Direction:자라나에게 문을 닫아도 되냐고 허락을 구해보세요.
+S:Do you mind if I [close the door]?
+AI:Sure, go ahead.
+Direction:자라나의 허락 요청에 괜찮다고 대답해보세요.
+AI:Do you mind if I use this pen?
+S:<Not at all|Sure, go ahead>.
+3단계
+Direction:자라나에게창문을 열어도 되는지 허락을 구하고, 자라나의 요청에 괜찮다고 답해보세요.
+S:Do you mind if I open the window?
+AI:Not at all. Then, do you mind if I use your blanket?
+S:<Not at all|Sure, go ahead>.
+
+
+036;동의하기;
+A:Hi, Justin. What are you listening to?
+B:Hello, Annie. I’m listening to BPS’s music.
+A:Oh, I like them, too. In my opinion, they are the best singers in Korea.
+B:I agree with you.
+1단계
+A:In my opinion, Mr. Yoon is the best teacher in our school.
+B:<I agree with you|I don’t agree with you>.
+2단계
+Direction:자라나에게 영어가 최고의 과목이라는 의견을 말해보세요.
+S:In my opinion, English is the best [subject].
+AI:I agree with you.
+Direction:자라나의 의견에 동의하거나 반대해보세요.
+AI:In my opinion, basketball is the best sport.
+S:<I [agree with] you|I don’t agree with you>.
+3단계
+Direction:자라나에게 재즈가 최고의 음악이라는 의견을 표현하고, 그 후에 자라나의 의견에 동의하지 않는다고 말해보세요.
+S:In my opinion, jazz is the best music.
+AI:No. In my opinion, rock is the best music.
+S:I don’t agree with you.
+
+
+038;소개하고 답하기;
+A:Hi, I’m Jake. I’m in first grade.
+B:Hi. I’m Tim. I’m in the first grade, too.
+A:Nice to meet you, Tim.
+B:Nice to meet you, too!
+1단계
+Hi, I’m <John|Park|Minho>. I’m in first grade.
+B:<Nice to meet yo|Glad to meet you>.
+2단계
+Direction:자라나에게 본인의 이름을 말해주고, 나는 1학년이라고 말해보세요.
+S:Hi, [I’m] <John|Park|Minho> I’m in <first|second|third> [grade].
+AI:Nice to meet you.
+Direction:자라나의 자기소개에 만나서 반갑다고 대답해보세요.
+AI:Hi, I’m Jarana. I’m in first grade.
+S:<Nice to mee|Glad to meet> you.
+3단계
+Direction:자라나와 자기소개를 주고 받고, 반갑다고 대답해보세요.
+S:Hi, I’m <John|Park|Minho>. I’m in <first|second|third> grade.
+AI:Nice to meet you. I’m Jarana. I’m in <first|second|third> grade, too.
+S:<Nice|Glad> to meet you.
+
+
+040;주제 소개하기;
+A:Hi, class. Mina is going to give a presentation today.
+B:Thanks, Ms. Kang
+A:What are you going to talk about?
+B:I’d like to tell you about our new school library.
+1단계
+A:What are you going to talk about?
+B:I’d like to tell you about our school.
+2단계
+Direction:자라나에게 오늘 무엇에 대해 이야기할 것인지 주제에 대해 물어보세요.
+S:What [are you going to] talk about?
+AI:I’d like to tell you about my dog.
+Direction:자라나에게 나의 가족에 대해 말해보고 싶다고 주제를 소개해보세요.
+AI:What are you going to talk about?
+S:[I’d like to] tell you about my family.
+3단계
+Direction:자라나와 서로의 발표 주제에 대해 묻고 답해보세요.
+S:What are you going to talk about?
+AI:I’d like to tell you about our city hall. What about you? What’s your topic?
+S:I’d like to tell you about <politics|sports|weather|universe>
+
+
+056;다른 사람 소개하기;
+A:Who is the person in the picture?
+B:This is my uncle.
+A:He looks very handsome.
+B:Yes. He is a musical actor.
+1단계
+A:Who is she?
+B:This is my sister.
+2단계
+Direction:자라나에게 ‘그’가 누군지 물어보세요.
+S:[Who is] he?
+AI:He is my friend, Jinho.
+Direction:자라나의 질문에 그녀는 나의 이모라고 답해보세요.
+AI:Who is she?
+S:She is my [aunt].
+3단계
+Direction:자라나와 서로 함께있는 사람에 대해 묻고 답해보세요.
+S:Who is <he|she>?
+AI:<He|She> is my <sister|brother>. Who is she with you?
+S:She is <my mother|sister|aunt|grandmother>.
+
+
+057;도덕적 의무 표현하기;
+A:Who threw the trash on the floor?
+B:I did.
+A:You should throw the trash in the trash can.
+B:I’m sorry. I’ll put it in the trash can right now.
+1단계
+A:You should be nice to your friend.
+B:<Okay, I will|I’m sorry. I see it now>.
+2단계
+Direction:자라나에게 수업중엔 조용히 해야 한다고 의무를 말해주세요.
+S:You should be [quiet during the class].
+AI:Okay, I will.
+Direction:자라나가 의무를 알려주면, 알겠다고 대답해보세요.
+AI:You should pay attention to the class.
+S:<Okay, I will|I’m sorry. I see it now>.
+3단계
+Direction:자라나와 학생이 지켜야 하는 의무에 대해 이야기해보세요.
+AI:Why don’t we give each other advice for school life? You go first.
+S:You should <be nice to your friends|be quiet in the classroom|focus on class>.
+AI:Oh, I see. And I think you should respect the teachers.
+S:Okay, I will.
+
+
+059;알고 있음 표현하기;
+A:Do you know the weather tomorrow?
+B:I heard that it might rain.
+A:Then, I should bring my umbrella.
+B:Me, too.
+1단계
+A:I heard that it might rain.
+B:Then, I should bring my umbrella tomorrow.
+2단계
+Direction:자라나에게 내일 점심 메뉴는 스파게티라고 말해주세요.
+S:I heard that [tomorrow’s lunch menu] is spaghetti.
+AI:Then, I should eat a lot tomorrow.
+Direction:자라나가 들려주는 소식에 시합을 놓치지 말아야겠다고 응답해보세요.
+AI:I heard that the Korean soccer team is playing against Japan tomorrow.
+S:Then, I should [not miss it].
+3단계
+Direction:자라나에게 물을 마시는 것이 건강에 좋다고 알려주고, 물을 더 마셔야겠다고 말해보세요.
+AI:Oh, great. I heard that it is good for your skin, too.
+S:Then, we should <drink more water|drink a lot of water|drink water more often>.
+
+
+060;열거하기;
+A:Can I help you, Hanmin?
+B:Yes, Ms. Adams. How do I use this vending machine?
+A:First, put the money in. Second, choose the drink. Third, push the button. That’s it!
+B:Thank you, Ms. Adams!
+1단계
+A:How do I use this vending machine?
+B:First, put the money in. Second, choose the drink. Third, push the button.
+2단계
+Direction:자라나에게 컴퓨터를 어떻게 사용하는지 물어보세요.
+S:How do I use this [computer]?
+AI:First, turn it on. Second, click on what you want. Third, use the keyboard to type.
+Direction:자라나에게 씨앗을 심는 법을 단계별로 알려주세요. (힌트를 참고하세요!)AI:How do I plant a seed?
+S:First, [dig a hole in the ground]. Second, [put the seed in]. Third, [cover it with soil].
+3단계
+Direction:자라나에게도서관에서 책 빌리는 법을 물어보고, 절차를 따라 말해보세요.
+S:How do I [check out a book] from the library?
+AI:First, find the book you want. Second, take it to the checkout desk. Third, present your library card. Can you remember it?
+S:First, find the book you want. Second, take it to the checkout desk. Third, present your library card.
+
+
+076;물건 사기;
+A:How can I help you?
+B:I’m looking for a shirt. How much is this shirt?
+A:It’s 10 dollars.
+B:Great. I’ll take it.
+1단계
+A:How much is this shirt?
+B:It’s 10 dollars.
+2단계
+Direction:자라나에게 이 펜이 얼마인지 물어보세요.
+S:How much is this [pen]?
+AI:It’s 2 dollars.
+Direction:자라나에게 과자의 가격이 3달러라고 답해보세요.2단계 대화 B
+AI:How much is this snack?
+S:It’s [3 dollars].
+3단계
+Direction:자라나와 벼룩시장에서 만났어요. 서로의 물건 가격을 묻고 답해보세요.
+S:How much is this <dolls|flowers|pencil case|book|watch>?
+AI:It’s <12|20> dollars. You have cool things too! How much is this ring?
+S:It’s <5|10> dollars.
+AI:<That’s too expensive!|Great. I’ll take it>.
+
+
+077;보고하기;
+A:Did you hear the news yesterday?
+B:No. What did the news say?
+A:The news said the city hall will be closed for 2 weeks.
+B:Oh, good to know!
+1단계
+A:What did the news say?
+B:The news said the city hall will be closed for 2 weeks.
+2단계
+Direction:자라나에게 Mr. Smith가 뭐라고 했는지 물어보세요.
+S:What did [Mr. Smith] say?
+AI:He said we are going to have snacks for lunch tomorrow.
+Direction:자라나에게 Minho가 내일 학교에 나오지 못한다고 했다고 전해보세요.
+AI:What did Minho say?
+S:He said he [can’t come to school] tomorrow.
+3단계
+Direction:자라나와 지수가 한 말에 대해 묻고 답해보세요.
+S:What did Jisoo say?
+AI:She said she can’t play with us this weekend. What did she say to you?
+S:She said she <has to take care of her brother|has a swimming class|is going camping with his family>.
+
+
+078;비교하기;
+A:Hey, Mike. Do you know where China is?
+B:Sure. It’s right next to Korea.
+A:Then, which is bigger, Korea or China?
+B:China is bigger than Korea.
+1단계
+A:Which is bigger, Korea or China?
+B:China is bigger than Korea.
+2단계
+Direction:자라나에게 서울과 대구 중 어느 곳이 더 더운지 물어보세요.
+S:Which is hotter, Seoul or Daegu?
+AI:Daegu is hotter than Seoul.
+Direction:자라나에게 치타가 코끼리보다 빠르다고 답해보세요.
+AI:Which is faster, a cheetah or an elephant?
+S:A cheetah is [faster than] an elephant.
+3단계
+Direction:자라나와 피자와 햄버거 중 무엇이 더 맛있는지 묻고 답해보세요.
+S:Which is tastier, pizza or hamburger?
+AI:I think <pizz|hamburger> are tastier than <pizz|hamburger>. What do you think?
+S:I think <pizz|hamburger> is tastier than <pizz|hamburger>.
+
+
+079;빈도 묻고 말하기;
+A:Hey, Jenny. Where are you going to study today?
+B:I usually go to the library.
+A:Oh, I see. How often do you go to the library?
+B:I go there three times a week.
+1단계
+A:How often do you go to the library?
+B:I go to the library three times a week.
+2단계
+Direction:자라나에게 얼마나 자주 방 청소를 하냐고 물어보세요.
+S:How often do you [clean your room]?
+AI:I clean my room twice a week.
+Direction:자라나에게 1년에 두 번 여행을 간다고 말해보세요.
+AI:How often do you go on a trip?
+S:I go on a trip [twice a year].
+3단계
+Direction:자라나와 한 달에 몇 번 특정 활동을 하는지 묻고 답해보세요.Example: once|twice|3 ~ .. times
+S:How often do you <clean your room|see the movies>?
+AI:I <clean my room|see the movies> twice times a month. What about you?
+S:I <clean your room|see the movies> once a month.
+
+
+080;상대방의 의견 묻기;
+A:Hi, Robin. What are you reading?
+B:I’m reading an English newspaper.
+A:Do you find it helpful to read English newspapers?
+B:Yes, it helps me learn English.
+1단계
+A:Do you find it helpful to read English newspapers?
+B:Yes, it helps me learn English.
+2단계
+Direction:자라나에게 아침 조깅이 도움이 된다고 생각하는지 물어보세요.
+S:Do you find it helpful to [jog in the morning]?
+AI:Yes, it helps me concentrate.
+Direction:자라나에게 다리 스트레칭이 수영을 더 잘 하는 데 도움이 된다고 답해보세요.
+AI:Do you find it helpful to stretch your legs before you swim?
+S:Yes, it helps me [swim better].
+3단계
+Direction:자라나와 서로 도움이 된다고 생각하는 것에 대해 의견을 주고받아 보세요.
+S:Do you find it helpful to <take notes|ask questions to the teacher|read the textbook before the class>?
+AI:Yes, it helps me learn better in class. Do you find it helpful to read books in the library?
+S:Yes, it helps me <learn about the world|study for the exam|read books free and save money>.
+
+
+096;전화하거나 받기;
+A:Hello. This is Minsu. Is Amy there?
+B:This is her speaking.
+A:Hi, Amy. Can you help me with my math homework?
+B:Sure. I’d love to.
+1단계
+A:This is Minsu. Is Amy there?
+B:<This is her speaking|She’s not here>.
+2단계
+상대방에게 자라나가 있는지 전화상으로 물어보세요.
+S:This is <John|Hanna>. [Is Jarana there]?
+AI:He’s not here.
+Direction:자라나에게 내가 지금 전화상에 이야기하고 있다고 답해주세요.
+AI:Hello. Is <John|Hanna> there?
+S:This is <John|Hanna> [speaking].
+3단계
+Direction:자라나와 전화상으로 대화를 주고받아 보세요.
+S:Is Jarana there?
+AI:This is Jarana speaking.
+
+
+097;제안, 권유, 요청에 답하기;
+A:Welcome. How can I help you?
+B:I’m looking for a new jacket. Can I try this jacket on?
+A:Sure. Go ahead. The fitting room is over there.
+B:Thanks.
+1단계
+A:Can I try this jacket on?
+B:<Sure. Go ahead|I’m afraid you can’t>.
+2단계
+Direction:자라나에게 동물들에게 먹이를 줘도 되냐고 요청하세요.
+S:Can I [feed the animals]?
+AI:I’m afraid you can’t. It’s against the rule.
+Direction:자라나의 요청에 긍정 혹은 부정으로 응답해보세요.
+AI:Can I read this book?
+S:<Sure. Go ahead|I’m afraid you can’t>.
+3단계
+Direction:자라나와 서로에게 요청을 하고 응답해보세요.
+S:Can I <have one of your snacks|borrow this book|try your jacket on>?
+AI:Sure, go ahead. Then, can I play with your computer?
+S:<Sure, go ahead|I’m afraid you can’t>.
+
+
+098;가장 좋아하는 것 말하기;
+A:Hey, Paul. Do you want to go see a movie with me this afternoon?
+B:Sounds fun. Count me in.
+A:What’s your favorite kind of movie?
+B:I like horror movies the most.
+1단계
+A:What’s your favorite subject?
+B:It’s English|I like English the most.
+2단계
+Direction:자라나가 가장 좋아하는 스포츠를 물어보세요.
+S:What’s your favorite [sport]?
+AI:It’s <baseball/football/soccor/baseball>.
+Direction:자라나에게 내가 가장 좋아하는 과목은 수학이라고 답해보세요.
+AI:What’s your favorite subject?
+S:<It’s math|I like math the most>.
+3단계
+Direction:자라나와 가장 좋아하는 음악에 대해 묻고 답해보세요.
+S:What’s your favorite music?
+AI:It’s jazz. What about you? What is your favorite music?
+S:I like <jazz|rock|classic|pop|K-pop|hiphop> the most.
+
+
+099;감사 표현하기;
+A:Could you help me move these boxes?
+B:Sure. Where should I put it?
+A:Right beside the sofa. Thank you for the help.
+B:Don’t mention it.
+1단계
+A:Thank you for the help.
+B:<Don’t mention it|No worries|It’s nothing>.
+2단계
+Direction:자라나에게 도움에 감사해보세요.
+S:Thank you for the help.
+AI:No worries.
+Direction:자라나의 감사 인사에 괜찮다고 대답해보세요.
+AI:Thank you so much for the help.
+S:<Don’t mention it|No worries|It’s nothing>.
+3단계
+Direction:자라나와 서로 도움에 감사하는 대화를 해보세요.
+S:Thank you for the help.
+AI:Don’t mention it. You also helped me before! Thank you for the help, too!
+S:<Don’t mention it|No worries|It’s nothing>.
+
+
+100;거절하기;
+A:Hey, look! Jungsook is going to have a concert next month.
+B:That’s true. Do you want to go to the concert with me?
+A:I’d love to, but I can’t. I have plans with my family that day.
+B:Oh, it’s okay. Maybe next time.
+1단계
+A:Do you want to go to the concert with me?
+B:I’d love to, but I can’t.
+2단계
+Direction:자라나에게 방과후에 함께 자전거를 타자고 제안해보세요.
+S:Do you want to ride a bike with me after school?
+AI:I’d love to, but I can’t.
+Direction:자라나의 제안을 정중히 거절해보세요.
+AI:Do you want to play catch with me tomorrow?
+S:I’d love to, but I can’t.
+3단계
+Direction:자라나와 서로 약속을 제안하고 거절해보세요.
+S:Do you want to <go shopping|go hiking|play computer games> with me tomorrow?
+AI:Sorry. I’d love to, but I can’t. Instead, do you want to see a movie this Saturday?
+S:I’d love to, but I can’t. I have <to study|plans with my family|an appointment with the doctor>
+
+
+109;교환 요청하기;
+A:Hi. What can I do for you today?
+B:I’d like to exchange this shirt.
+A:What do you want to exchange it for?
+B:I want to exchange it for a blue one.
+1단계
+A:I’d like to exchange this shirt.
+B:I want to exchange it for a blue one.
+2단계
+Direction:자라나에게 이 펜을 교환하고 싶다고 요청해보세요.
+S:I’d like to [exchange this pen].
+AI:Sure. What do you want to exchange it for?
+Direction:자라나에게 빨간 펜으로 교환하고 싶다고 답해보세요.
+AI:What do you want to exchange it for?
+S:I want to exchange it for [a red one].
+3단계
+Direction:자라나에게 교환하고 싶은 물건을 말하고, 어떤 것으로 교환하고 싶은지 말해보세요.
+S:I’d like to exchange this <cap|shirts|cup|book>.
+AI:Sure. What do you want to exchange it for?
+S:I want to exchange it for <cap|shirts|cup|book>.
+
+
+117;대안 묻기;
+A:Excuse me. I’d like to order a drink.
+B:Yes. We have coke and juice. What would you like to order?
+A:Are there any other drinks?
+B:Sorry, these are the only two we have.
+1단계
+A:Are there any other drinks?
+B:<Yes. We have lemonade, too|Sorry, these are the only two we have>.
+2단계
+Direction:자라나에게 다른 펜이 있는지 물어보세요.
+S:Are there [any other pens]?
+AI:Yes. We have blue and yellow ones, too.
+Direction:자라나에게 그것들이 유일한 선택지라고 말해보세요.
+AI:I don’t like this one. Are there any other choices?
+S:Sorry. These are [the only ones we have].
+3단계
+Direction:자라나와 다른 선택지를 묻고 답하는 대화를 해보세요.
+S:Are there any other <shoes|caps|shirts|pants>?
+AI:Sorry, these are the only ones we have.
+AI:Are there any other <shoes|caps|shirts|pants>?
+S:<Sure. We have more options|Sorry, these are the only cups we have>.
+
+
+114;느낀 점 말하기;
+A:What did you do yesterday, Bomi?
+B:I saw a movie with my dad.
+A:How was it?
+B:It was very fun.
+1단계
+A:How was the movie?
+B:It was very fun.
+2단계
+Direction:자라나에게 영화가 어땠는지 물어보세요.
+S:How was [the movie]?
+AI:It was boring.
+Direction:자라나에게 영화가 재밌었다고 말해보세요.
+AI:How was the movie?
+S:It was [fun].
+3단계
+Direction:자라나와 방금 본 영화에 대한 느낌을 묻고 답해보세요.
+S:How was the movie?
+AI:It was boring. What about you? How did you like the movie?
+S:It was <very funny/interesting/boring too>.
+
+
+171;이루어지기를 바라는 일 표현하기;
+A:Did you know that Earth is so beautiful when you look at it from space?
+B:Wow, I didn’t know. That’s interesting!
+A:I wish I could see Earth from the moon with my own eyes.
+B:Me, too. It will be so cool!
+1단계
+A:I wish I could see Earth from the moon with my own eyes.
+B:Me, too. It will be so cool!
+2단계
+Direction:자라나에게 매일 늦잠을 잘 수 있었으면 좋겠다고 말해보세요.
+S:I wish I could [sleep in] every morning.
+AI:Me, too. It will be so comfortable.
+Direction:자라나의 소망에 공감해보세요.
+AI:I wish I could eat steaks every day.
+S:Me, too. It will be so [good].
+3단계
+Direction:자라나와 서로의 소망에 대해 이야기 해보세요.
+S:I wish I could <pass the final exam|play Taekwono well>.
+AI:Me, too. And I wish I could go to an amusement park whenever I want.
+S:Me, too. It will be so <nice|good>.
+
+
+001;제안 권유하기;
+A:Why don’t we go to the movies tomorrow?
+B:I’d love to. How about 3 o’clock?
+A:That’s fine with me.
+B:Okay. See you at the theater.
+1단계
+A:Why don’t we go to the movies tomorrow?
+B:I’d love to. How about 3 o’clock?
+2단계
+Direction:자라나에게 내일 영화를 보러 가자고 물어보세요.
+S:Why don’t we [go to the movies] tomorrow?
+AI:I’d love to. How about 3 o’clock?
+Direction:자라나의 제안에 좋다고 하고 3시에 만나는 게 어떤지 제안하세요.
+AI:Why don’t we go to the movies tomorrow?
+S:I’d love to. How about [3 o’clock]?
+3단계
+Direction:자라나에게내일 같이 하고 싶은 것을 제안해보세요.
+A:Why don’t we go to the <movie|movies|museum|cafe|gym|park> tomorrow?
+B:I’d love to. How about 3 o’clock?
+A:That’s fine with me.
+
+
+002;좋아하는 것 말하기;
+A:What’s your favorite subject?
+B:My favorite subject is English.
+A:Why do you like it?
+B:Because I like English songs.
+1단계
+A:What’s your favorite subject?
+B:My favorite subject is English.
+2단계
+Direction:자라나에게 가장 좋아하는 과목을 물어 보세요.
+S:What’s your [favorite subject]?
+AI:My favorite subject is English.
+Direction:자라나에게 가장 좋아하는 과목이 영어라고 말해보세요.
+S:What’s your favorite subject?
+AI:My favorite subject is [English].
+3단계
+Direction:자라나와 가장 좋아하는 과목에 대해 묻고 답해보세요.A:What’s your favorite subject?
+B:My favorite subject is English. What about you?
+A:My favorite subject is <math|music|sports|history>.
+
+
+003;관심사 묻고 답하기;
+A:What are you interested in, Somi?
+B:I’m interested in sports.
+A:What sport do you like?
+B:I like basketball.
+1단계
+A:What are you interested in?
+B:I’m interested in basketball.
+2단계
+Direction:자라나에게 관심사에 대해 물어보세요.
+S:What are you [interested in]?
+AI:I’m interested in basketball.
+Direction:자라나에게 농구에 흥미가 있다고 답해보세요.
+AI:What are you interested in?
+S:I’m interested in [basketball].
+3단계
+Direction:자라나와 관심있는 운동에 대해 묻고 답해보세요.
+S:What are you interested in?
+AI:I’m interested in basketball. What about you?
+S:I’m interested in play <football|basketball|running|game>.
+
+
+004;의견묻고 답하기;
+A:What is your opinion about social media?
+B:It’s good for relationships.
+A:What do you mean by that?
+B:I can meet friends online.
+1단계
+A:What is your opinion about social media?
+B:It’s good for relationships.
+2단계
+Direction:자라나에게 SNS에 대한 의견을 물어보세요.
+S:What is your opinion about [social media]?
+AI:It’s good for relationships.
+Direction:자라나의 질문에 관계를 위해 좋다고 답해보세요.
+AI:What is your opinion about social media?
+S:It’s good for [relationships].
+3단계
+Direction:자라나와 SNS에 대해 의견을 묻고 답해보세요.
+S:What is your opinion about social media?
+AI:It’s good for relationships. What is your opinion about social media?
+S:It’s good for <a hobby|making friends|business|health>.
+
+
+005;궁금한 것 묻고 답하기;
+A:I bought a scarf for my mom.
+B:Wow, it’s beautiful.
+A:I wonder if she likes it.
+B:I think she will.
+1단계
+A:I wonder if she likes the scarf.
+B:I think she will.
+2단계
+Direction:자라나에게 그녀가 스카프를 좋아할지 궁금하다고 물어 보세요.
+S:I wonder if she likes [the scarf].
+AI:I think she will.
+Direction:자라나에게 좋아할 것 같다고 답해보세요.
+AI:I wonder if she likes the scarf.
+S:I think she will.
+3단계
+Direction:자라나와 궁금한 점을 묻고 답해보세요.
+S:I wonder if my mom likes <gloves|scarf|sunglasses|jacket>.
+AI:I think she will. I wonder if my dad likes <gloves|scarf|sunglases|jacket>.
+S:I think he will.
+
+
+021;경험 묻고 답하기;
+A:Have you ever been to Busan?
+B:Yes, I have.
+A:When did you go there?
+B:Last summer.
+1단계
+A:Have you ever been to Busan?
+B:No, I haven’t.
+2단계
+Direction:자라나에게 부산에 가본 적이 있는지 물어 보세요.
+S:Have you ever been to [Busan]?
+AI:No, I haven’t.
+Direction:자라나에게 부산에 가본 적이 없다고 답해보세요.
+AI:Have you ever been to Busan?
+S:No, I [haven’t].
+3단계
+Direction:자라나와 경험에 대해 묻고 답해보세요.
+S:Have you ever been to <Thai|Japan|China>?
+AI:No, I haven’t. Have you ever been to Japan?
+S:<Yes, I have|No, I haven’t>.
+
+
+022;금지하기;
+A:May I take pictures in the museum?
+B:You must not take pictures here.
+A:Then, may I eat a snack here?
+B:No, you must not eat here.
+1단계
+A:May I take pictures in the museum?
+B:You must not take pictures here.
+2단계
+Direction:자라나에게 박물관에서 사진을 찍어도 되는지 물어 보세요.
+S:May I take pictures in the [museum]?
+AI:You must not take pictures here.
+Direction:자라나에게 박물관에서 사진을 찍을 수 없다고 답해 주세요.
+AI:May I take pictures in the museum?
+S:You must not [take pictures] here.
+3단계
+Direction:자라나와 박물관에서 금지된 행동에 대해 묻고 답하세요.
+S:You must not <talk|eat|run|litter|drink|turn on music> in the museum.
+AI:Then, may I call in the museum?
+S:No. you must not call here.
+
+
+023;놀라움 표현하기;
+A:How was your trip?
+B:It was surprising.
+A:What surprised you?
+B:I was surprised by nature.
+1단계
+A:What surprised you at the trip?
+B:I was surprised by nature.
+2단계
+Direction:자라나에게 여행에서 무엇이 놀라웠는지 물어 보세요.
+S:What surprised you at the [trip]?
+AI:I was surprised by nature.
+Direction:자라나에게 자연이 놀라웠다고 답해보세요.
+AI:What surprised you at the trip?
+S:I was surprised by [nature].
+3단계
+Direction:자라나와 여행가서 놀라웠던 일을 이야기해보세요.
+S:What surprised you at the trip?
+AI:I was surprised by nature. How about you?
+S:I was surprised by <people|food|hotel|palace|museum|transportation>
+
+
+024;상기시켜주기;
+A:Tomorrow is a sports day.
+B:Wow, it will be exciting.
+A:What should I bring on a sports day?
+B:Don’t forget to bring water.
+1단계
+A:What should I bring on a sports day?
+B:Don’t forget to bring water.
+2단계
+Direction:자라나에게 내가 스포츠 데이에 가지고 와야 할 것을 물어 보세요.
+S:What should I bring on a [sports] day?
+AI:Don’t forget to bring water.
+Direction:자라나에게 물을 가지고 오는 걸 잊지 말라고 상기시켜주세요.
+AI:What should I bring on a sports day?
+S:Don’t forget to bring [water].
+3단계
+Direction:자라나에게 스포츠 데이에 가져올 물건들을 상기시켜 주세요.
+S:Bring water on a sports day.
+AI:What else should I bring on a sports day?
+S:Don’t forget to bring a <towel|suncream|lunchbox|snack|hat>.
+
+
+025;요청하고 답하기;
+A:I’m sorry but I’m busy now.
+B:Oh, I see.
+A:Can I ask you to call me back in 10 minutes?
+B:Okay. I’ll call you back later.
+1단계
+A:Can I ask you to call me back?
+B:Okay. I’ll call you back later.
+2단계
+Direction:자라나에게 십분후에 전화를 해달라고 부탁하세요.
+S:Can I ask you to call me back [in 10 minutes]?
+AI:Okay. I’ll call you back later.
+Direction:자라나에게 나중에 다시 전화하겠다고 답하세요.
+AI:Can I ask you to call me back in 10 minutes?
+S:Okay. I’ll call you back [later].
+3단계
+Direction:자라나에게요청하고 답하는 대화를 해보세요.
+S:Can I ask you to <clean the room|do the dishes|cook|do shopping|recycle|water plants>?
+AI:Yes but can I ask you to help me?
+S:<All right|I’m sorry but I can’t>.
+
+
+041;추천 요청하고 답하기;
+A:Can I take your order?
+B:Can you recommend something from the menu?
+A:I recommend that you try tomato pasta.
+B:Oh, it looks delicious. I’ll order it.
+1단계
+A:Can you recommend something from the menu?
+B:I recommend that you try tomato pasta.
+2단계
+Direction:자라나에게 메뉴에서 음식을 추천해달라고 하세요. .
+S:Can you recommend something from the menu?
+AI:I recommend that you try tomato pasta.
+Direction:자라나에게 토마토 파스타를 추천해주세요.
+AI:Can you recommend something from the menu?
+S:I recommend that you try tomato pasta.
+3단계
+Direction:자라나에게음식을 추천하거나 추천을 받아 보세요.
+S:Can you recommend something from the menu?
+AI:I recommend that you try tomato pasta. Can you recommend something else?
+S:I recommend that you try <toamto pasta|juice|Vietnam noodle|Gimbab>.
+
+
+042;확실성 정도 표현하기;
+A:Look at the clouds.
+B:Is it going to rain?
+A:Yes. I’m sure it’s going to rain soon.
+B:Let’s take an umbrella.
+1단계
+A:Is it going to rain?
+B:Yes. I’m sure it’s going to rain soon.
+2단계
+Direction:자라나에게 비가 올 것인지 물어 보세요.
+S:Is it going to [rain]?
+AI:Yes. I’m sure it’s going to rain soon.
+Direction:자라나에게 비가 확실히 올 것이라고 말해보세요.
+AI:Is it going to rain?
+S:Yes. I’m [sure] it’s going to rain soon.
+3단계
+Direction:자라나와의 대화에서 확실성을 표현해보세요.
+S:It’s going to <rain|be sunny|be cloudy|be windy>.
+AI:Are you sure?
+S:Yes. I’m sure it’s going to <rain|be sunny|be cloudy|be windy> soon.
+
+
+043;감사하기;
+A:You look so busy.
+B:Yes. I have to do a lot of things.
+A:Can I help you with cleaning?
+B:I appreciate your help.
+1단계
+A:Can I help you with cleaning?
+B:I appreciate your help.
+2단계
+Direction:자라나에게 청소를 도와줄 수 있다고 말해 보세요.
+S:Can I help you with [cleaning]?
+AI:I appreciate your help.
+Direction:자라나에게 도와 주어 고맙다고 답해보세요.
+AI:Can I help you with cleaning?
+S:I [appreciate] your help.
+3단계
+Direction:자라나와 서로 감사의 이야기를 나눠 보세요.
+S:I need to <clean the room|do my homework|prepare for exam|recycle trash|write a report>.
+AI:Thank you. Can I help you with it?
+S:I appreciate your help.
+
+
+127;가능한지 묻기;
+A:Is it possible to use paper cups in the cafe?
+B:You’re not supposed to use paper cups.
+A:Then I’ll bring my own tumbler.
+B:That’s a good idea.
+1단계
+A:Is it possible to use paper cups in the cafe?
+B:You’re not supposed to use paper cups.
+2단계
+Direction:자라나에게 카페에서 종이컵을 사용할 수 있는지 물어보세요.
+S:Is it possible to use paper cups in the cafe?
+AI:You’re not supposed to use paper cups.
+Direction:자라나에게 종이컵을 사용할 수 없다고 답하세요.
+AI:Is it possible to use paper cups in the cafe?
+S:You’re not supposed to use paper cups.
+3단계
+Direction:자라나에게 쇼핑을 가자고 하고 환경을 위해 하지 말아야 할 일에 대해 대화를 나누세요.
+S:Let’s go shopping.
+AI:Is it possible to use a single-use item in the shop?
+S:No. you’re not supposed to use <plastic cups|paper cups|plastic spoons|plastic bags|straws>.
+
+
+045;방법 묻고답하기;
+A:You are good at cooking.
+B:Yes. I like cooking.
+A:Can you tell me how to cook ramyeon?
+B:First, boil the water.
+1단계
+A:Can you tell me how to cook ramyeon?
+B:First, boil the water.
+2단계
+Direction:자라나에게 라면 끓이는 방법을 물어 보세요.
+S:Can you tell me how to cook ramyeon?
+AI:First, boil the water.
+Direction:자라나에게 처음으로 물을 끓이라고 답해보세요.
+AI:Can you tell me how to cook ramyeon?
+S:First, boil the water.
+3단계
+Direction:자라나에게 조리 방법을 물어 보세요.
+S:Can you tell me how to cook a <noodle|rice>?
+AI:Here is the recipe.
+S:Thank you for the recipe of a <noodle|rice>.
+
+
+061;위치 말하기;
+A:Excuse me.
+B:How can I help you?
+A:Where can I find the library?
+B:You can find it on the first floor.
+1단계
+A:Where can I find the library?
+B:You can find it on the first floor.
+2단계
+Direction:자라나에게 도서관이 어디에 있는지 물어 보세요.
+S:Where can I find the library?
+AI:You can find it on the first floor.
+Direction:자라나에게 1층에 있다고 답해보세요.
+AI:Where can I find the library?
+S:You can find it on the first floor.
+3단계
+Direction:자라나와 학교안에 있는 장소의 위치에 대해 이야기를 해보세요.
+S:Where can I find a<hospital|macdonald|convinience store>?
+AI:You can find it on the first floor. Where is the music room?
+S:You can find it on the <first|second|third> floor.
+
+
+062;의도묻기;
+A:What will you do for the earth?
+B:I will reduce trash.
+A:I will turn off the light not in use.
+B:That’s good.
+1단계
+A:What will you do for the earth?
+B:I will reduce trash.
+2단계
+Direction:자라나에게 지구를 위해 무엇을 할 것인지 물어 보세요.
+S:What will you do for the earth?
+AI:I will reduce trash.
+Direction:자라나에게 쓰레기를 줄일 것이라고 답해보세요.
+AI:What will you do for the earth?
+S:I will reduce trash.
+3단계
+Direction:자라나와 의도를 묻고 답해보세요.
+S:What will you do for the earth?
+AI:I will reduce trash. What will you do?
+S:I will < use a bottle|turn off the light not in use|walk to school|eat less meat|reduce plastic>.
+
+
+005;정보묻고 답하기;
+A:What kind of music do you listen to?
+B:I listen to K-pop. How about you?
+A:I usually listen to rock.
+B:That’s cool.
+1단계
+A:What kind of music do you listen to?
+B:I listen to K-pop.
+2단계
+Direction:자라나에게 어떤 종류의 음악을 듣는지 물어 보세요.
+S:What kind of music do you listen to?
+AI:I listen to K-pop.
+Direction:자라나에게 K-pop을 듣는다고 말해보세요.
+AI:What kind of music do you listen to?
+S:I listen to K-pop.
+3단계
+Direction:자라나와 정보를 묻고 답해보세요.
+S:What kind of music do you listen to?
+AI:I listen to classical music. How about you?
+S:I listen to <rap|classic>.
+
+
+064;진술하기;
+A:Where is my phone?
+B:There is a phone on the desk.
+A:Oh, it’s mine. Thank you.
+B:You’re welcome.
+1단계
+A:Where is my phone?
+B:There is a phone on the desk.
+2단계
+Direction:자라나에게 내 폰이 어디있는지 물어 보세요.
+S:Where is my phone?
+AI:There is a phone on the desk.
+Direction:자라나에게 책상에 폰이 하나 있다고 말해 보세요.
+AI:Where is my phone?
+S:There is a phone on the desk.
+3단계
+Direction:자라나와 대화하면서 물건의 위치를 진술해보세요.
+S:Where is my <desk|table|sofa|bed|chair|shelf> ?
+AI:There is something on the desk, isn’t it?
+S:Ah,I found it. It is on the <desk|table|sofa|bed|chair|shelf>.
+
+
+065;축하, 칭찬, 격려에 답하기;
+A:Congratulations on your birthday.
+B:Thanks a lot.
+A:Here is my present.
+B:How kind of you!
+1단계
+A:Congratulations on your birthday.
+B:Thanks a lot.
+2단계
+Direction:자라나에게 생일을 축하한다고 말해보세요.
+S:Congratulations on your birthday.
+AI:Thanks a lot.
+Direction:자라나에게 정말 고맙다고 말해보세요.
+AI:Congratulations on your birthday.
+S:Thanks a lot.
+3단계
+Direction:자라나에게축하를 전해보세요.
+S:Congratulations on your <birthday|graduation|success|winning a game|winning an award>
+AI:Thank you.
+S:It’s my present for you.
+
+
+081;소요시간 말하기;
+A:How do you go to school?
+B:I walk to school.
+A:How long does it take to go to school?
+B:It takes about ten minutes.
+1단계
+A:How long does it take to go to school?
+B:It takes about ten minutes.
+2단계
+Direction:자라나에게 학교까지 오는데 걸리는 시간을 물어 보세요.
+S:How long doesl it take to go to school?
+AI:It takes about ten minutes.
+Direction:자라나에게 10분이 걸린다고 말해 보세요.
+AI:How long does it take to go to school?
+S:It takes about ten minutes.
+3단계
+Direction:자라나와 소요시간에 대해 말해 보세요.
+S:How long does it take to go to school?
+AI:It takes about ten minutes. How about you?
+S:It takes <20|30> minutes by bus.
+
+
+146;숫자와 관련된 정보 묻기;
+A:When were you born?
+B:I was born in 2010.
+A:When is your birthday?
+B:It is January 10th.
+1단계
+A:When were you born?
+B:I was born in 2010.
+2단계
+Direction:자라나에게 태어난 해를 물어 보세요.
+S:When were you born?
+AI:I was born in 2010.
+Direction:자라나에게 태어난 해를 말해 주세요.
+AI:When were you born?
+S:I was born in 2010.
+3단계
+Direction:자라나에게 언제 태어났는지 묻고 답해 보세요.
+S:When were you born?
+AI:I was born in 2010. How about you?
+S:I was born in <2009|2011>.
+
+
+188;충고 구하기;
+A:I fought with my brother.
+B:You must be sad.
+A:What would you do if you were me?
+B:If I were you, I would be nicer to my family.
+1단계
+A:What would you do if you were me?
+B:If I were you, I would be nicer to my family.
+2단계
+Direction:자라나에게 네가 나라면 어떻게 할지 물어 보세요.A:What would you do if you were me?
+B:If I were you, I would be nicer to my family.
+Direction:자라나에게 내가 너라면 가족에게 더 잘 대해줄 것 같다고 답해보세요.A:What would you do if you were me?
+B:If I were you, I would be nicer to my family.
+3단계
+Direction:자라나와 서로 충고를 해보세요.
+S:I don’t have good grades. What would you do if you were me?
+AI:If I were you, I would <study harder|make a plan|read more|focus on class|ask many questions|search information>.
+S:Thank you for advice.
+
+
+084;앞으로의 계획 묻기;
+A:What are you planning to do on vacation?
+B:I’m planning to study math.
+A:Really? So am I.
+B:Let’s plan and study together.
+1단계
+A:What are you planning to do on vacation?
+B:I’m planning to study math.
+2단계
+Direction:자라나에게 방학 때 무엇을 할 계획인지 물어 보세요.
+S:What are you planning to do on vacation?
+AI:I’m planning to study math.
+Direction:자라나에게 수학공부를 할 계획이라고 답해보세요.
+AI:What are you planning to do on vacation?
+S:I’m planning to study math.
+3단계
+Direction:자라나와 방학 중 계획을 묻고 답해 보세요.
+S:What are you planning to do on vacation?
+AI:I’m planning to study math. What about you?
+S:I’m planning to <study English|read books|exercise|watch movies|hang out with friends>
+
+
+085;여가 활동 말하기;
+A:What do you usually do in your free time?
+B:I usually play games.
+A:What game do you play?
+B:I like to play LOL.
+1단계
+A:What do you usually do in your free time?
+B:I usually play games.
+2단계
+Direction:자라나에게 자유 시간에 무엇을 하는지 물어 보세요.
+S:What do you usually do in your free time?
+AI:I usually play games
+Direction:자라나에게 보통 게임을 한다고 답해보세요.
+AI:What do you usually do in your free time?
+S:I usually play games
+3단계
+Direction:자라나와 여가 활동에 대해 묻고 답해보세요.
+S:What do you usually do in your free time?
+AI:I usually play games. What about you?
+S:I <listen to music|watch movies|draw pictures|play dance|read cartoons|play soccer>.

@@ -1,0 +1,442 @@
+의소코드	3단계 지시문 및 대화
+1	"자라나에게 내일 같이 하고 싶은 것을 제안해보세요.
+A:Why don't we <PLAY> tomorrow?
+B: I’d love to. How about 3 o'clock?
+A: That’s fine with me. 
+
+
+"
+2	"자라나와 가장 좋아하는 과목에 대해 묻고 답해보세요.
+A: What's your favorite subject?
+B: My favorite subject is English. What about you?
+A: My favorite subject is <SUBJECT>"
+3	"자라나와 관심있는 운동에 대해 묻고 답해보세요.
+S: What are you interested in?
+AI: I’m interested in basketball. What about you?
+S: I’m interested in <SPORTS>."
+4	"자라나와 SNS에 대해 의견을 묻고 답해보세요.
+S:  What is your opinion about social media?
+AI: It’s good for relationships. What is your opinion about social media?
+S: It’s <ADVICE>.
+   "
+5	"자라나와 궁금한 점을 묻고 답해보세요.
+S: I wonder if my mom likes <WEARABLE>. 
+AI: I think she will. I wonder if my dad likes gloves.   
+S: I think he will. "
+6	"자라나와 여러 나라의 전통 모자에 대해서 묻고 답해보세요.
+S: What is <NATION_OF_HAT:0>?
+AI: It is a <NATION_OF_HAT:1>. What is a Gat?
+S: It is a Korean [traditional hat]."
+7	"S: Do you know how to play<GAMES>?
+AI: Yes, I do. I sometimes play it with my friends. Do you know how to play Monopoly?
+S:<Yes, [I do]|No, [I don’t]>."
+8	"자라나와 고민에 대해서 이야기 하고 충고해보세요.
+(고민 말풍선 제시: I’m always late for school., I lose things often., I use my money too fast.)
+S: <REGRET:0>
+AI: I think you should <REGRETS:1>. I don’t know what to do in the future. What should I do?
+S: I think you should <talk to your teacher|find something you like?."
+9	"자라나와 동물보호소에 도움을 요청하고 답해보세요.
+S: Can you <ACTIONS>?
+AI: Sure, I can. Can you wash puppies then?
+S: <No problem|Sorry, I can’t>."
+10	"자라나와 능력여부에 대해 묻고 답해보세요.
+S: Can you play <MUSICAL_INSTRUMENT>?
+AI: No, I can’t play <MUSICAL_INSTRUMENT>. Can you sing a pop song?
+S: <Yes, I can|No, I can’t>."
+11	"자라나와 선호하는 음식에 대해 묻고 답해보세요.
+S: Which do you prefer, <FOOD> or <FOOD>?
+AI: I prefer <FOOD>. What about you?
+S: I prefer <FOOD>."
+12	"S: Why do you want to visit <CITY:0>?
+AI: Because I want to see the <CITY:1>. Why do you want to visit <CITY:0>?
+S: Because I want to see the <CITY:1>."
+13	"자라나와 국내 도시로의 여행 계획을 묻고 기대를 표현 해보세요. 
+S: Are you going to travel to <LOCALCITY>?
+AI: Yes, I am looking forward to it. Are you going to travel to <LOCALCITY>?
+S:  Yes, I am looking forward to it."
+14	"자라나와 주말 계획에 대해 묻고 답해보세요..
+S: What are you going to do this weekend?
+AI: I am going to go camping. What about you?
+S: I am going to <ACTIVITY>.
+
+"
+15	"S: How can I get to the <PLACE>?
+AI: Go straight <one|two> and turn <left|right>. "
+16	"자라나와 관심있는 음식에 대해 묻고 답해보세요.
+S: Would you like some <FOOD>?
+AI: No, thanks. I’m full. Would you like some spaghetti?
+S: <Yes, please|No, thanks>."
+17	"자라나와 내일 계획에 대해 묻고 답하며 기대를 표현해보세요.
+S: Do you have any plans for tomorrow?
+AI: I will go see my grandparents. What about you?
+S: I will <NEXT_ACTIVITIES>. I’m looking forward to it."
+18	"자라나와 안부를 묻고 답해보세요.
+S: How are you doing?
+AI: Not bad. What about you?
+S:<I’m great|Not bad|Not good>."
+20	"자라나에게 창문을 열어도 되는지 허락을 구하고, 자라나의 요청에 괜찮다고 답해보세요.
+S: Do you mind if I open the window?
+AI: Not at all. Then, do you mind if I use your blanket?
+S: <Not at all|Sure, go ahead>."
+21	"자라나와 경험에 대해 묻고 답해보세요.
+S: S:  Have you ever been to <COUNTRIES>?
+AI: No, I haven’t. Have you ever been to Japan?   
+S: <Yes, I have| No, I haven’t.>"
+22	"자라나와 박물관에서 금지된 행동에 대해 묻고 답하세요.
+S: You must not <DO_NOT> in the museum. 
+AI: Then, may I call in the museum? 
+S: No. you must not call here.  "
+23	"자라나와 여행가서 놀라웠던 일을 이야기해보세요.
+S: What surprised you at the trip? 
+AI: I was surprised by nature. How about you?
+S: I was surprised by <WHAT_SURPRISE>   "
+24	"자라나에게 스포츠 데이에 가져올 물건들을 상기시켜 주세요.
+S: Bring water on a sports day.
+AI: What else should I bring on a sports day?
+S: Don't forget to bring a <SPORTS_DAY_ITEMS>. "
+25	"자라나에게 요청하고 답하는 대화를 해보세요.
+S: Can I ask you to <DO_THE_CHCORES>?
+AI: Yes but can I ask you to help me? 
+S: <All right.|I’m sorry but I can’t> 
+
+"
+26	"감기가 걸린 자라나에게 조언을 해보세요.
+AI: I have a bad cold. What should I do?
+S: Why don’t you <ADVICE>?
+AI: That’s a good idea. I will try it."
+27	"자라나와 취미에 대해 의견을 묻고 답해보세요.
+S: What do you think about <HOBBIES>?
+AI: I think it is fun. What do you think about board game?
+S: I think it is <EMOTION>.
+AI: I feel the same. I can play it with my friends."
+28	"자라나와 능력여부에 대해 묻고 답해보세요.
+AI: Let’s make our library rules. 
+S: Can I <LIBRARY_RULES>?
+또는 보기 제공: ?
+AI: No, you can’t. Can I read comic books?
+S: <Yes, you can|No, you can’t>"
+29	"자라나와 기대할 만한 일에 대해서 묻고 기대를 표현해보세요.
+AI: Our school festival is coming up. What are you looking forward to the most?
+S: I’m looking forward to <SCHOOL_FESTIVAL_ACTIVITY>.
+AI: Really? I’m looking forward to it, too."
+30	"자라나와 해외 여행을 전 해야할 내용을 당부해보세요.
+AI: I’m packing my luggage for tomorrow’s trip.
+S: Make sure you pack <TRAVEL_ITEMS> 
+AI: What else should I pack?
+S: Make sure you pack  <TRAVEL_ITEMS>"
+31	"S: How do you like this <THINGS>?
+AI: I like it. I like its function. How do you like this <THING>?
+S: I like it. I like its <COLORS>"
+32	"자라나와 학교 생활과 관련된 걱정에 대해 서로 묻고 말해 보세요.
+S: What’s the matter?
+AI: I’m worried about the science project. What about you? 
+S: I am worried about <EVNET>"
+33	"자라나와 지난 주말에 한 일에 대해 묻고 답해보세요.
+S: What are you going to do this weekend?
+AI: I went on a trip to Jejudo. What did you do?
+S: I <PLAYING_WEEKEND>."
+34	"학교 축제에서 할 일에 대해 자라나와 이야기를 나누며 서로에게 행운을 기원하는 말을 해 보세요.
+S: I am going to dance at the school festival.
+AI: I will keep my fingers crossed for you. Actually, I am going to <PLAYING>.
+S: I will keep my fingers crossed for you!"
+35	"자라나와 함께, 어려운 과목과 흥미로운 과목에 대한 의견을 나눠 보세요. <보기>의 표현을 이용하여 대화해 보세요.
+1st Round
+S: I think <SUBJECT> is hard.
+AI: I don’t think so. I think <EASY_SUBJECT> is hard.
+2nd Round
+AI: I think <EASY_SUBJECT> is interesting.
+S: I don’t think so. I think <SUBJECT> is interesting."
+36	"자라나에게 재즈가 최고의 음악이라는 의견을 표현하고, 그 후에 자라나의 의견에 동의하지 않는다고 말해보세요.
+S: In my opinion, <MUSIC_GENRE> is the best music.
+AI: No. In my opinion, <MUSIC_GENRE> is the best music.
+S: I don’t agree with you."
+38	"자라나와 자기소개를 주고 받고, 반갑다고 대답해보세요.
+S: Hi, I’m <NAME>. I’m in <ORDINAL_NUMBER> grade.
+AI: Nice to meet you. I’m Jarana. I’m in <ORDINAL_NUMBER> grade, too.
+S: <Nice|Glad> to meet you.."
+40	"자라나와 서로의 발표 주제에 대해 묻고 답해보세요.
+S: What are you going to talk about?
+AI: I’d like to tell you about our city hall. What about you? What’s your topic?
+S: I’d like to tell you about <TOPIC>"
+41	"자라나에게 음식을 추천하거나 추천을 받아 보세요.
+S: Can you recommend something from the menu?
+AI: I recommend that you try tomato pasta. Can you recommend something else?
+S: I recommend that you try <RECOMMEND_FOOD>.  "
+42	"자라나와의 대화에서 확실성을 표현해보세요.
+S:  It’s going to <WEATHER>.
+AI: Are you sure?  
+S: Yes. I’m sure it’s going to <WEATHER> soon.  "
+43	"자라나와 서로 감사의 이야기를 나눠 보세요.
+S: I need to <ACTIVITY_IN_SCHOOL>.
+AI: Thank you. Can I help you with it?
+S: I appreciate your help.  "
+45	"자라나에게 조리 방법을 물어 보세요.
+S: Can you tell me how to cook a <DISH>? 
+AI: Here is the recipe. 
+S: Thank you for the recipe of a <DISH>.
+"
+46	"자라나와 영화에 대해 묻고 불만족함을 표현해보세요.
+S: How do you like [the movie]?
+AI: I didn’t like it. I could guess its ending.
+S: I didn’t like it, either. <It was boring|The story wasn’t funny|The plot was hard to understand>.
+AI: I feel the same."
+47	"자라나와 주말에 만날 약속을 정해보세요.
+AI: We should finish the team project. Let’s meet at the library on Saturday.
+S: Sure. [What time] should we [meet]?
+AI: Hmm, I’m free all day.
+S: Then, how about <TIMES> P.M.?"
+48	"자라나와 ‘나의 최애’를 서로 묻고 묘사해보세요.
+S: What does [your favorite person] look like?
+AI: My dad has blue eyes and usually wears jeans. What does your favorite person look like?
+S: <He/She> <MY_FAVORITES>. 
+AI: Oh, I see."
+49	"자라나와 현장체험학습에서의 지켜야 하는 것을 표현해보세요.
+AI: Let’s talk about things we have to follow.
+S: We have to <RULES>.
+AI: What else do we have to do?
+S: We have to <RULES>."
+50	"자라나와 스포츠 데이 후 화가 난 감정을 표현해보세요.
+AI: You look upset. What happened at Sports Day?
+S: <EMOTION_OF_ANGER>.
+AI: That is rude!
+S: I’m upset with <myself|the other team>"
+51	"건강한 삶을 살기 위해 해야할 일을 강조하는 대화를 나눠보세요.
+S: What should we do to be healthy?
+AI: It is important to <DO_HEALTHY>. Do you have any other ideas?
+S: It is important to drink enough water."
+53	"자라나와 서로 평상시 고마운 친구 사이라고 생각하고 감사 인사를 주고 받아 보세요.
+S: Thanks for being a good listener.
+AI: You’re welcome. Thanks for <DOING>. 
+S: You’re welcome!"
+54	"자라나와 서로의 기분을 묻고 답해 보세요.
+S: How are you feeling?
+AI: I feel <FEELING>. What about you?
+S: I feel <FEELING>."
+55	"자라나와 세계 각국 도시의 날씨에 대해 묻고 답 해 보세요.
+S: How’s the weather in <CITIES>]?
+AI: It is sunny. How’s the weather in Paris?
+S: It is <WEATHER>."
+56	"자라나와 서로 함께있는 사람에 대해 묻고 답해보세요.
+S: Who is <She|He>?
+AI: <She|He> is my <RELATIONSHIPS>. Who is she with you?
+S: <She|He> is my <RELATIONSHIPS>."
+57	"자라나와 학생이 지켜야 하는 의무에 대해 이야기해보세요.
+AI: Why don’t we give each other advice for school life? You go first.
+S: You should <ADVICES>.
+AI: Oh, I see. And I think you should respect the teachers.
+S: Okay, I will."
+59	"자라나에게 물을 마시는 것이 건강에 좋다고 알려주고, 물을 더 마셔야겠다고 말해보세요.
+S: I heard that [drinking water is good for your health].
+AI: Oh, great. I heard that it is good for your skin, too.
+S: Then, we should <RECOMMENDS>."
+60	"자라나에게 도서관에서 책 빌리는 법을 물어보고, 절차를 따라 말해보세요.
+S: How do I [check out a book] from the library?
+AI: First, find the book you want. Second, take it to the checkout desk. Third, present your library card. Can you remember it?
+S: First, find the book you want. Second, take it to the checkout desk. Third, present your library card."
+61	"자라나와 학교안에 있는 장소의 위치에 대해 이야기를 해보세요. 
+S: Where can I find <PLACE_IN_SCHOOL>?
+AI: You can find it on the first floor. Where is the music room?
+S: You can find it on the <서수> floor. 
+"
+62	"자라나와 의도를 묻고 답해보세요.
+S: What will you do for the earth?
+AI: I will reduce trash. What will you do?
+S: I will <SAVE_EARTH>.
+
+"
+63	"자라나와 정보를 묻고 답해보세요.
+S: What kind of music do you listen to?
+AI: I listen to classical music. How about you?
+S: I listen to <MUSIC_GENRE>. "
+64	"자라나와 대화하면서 물건의 위치를 진술해보세요..
+S: Where is my <FURNITURES> ?
+AI: There is something on the desk, isn’t it? 
+S: Ah,I found it. It is on the <FURNITURES>.
+. "
+65	"자라나에게 축하를 전해보세요.
+S: Congratulations on your <CONGRATULATION_EVENTS>
+AI: Thank you.
+S: It’s my present for you. "
+66	"Direction:자라나와 묻고 답하며 그림 속 친구들의 행동을 묘사해보세요.
+S:What is <FRIENDS_NAME> doing?
+AI:<FRIENDS_NAME> is <PLAYING>. What is <FRIENDS_NAME> doing?
+S:<FRIENDS_NAME> is <PLAYING>."
+67	"자라나와 도서관에서 허가 여부를 묻고 답해보세요.
+AI: Welcome to Janara library.
+S: May I <LIBRARY_RULES>? 
+AI: Yes, you may.
+S: Then may I <LIBRARY_RULES>?
+AI: No, you may not. I’m sorry.
+"
+68	"자라나와 서로 좋아하는 음식을 확인해보세요.
+AI: Guess which food I like.
+S: You like <FAVORITE_FOOD>, don’t you?
+AI: Yes, I do. You like Ttokbeokki, right?
+S: <Yes, I do.|No, I don’t>."
+69	"자라나와 규칙적인 생활에서의 후회를 표현해보세요.
+AI: It is still 10 A.M. I’m hungry.
+S: You [should have] [eaten breakfast]. 
+AI: I know. You look tired today.
+S: I should have <slept|went to bed early>."
+70	"자라나와 마니또에게 고를 물건의 가격을 묻고 답해보세요.
+S: How much is <GIFTS>?
+AI: It’s <price> won. It is perfect for your secret friend. I want to give this hairband. How much is it?
+S: It is <3,000|10,000> won."
+72	"잘 하고 싶지만 어려움을 겪고 있는 일에 대해 자라나와 이야기해 보고, 격려의 말을 전해 보세요.
+S: I want to <ACTION>, but it’s so hard.
+AI: As for me, speaking Korean well is so hard.
+S: <COMMENT>."
+76	"자라나와 벼룩시장에서 만났어요. 서로의 물건 가격을 묻고 답해보세요.
+S: How much is this <ITEMS>?
+AI: It’s <10|20> dollars. You have cool things too! How much is this ring?
+S: It’s <10|20> dollars.
+AI: <That’s too expensive!|Great. I’ll take it>."
+77	"자라나와 지수가 한 말에 대해 묻고 답해보세요.
+S: What did Jisoo say?
+AI: She said she can’t play with us this weekend. What did she say to you?
+S: She said she [can’t play with us this weekend.]."
+78	"자라나와 피자와 햄버거 중 무엇이 더 맛있는지 묻고 답해보세요.
+S: Which is tastier, pizza or hamburger?
+AI: I think hamburgers are tastier than pizza. What do you think?
+S: I think <pizza|hambuger> is tastier than <pizza|hamburger>."
+79	"자라나와 서로 도움이 된다고 생각하는 것에 대해 의견을 주고받아 보세요.
+S: Do you find it helpful to <HELP>?
+AI: Yes, it helps me learn better in class. Do you find it helpful to read books in the library?
+S: Yes, it helps me <GAINS>."
+80	"자라나와 서로 도움이 된다고 생각하는 것에 대해 의견을 주고받아 보세요.
+S: Do you find it helpful to <EXAMPLE1>?
+AI: Yes, it helps me learn better in class. Do you find it helpful to read books in the library?
+S: Yes, it helps me <EXAMPLE2>."
+81	"자라나와 소요시간에 대해 말해 보세요.
+S: How long does it take to go to school?
+AI: It takes about ten minutes. How about you?
+S: It takes <TIMES>. 
+"
+84	"자라나와 방학 중 계획을 묻고 답해 보세요.
+S:What are you planning to do on vacation?
+AI: I'm planning to study math. What about you?
+S: I’m planning to <VACATION_PLAN>
+
+"
+85	"자라나와 여가 활동에 대해 묻고 답해보세요.
+S: What do you usually do in your free time?
+AI: I usually play games. What about you?
+S: I <VACATION_ACTIVITIES>. "
+86	"자라나가 가지고 있는 오해를 지적하고 올바르게 알려주세요.
+AI: Can I call 119 to call the ambulance in the U.S.?
+S: I’m afraid that’s not right.
+AI: I thought every country uses 119.
+S: In [the U.S.], you [have to] [call 911]."
+87	"자라나와 생일에 원하는 것을 묻고 답해보세요.
+S: What do you want for your birthday?
+AI: I want to watch a movie with my friends. 
+      What about you?
+S: I want to <BIRTHDAY_ITEM>.
+AI: That sounds fun. Invite me!"
+88	"자라나와 학급 파티 준비에 필요한 행동을 묻고 답해세요.
+AI: Let’s prepare for our class party!
+S: What do you want me to do?
+AI: Well, I’m not sure. What do you want me to do?
+S: Please <PARTY_ACTIVITIES>."
+89	"자라나와 한식당에서 무엇을 주문할 지 묻고 답해보세요.
+S: What [would you like] [to order]?
+AI: Hmm…. I’d like to order Kimchi fried rice. What about you?
+S: I’d like to order <KOREAN_FOOD>.
+AI: I like <KOREAN_FOOD>, too. Let’s order then."
+90	"자라나와 주말에 무엇을 할 의향인지 묻고 답해보세요.
+S: What’s your plan for this weekend?
+AI: I’m thinking of visiting my grandparents’. What about you?
+S: I’m thinking of <WEEKEND_ACTIVITIES>.
+AI: Okay. Have a good weekend!"
+91	"자라나와 함께 세계의 랜드마크들이 어디 있는지 묻고 답해 보세요.
+S: Where is <LANDMARK:0>?
+AI: It is in <LANDMARK:1>. Where is the <LANDMARK:0>?
+S: It is in <LANDMARK:1>."
+92	"자라나와 제스쳐의 의미에 대해 묻고 답해 보세요.
+S: What does the <GESTURE:0> mean?
+AI: It means agreement. What does the finger to lips motion mean?
+S: It means <GESTURE:1>."
+94	"자라나와 함께 서로의 장래 희망 직업에 대해 묻고 답해 보세요. 
+S: What do you want to be in the future?
+AI: I want to be a <JOBS>. What do you want to be in the future?
+S: I want to be a <JOBS>."
+96	"자라나와 전화상으로 대화를 주고받아 보세요.
+S: Is <Jarana|Tom> there?
+AI: This is <Tom|Jarana> speaking.
+S: <He’s not here|This is Tom speaking>."
+97	"자라나와 서로에게 요청을 하고 응답해보세요.
+S: Can I <ASKS>?
+AI: Sure, go ahead. Then, can I play with your computer?
+S: <Sure, go ahead|I’m afraid you can’t>."
+98	"자라나와 가장 좋아하는 음악에 대해 묻고 답해보세요.
+S: What music do you like the most?
+AI: It’s jazz. What about you? What music do you like the most?
+S: I like <GENRE> the most."
+99	"자라나와 서로 도움에 감사하는 대화를 해보세요.
+S:Thank you for the help.
+AI: Don’t mention it. You also helped me before! Thank you for the help, too!
+S:<Don’t mention it|No worries|It’s nothing>."
+100	"자라나와 서로 약속을 제안하고 거절해보세요.
+S: Do you want to <WANT_TO> with me tomorrow?
+AI: Sorry. I’d love to, but I can’t. Instead, do you want to see a movie this Saturday?
+S: I’d love to, but I can’t. <HAVE_TO>"
+109	"자라나에게 교환하고 싶은 물건을 말하고, 어떤 것으로 교환하고 싶은지 말해보세요.
+S: I’d like to exchange this <EXCHANGES>.
+AI: Sure. What do you want to exchange it for?
+S: I want to exchange it for <money|free>."
+114	"자라나와 방금 본 영화에 대한 느낌을 묻고 답해보세요.
+S: How was the movie?
+AI: It was boring. What about you? How did you like the movie?
+S: It was <awesome|fantastic>."
+117	"자라나와 다른 선택지를 묻고 답하는 대화를 해보세요.
+-상황A
+S: Are there any other <THINGS>?
+AI: Sorry, these are the only ones we have.
+-상황B
+AI: Are there any other cups?
+S: <Sure. We have more options.|Sorry, these are the only cups we have.>"
+119	"자라나와 세계 각국의 디저트에 대해 들어본 적 있는지 묻고 답해 보세요.
+S: Have you heard about <FOOD;0>
+AI: No, I haven’t. What is it?
+S: It is a dessert from <FOOD:1>"
+127	"자라나에게 쇼핑을 가자고 하고 환경을 위해 하지 말아야 할 일에 대해 대화를 나누세요.
+S: Let’s go shopping.
+AI: Is it possible to use a <SINGLEUSEITEM>single-use item in the shop?
+S:  No. you’re not supposed to use <SINGLEUSEITEM>"
+130	"자라나와 특정 사람에 대해 묻고 답하는 대화를 해보세요.
+S: Who is the <boy|man|woman>?
+AI: She is my friend, Suji. Who is the man over there?
+S: <He|She> is my <RELATION>"
+141	"S: What is <name> like?
+AI: <She|He> is <PERSONALITY> and <PERSONALITY>. What is <name> like?
+S: <She|He> is <PERSONALITY> and <PERSONALITY>"
+146	"자라나에게 언제 태어났는지 묻고 답해 보세요.
+S: When were you born?
+AI: I was born in 2010. How about you?
+S: I was born in <YEAR>."
+159	"자라나와 물건의 용도에 대해 묻고 답하며 해당 물건이 무엇인지 맞혀보세요.
+S: What is it for?
+AI: It is for <WHATIS:1>.
+S: It must be <WHATIS:0>"
+171	"자라나와 서로의 소망에 대해 이야기 해보세요.
+S: I wish I could <HOPE>.
+AI: Me, too. And I wish I could go to an amusement park whenever I want.
+S: Me, too. It will be so <attractive|happy>."
+176	"Direction:자라나와 묻고 답하며 그림 속 친구들의 행동을 묘사해보세요.
+S:What is <Mia|Jay|Tom|Jisu> doing?
+AI:<Mia|Jay|Tom|Jisu> is <singing a song|playing the piano|eating a cake|reading a book>. What is <Mi|Ja|To|Jisu> doing?
+S:<Mia|Jay|Tom|Jisu> is <singing a song|playing the pi"
+181	"자라나와 함께 서로의 건강 상태에 대해 묻고 증상을 말해 보세요.
+S: What’s wrong?
+AI: I have <SYMPTOM>. You look sick as well. What’s wrong?
+S: I have <SYMPTOM>"
+185	"자라나와 ‘점원과 손님’ 역할을 번갈아 수행하며 대화해 보세요
+S: Can I help you?
+AI: Yes, I am looking for an umbrella.
+2nd Round
+AI: Can I help you?
+S: Yes, I am looking for <THINGS>."
+188	"자라나와 서로 충고를 해보세요.
+S: I don’t have good grades. What would you do if you were me?
+AI. If I were you, I would <STUDY_ADVISE>.
+S: Thank you for advice."
